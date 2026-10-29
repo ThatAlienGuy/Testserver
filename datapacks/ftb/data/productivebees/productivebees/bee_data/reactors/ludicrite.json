@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:storage_blocks/ludicrite"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:storage_blocks/ludicrite"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "description": "productivebees.ingredient.description.only_spawnegg",
+  "flowerTag": "c:storage_blocks/ludicrite",
+  "particleColor": "#ad5bd4",
+  "primaryColor": "#7d10b0",
+  "secondaryColor": "#8f21c2",
+  "selfbreed": false,
+  "size": 0.8,
+  "useGlowLayer": true
+}

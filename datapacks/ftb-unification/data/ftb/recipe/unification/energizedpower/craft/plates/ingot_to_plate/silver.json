@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "#c:ingots/silver",
+    "#c:ingots/silver"
+  ],
+  "result": {
+    "id": "ftbmaterials:silver_plate"
+  }
+}

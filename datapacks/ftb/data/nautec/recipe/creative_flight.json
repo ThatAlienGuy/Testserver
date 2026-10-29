@@ -1,0 +1,24 @@
+{
+  "type": "nautec:augmentation",
+  "augmentItem": "nautec:buoyancy_tank",
+  "desc": "Lets you fly freely, in water and out of it",
+  "ingredients": [
+    {
+      "ingredient": {
+        "neoforge:ingredient_type": "neoforge:components",
+        "items": "nautec:buoyancy_tank",
+        "components": {
+          "minecraft:item_name": {
+            "translate": "item.ftb.charged_buoyancy_tank"
+          },
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_data": {
+            "ftb_flight_core": true
+          }
+        },
+        "strict": false
+      }
+    }
+  ],
+  "resultAugment": "nautec:creative_flight"
+}

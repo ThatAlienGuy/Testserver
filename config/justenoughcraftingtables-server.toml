@@ -1,0 +1,23 @@
+[sides]
+	#Allowed Values: INTERNAL, TOUCHING_FACE
+	accessContext = "INTERNAL"
+	allowInsertIntoSides = true
+
+[view]
+	# Default: 540
+	# Range: 54 ~ 5400
+	pageSize = 540
+	# Default: 2048
+	# Range: 256 ~ 65536
+	scanBudget = 2048
+	# Default: 8192
+	# Range: 256 ~ 65536
+	maxSummaryEntries = 8192
+	# Default: 1
+	# Range: 1 ~ 100
+	minTicksBetweenViewRebuilds = 1
+
+[crafting]
+	# Default: 2304
+	# Range: 1 ~ 2304
+	maxRepeatCrafts = 2304

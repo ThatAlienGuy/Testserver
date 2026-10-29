@@ -1,0 +1,7 @@
+#Genetic event tags that are always active, whatever the date.
+#Example: ["easter"]
+forcedEvents = []
+#Genetic event tags that never activate, even inside their date window.
+disabledEvents = []
+#Whether genetic events activate on their own inside their real-world date windows.
+seasonalDefaults = true

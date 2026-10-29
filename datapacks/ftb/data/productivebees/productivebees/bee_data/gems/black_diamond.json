@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:gems/black_diamond"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:gems/black_diamond"
+          }
+        }
+      ]
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/black_diamond"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/black_diamond"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "productivebees:flowers/black_diamond",
+  "particleColor": "#636363",
+  "primaryColor": "#636363",
+  "renderer": "default_crystal",
+  "secondaryColor": "#2e0b17",
+  "size": 0.6,
+  "tertiaryColor": "#141414"
+}

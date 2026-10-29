@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/fiery"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/fiery"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attackResponse": "fire",
+  "beeTexture": "productivebees:textures/entity/bee/blazing/bee",
+  "fireproof": true,
+  "flowerTag": "productivebees:flowers/fiery",
+  "particleColor": "#fcd979",
+  "particleType": "lava",
+  "primaryColor": "#fcd979",
+  "useGlowLayer": true
+}

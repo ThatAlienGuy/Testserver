@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:gems/jade"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:gems/jade"
+          }
+        }
+      ]
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/jade"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/jade"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "productivebees:flowers/jade",
+  "particleColor": "#d6ff75",
+  "primaryColor": "#d6ff75",
+  "renderer": "default_crystal",
+  "secondaryColor": "#3e5b68",
+  "size": 0.6,
+  "tertiaryColor": "#b2e25d"
+}

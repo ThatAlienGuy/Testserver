@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/draconic"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/draconic"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "endurance": "endurance.strong",
+    "temper": "temper.aggressive"
+  },
+  "beeTexture": "productivebees:textures/entity/bee/draconic/bee",
+  "breedingItem": "productivebees:draconic_dust",
+  "breedingItemCount": 2,
+  "draconic": true,
+  "flowerTag": "productivebees:flowers/draconic",
+  "nestingPreference": "productivebees:nests/draconic_nests",
+  "particleColor": "#cc00fa",
+  "primaryColor": "#1c1c1c",
+  "secondaryColor": "#5f2525",
+  "useGlowLayer": true
+}

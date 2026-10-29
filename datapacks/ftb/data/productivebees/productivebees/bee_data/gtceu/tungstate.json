@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gtceu"
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:storage_blocks/raw_tungstate"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:storage_blocks/raw_tungstate"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "beeTexture": "productivebees:textures/entity/bee/tungstate/bee",
+  "description": "productivebees.ingredient.description.only_spawnegg",
+  "flowerTag": "c:storage_blocks/raw_tungstate",
+  "particleColor": "#ddfcc2",
+  "primaryColor": "#6e4824",
+  "secondaryColor": "#bfc893",
+  "selfbreed": false,
+  "size": 0.8,
+  "tertiaryColor": "#725531",
+  "useGlowLayer": true
+}

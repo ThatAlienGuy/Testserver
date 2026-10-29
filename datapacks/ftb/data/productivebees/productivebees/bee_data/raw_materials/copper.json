@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/cupric"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/cupric"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "productivebees:flowers/cupric",
+  "primaryColor": "#f48702",
+  "secondaryColor": "#804f40",
+  "useGlowLayer": true
+}

@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/souled"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/souled"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "behavior": "behavior.nocturnal"
+  },
+  "beeTexture": "productivebees:textures/entity/bee/ghostly/bee",
+  "createComb": false,
+  "flowerTag": "productivebees:flowers/souled",
+  "nestingPreference": "productivebees:nests/soul_sand_nests",
+  "primaryColor": "#eeeeee",
+  "translucent": true,
+  "useGlowLayer": true
+}

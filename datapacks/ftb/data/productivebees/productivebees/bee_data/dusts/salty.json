@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:dusts/salt"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:dusts/salt"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerFluid": "minecraft:water",
+  "particleColor": "#fa7d73",
+  "primaryColor": "#fa9f98",
+  "secondaryColor": "#8a8a8a",
+  "useGlowLayer": true,
+  "waterproof": true
+}

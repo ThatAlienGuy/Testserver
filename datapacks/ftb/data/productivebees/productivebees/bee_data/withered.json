@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/wither"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/wither"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "behavior": "behavior.nocturnal",
+    "temper": "temper.aggressive"
+  },
+  "beeTexture": "productivebees:textures/entity/bee/wither/bee",
+  "flowerTag": "productivebees:flowers/wither",
+  "particleColor": "#141414",
+  "primaryColor": "#141414",
+  "selfbreed": false,
+  "useGlowLayer": true,
+  "withered": true
+}

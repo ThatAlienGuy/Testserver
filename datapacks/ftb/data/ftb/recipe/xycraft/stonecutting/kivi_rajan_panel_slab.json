@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#xycraft:crafting_groups/kivi",
+  "result": {
+    "count": 2,
+    "id": "xycraft_world:kivi_rajan_panel_slab"
+  }
+}

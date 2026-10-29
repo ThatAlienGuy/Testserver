@@ -1,0 +1,11 @@
+{
+  "type": "functionalstorage:custom_compacting",
+  "higher_input": {
+    "count": 1,
+    "id": "xycraft_machines:resin_block"
+  },
+  "lower_input": {
+    "count": 9,
+    "id": "xycraft_machines:resin_ball"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:gems/white_diamond"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:gems/white_diamond"
+          }
+        }
+      ]
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/white_diamond"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/white_diamond"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "productivebees:flowers/white_diamond",
+  "particleColor": "#fff9e4",
+  "primaryColor": "#fff9e4",
+  "renderer": "default_crystal",
+  "secondaryColor": "#f7ed91",
+  "size": 0.6,
+  "tertiaryColor": "#c5b520"
+}

@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/ender"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/ender"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "endurance": "endurance.normal"
+  },
+  "beeTexture": "productivebees:textures/entity/bee/ender/bee",
+  "flowerTag": "productivebees:flowers/ender",
+  "nestingPreference": "productivebees:nests/end_nests",
+  "particleColor": "#cc00fa",
+  "particleType": "portal",
+  "primaryColor": "#161616",
+  "secondaryColor": "#623875",
+  "size": 0.8,
+  "teleporting": true,
+  "useGlowLayer": true
+}

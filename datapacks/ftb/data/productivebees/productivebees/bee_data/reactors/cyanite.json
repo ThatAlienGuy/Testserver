@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:storage_blocks/cyanite"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:storage_blocks/cyanite"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "flowerTag": "c:storage_blocks/cyanite",
+  "particleColor": "#92c6d1",
+  "primaryColor": "#72c2d4",
+  "secondaryColor": "#60b2c4",
+  "size": 0.8,
+  "useGlowLayer": true
+}

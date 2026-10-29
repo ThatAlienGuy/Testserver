@@ -1,0 +1,59 @@
+[rendering]
+	renderGridItems = true
+	compactCounts = true
+
+[screen]
+	#Allowed Values: LEFT, RIGHT
+	panelSide = "LEFT"
+	wheelScrollWholePanel = true
+
+[buttons]
+	# Default: 152
+	# Range: -1000 ~ 1000
+	buttonsX = 152
+	# Default: 17
+	# Range: -1000 ~ 1000
+	buttonsY = 17
+	#Allowed Values: VERTICAL, HORIZONTAL
+	buttonsLayout = "VERTICAL"
+	# Default: 14
+	# Range: 12 ~ 64
+	buttonsSpacing = 14
+	collapseHiddenButtons = false
+
+	[buttons.storeButtonOffset]
+		# Default: 0
+		# Range: -1000 ~ 1000
+		x = 0
+		# Default: 0
+		# Range: -1000 ~ 1000
+		y = 0
+
+	[buttons.clearButtonOffset]
+		# Default: 0
+		# Range: -1000 ~ 1000
+		x = 0
+		# Default: 0
+		# Range: -1000 ~ 1000
+		y = 0
+
+	[buttons.sourceOrderButtonOffset]
+		# Default: 0
+		# Range: -1000 ~ 1000
+		x = 0
+		# Default: 0
+		# Range: -1000 ~ 1000
+		y = 0
+
+	[buttons.repeatButtonOffset]
+		# Default: 0
+		# Range: -1000 ~ 1000
+		x = 0
+		# Default: 0
+		# Range: -1000 ~ 1000
+		y = 0
+
+[crafting]
+	#Allowed Values: PLAYER_FIRST, CONNECTED_FIRST
+	fillSourceOrder = "PLAYER_FIRST"
+	repeatCraft = false

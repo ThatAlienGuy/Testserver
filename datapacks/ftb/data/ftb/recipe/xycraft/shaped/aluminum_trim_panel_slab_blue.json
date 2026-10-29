@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "xycraft_world:aluminum_trim_panel_blue"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "xycraft_world:aluminum_trim_panel_slab_blue"
+  }
+}

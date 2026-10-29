@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/swamp"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/swamp"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "temper": "temper.passive"
+  },
+  "beeTexture": "productivebees:textures/entity/bee/slimy/bee",
+  "flowerTag": "productivebees:flowers/swamp",
+  "nestingPreference": "productivebees:nests/slimy_nests",
+  "particleColor": "#2ff757",
+  "primaryColor": "#2ff757",
+  "renderer": "translucent_with_center",
+  "secondaryColor": "#623875",
+  "slimy": true,
+  "useGlowLayer": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "xycraft_world:aluminum_brick_cloud_blue",
+  "result": {
+    "count": 2,
+    "id": "xycraft_world:aluminum_brick_cloud_slab_blue"
+  }
+}

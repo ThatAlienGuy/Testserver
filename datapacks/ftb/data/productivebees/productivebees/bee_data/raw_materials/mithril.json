@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/mithril"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/mithril"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "beeTexture": "productivebees:textures/entity/bee/mithril/bee",
+  "flowerTag": "productivebees:flowers/mithril",
+  "particleColor": "#92e7ae",
+  "primaryColor": "#0b2638",
+  "secondaryColor": "#0e6a61",
+  "useGlowLayer": true
+}

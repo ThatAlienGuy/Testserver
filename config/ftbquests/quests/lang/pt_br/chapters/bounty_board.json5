@@ -1,0 +1,151 @@
+{
+  "quest.1CA8D89EE7C50CFD.title": "&fMate 10 &dShulkers",
+  "task.58687506041183E7.title": "&eMate&r: &cSlimes",
+  "quest.34C8824842867F5D.quest_desc": [
+    "O &dDragão de Ender&r não permanece morto. Coloque quatro &aCristais do End&r ao redor da borda do portal de saída para invocá-lo novamente.",
+  ],
+  "quest.3D687BF735E54AE8.quest_desc": [
+    "&cBlazes&r surgem ao redor de seus geradores nas &cFortalezas do Nether&r. Bolas de Neve causam dano a eles, e uma Poção de Resistência ao Fogo elimina grande parte do perigo da luta.",
+  ],
+  "quest.24445EC4DA6492F1.title": "&dHerói da vila",
+  "task.61C0F35123FBB85E.title": "&fMate: 1x &dSentinela",
+  "quest.0D35D0D33922A201.title": "&fDerrote 10 &dGateways To Eternity",
+  "quest.782CCA40CEBC135A.quest_desc": [
+    "Crie um Gerador de Criaturas com intervalos mínimos, controle por redstone, sem IA, que ignore as condições de geração e os jogadores.",
+  ],
+  "task.4087591E474FC477.title": "&fMate 10 &dEndermans",
+  "quest.59C71582F19E8554.quest_desc": [
+    "A recompensa mais fácil do quadro. Apenas &cZumbis&r comuns contam, então Cascosos, Afogados e Aldeões Zumbis não contribuem para ela.",
+  ],
+  "quest.7D23D1C9DE75721F.title": "&fMate 20 &cEsqueletos",
+  "task.4335140E412572D8.title": "&fDerrote 10 &dGateways To Eternity",
+  "quest.1237537100194BED.quest_desc": [
+    "Por ser o Wither uma divindade menor da decadência, as &6Estrelas do Nether&r que um &dWither&r deixa ao ser derrotado são cada vez mais exigidas como prova de merecimento.",
+    "",
+    "É invocado ao colocar 3 Crânios de Esqueleto Wither sobre um \"T\" de 4 blocos de Areia das Almas.",
+    "",
+    "{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}",
+  ],
+  "task.268F689AFA620C03.title": "&eMate&r: &cEsqueletos",
+  "quest.5C2C0986D6014ADD.title": "&6O Mercador Ambulante",
+  "quest.20D7DA6055C540FA.quest_desc": [
+    "Este capítulo contém missões repetíveis que você pode concluir para ganhar dinheiro extra e gastá-lo nas lojas.",
+  ],
+  "quest.232E1BBB91DEF799.quest_subtitle": "Você sobreviveu 100 dias em FTB Evolution 2",
+  "quest.5918EA666DF20DA4.quest_subtitle": "Termine logo o modpack... Por que está demorando tanto?",
+  "task.7B71A001741520D3.title": "&eMate&r: &cEsqueletos Wither",
+  "quest.708DD6CD3AE7F0FE.quest_desc": [
+    "Guardiões deteriorados das Fortalezas do Nether",
+  ],
+  "quest.782CCA40CEBC135A.title": "O gerador definitivo",
+  "quest.1CA8D89EE7C50CFD.quest_desc": [
+    "Vigias abrigados das Cidades do End.",
+  ],
+  "quest.3D687BF735E54AE8.title": "&fMate 10 &cBlazes",
+  "quest.49540656967A58DC.title": "Jogue por 1 hora",
+  "quest.49540656967A58DC.quest_desc": [
+    "Cada minuto que você passa neste mundo conta para as recompensas de tempo de jogo, até mesmo os minutos que passa parado.",
+  ],
+  "quest.77F964631F38EA2E.title": "&fMate 20 &cCreepers",
+  "quest.54E74795E1F9F9F2.title": "Jogue por &c25 horas",
+  "task.491E250D69066BBC.title": "&fMate: 1x &dWither",
+  "task.3F437642D1B08EBF.title": "&eMate&r: &cAranhas",
+  "quest.5918EA666DF20DA4.title": "Jogue por &z1000 horas",
+  "task.5B97CEFB80FF361B.title": "&fMate 10 &dShulkers",
+  "quest.67078BCAD52BC4B4.quest_desc": [
+    "Slimes grandes se dividem quando morrem, e cada parte que você mata conta. Procure em Pântanos e nas profundezas do subsolo, em chunks de Slimes.",
+  ],
+  "quest.29E78B39C74FBC4E.title": "Mate uma criatura hostil de cada tipo",
+  "quest.05B051603AC63B5A.title": "Encantamento definitivo",
+  "quest.6E5CEEE43F0DECA7.quest_desc": [
+    "Saqueie 100 barris de &eLootr&r enquanto explora.",
+  ],
+  "quest.3E0191A718C8CFF9.quest_subtitle": "Sobreviva 24 horas sem morrer",
+  "quest.0D35D0D33922A201.quest_desc": [
+    "Uma &aPérola de Portal&r abre um portal que envia hordas de criaturas contra você, e o JEI mostra como fabricar cada uma.",
+    "",
+    "Um portal falha se uma criatura não conseguir surgir, se uma criatura se afastar demais ou se o tempo da horda acabar, então abra-o em terreno plano e aberto.",
+  ],
+  "quest.1F70A066744E64EA.quest_desc": [
+    "Cinquenta horas. Um bom momento para conferir o que o &aFTB Skyline&r exige de você.",
+  ],
+  "quest.3E0191A718C8CFF9.quest_desc": [
+    "O relógio conta o tempo desde sua última morte, e somente enquanto você está conectado. Morra uma vez e ele recomeça do zero.",
+  ],
+  "quest.54E74795E1F9F9F2.quest_desc": [
+    "Vinte e cinco horas. Se sua base ainda funciona com geradores iniciais, este é o sinal para melhorá-la.",
+  ],
+  "quest.43B65AF71961292F.quest_desc": [
+    "Cem horas em um mundo. Faça uma pausa, o modpack não vai sair do lugar.",
+  ],
+  "task.4BEC99EFB3F7A310.title": "&bSobrevivência do mais apto",
+  "quest.1237537100194BED.title": "&fMate o &dWither",
+  "task.6347BBAD2ED20F25.title": "&eMate&r: &cZumbis",
+  "quest.6DC738A434C5B02F.title": "&fMate 10 &dEndermans",
+  "quest.43B65AF71961292F.title": "Jogue por &6100 horas",
+  "quest.232E1BBB91DEF799.title": "Jogue por &z100 dias",
+  "quest.6964408274A7ACF7.quest_desc": [
+    "Dez horas de jogo. A esta altura, você já deve ter energia funcionando e uma base para a qual vale a pena voltar.",
+  ],
+  "task.79684EDD87FFB47C.title": "&eMate&r: &cCreepers",
+  "quest.3E0191A718C8CFF9.title": "&bSobrevivência do mais apto",
+  "quest.59C71582F19E8554.title": "&fMate 20 &cZumbis",
+  "quest.43B65AF71961292F.quest_subtitle": "Hora de sair e pisar na grama",
+  "quest.644DADBCF755057C.quest_desc": [
+    "Adquira um Sigilo da Supremacia na horda 100 do Portal Infinito dos Invasores Apóticos",
+  ],
+  "quest.2EE5352D8E5F715F.quest_desc": [
+    "Apenas Aranhas comuns contam; Aranhas das Cavernas são outra criatura. Durante o dia, elas deixam você em paz, a menos que você as ataque primeiro.",
+  ],
+  "quest.6DC738A434C5B02F.quest_desc": [
+    "Olhe para um deles para irritá-lo e se abrigue sob um teto de dois blocos de altura. Um &dEnderman&r é alto demais para seguir você para dentro.",
+  ],
+  "quest.24445EC4DA6492F1.quest_subtitle": "Defenda uma vila de uma invasão",
+  "quest.29E78B39C74FBC4E.quest_desc": [
+    "Este é o progresso Sem piedade do vanilla. Ele exige 41 criaturas diferentes, incluindo o &dDragão de Ender&r, o &5Wither&r e um &cGuardião-Mestre&r, então leva um tempo.",
+    "",
+    "Apenas criaturas do vanilla estão na lista. A tela de Progressos mostra seu avanço.",
+  ],
+  "quest.1F70A066744E64EA.title": "Jogue por &d50 horas",
+  "quest.24445EC4DA6492F1.quest_desc": [
+    "Você precisa de &cMau Presságio&r para iniciar uma invasão. Capitães de invasão deixam &cFrascos Sombrios&r; beba um perto de uma vila e defenda sua posição.",
+  ],
+  "quest.232E1BBB91DEF799.quest_desc": [
+    "Isso equivale a 2,400 horas de jogo. Não se espera que ninguém conclua esta missão.",
+  ],
+  "quest.7A8669713BE28E8F.title": "&fMate o &dSentinela",
+  "quest.7BCC2E37198682F8.quest_desc": [
+    "Obtenha um item com encantamento de nível X",
+  ],
+  "quest.20D7DA6055C540FA.title": "O &6Quadro de Recompensas",
+  "quest.05B051603AC63B5A.quest_desc": [
+    "Encante um item com estatísticas máximas e Estabilidade Quântica",
+  ],
+  "task.05BA59C2F9E1F43B.title": "&fMate 10 &cBlazes",
+  "quest.5C2C0986D6014ADD.quest_desc": [
+    "Todos os dias, todos os &aMercadores Ambulantes&r se reúnem. Eles discutem quais jogadores podem precisar de seus serviços e quando estão disponíveis para ajudar. Suas trocas incluem vários itens úteis, como &agrama especial&r para gerar criaturas rapidamente ou &2tecnologia emprestada&r para dar início ao armazenamento avançado.",
+    "",
+    "Eles têm boas intenções, mas muitas vezes não escolhem bem onde aparecem e não percebem quando um jogador já não precisa mais da ajuda deles.",
+    "",
+    "Você pode usar o comando",
+    "&b/events toggle ftb:wandering_trader",
+    "para avisá-los se são necessários ou não.",
+  ],
+  "quest.2EE5352D8E5F715F.title": "&fMate 20 &cAranhas",
+  "quest.708DD6CD3AE7F0FE.title": "&fMate 10 &cEsqueletos Wither",
+  "quest.34C8824842867F5D.title": "&fMate o &dDragão de Ender",
+  "quest.5918EA666DF20DA4.quest_desc": [
+    "Mil horas equivalem a cerca de seis semanas de jogo ininterrupto. Se você concluir esta missão, gostaríamos de saber como.",
+  ],
+  "quest.6964408274A7ACF7.title": "Jogue por &a10 horas",
+  "quest.77F964631F38EA2E.quest_desc": [
+    "Um &cCreeper&r que se explode não conta. Mate-o antes que termine de chiar.",
+  ],
+  "quest.7A8669713BE28E8F.quest_desc": [
+    "Guardiões do silêncio das &3Cidades Ancestrais&r. Chame a atenção para si por sua conta e risco.",
+  ],
+  "quest.67078BCAD52BC4B4.title": "&fMate 20 &cSlimes",
+  "quest.7D23D1C9DE75721F.quest_desc": [
+    "Um escudo bloqueia as flechas deles. Errantes e Pantanosos são criaturas diferentes e não contam aqui.",
+  ],
+}

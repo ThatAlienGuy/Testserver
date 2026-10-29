@@ -1,0 +1,1621 @@
+[29Oct2026 00:49:50.603] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 497ms
+[29Oct2026 00:49:50.619] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 11.0.15 (DEDICATED_SERVER in PROD)
+[29Oct2026 00:49:50.620] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /workspaces/Testserver
+[29Oct2026 00:49:50.664] [main/WARN] [net.neoforged.fml.loading.FMLConfig/]: ****************************** Found dependency overrides ******************************
+[29Oct2026 00:49:50.666] [main/WARN] [net.neoforged.fml.loading.FMLConfig/]: Dependency overrides for mod 'logisticsnetworks': softening dependency constraints against 'buildinggadgets2'
+[29Oct2026 00:49:50.667] [main/WARN] [net.neoforged.fml.loading.FMLConfig/]: ****************************************************************************************
+[29Oct2026 00:49:51.128] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 459) in 459ms
+[29Oct2026 00:49:51.131] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[29Oct2026 00:49:51.132] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/11.0.15/loader-11.0.15.jar
+[29Oct2026 00:49:51.132] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/11.0.15/earlydisplay-11.0.15.jar
+[29Oct2026 00:49:51.142] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[29Oct2026 00:49:51.163] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[29Oct2026 00:49:53.537] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fancytabsections. Using jar(mods/fancytabsections-6.2-NEOFORGE-26.1.2.jar)
+[29Oct2026 00:49:53.537] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: selling_bin. Using jar(mods/selling_bin-1.6-NEOFORGE-26.1.2.jar)
+[29Oct2026 00:49:53.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: yet_another_config_lib_v3. Using jar(mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar)
+[29Oct2026 00:49:53.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: libtooltips. Using jar(mods/libtooltips-2.3.2-NEOFORGE-26.1.2.jar)
+[29Oct2026 00:49:53.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: atlas_api. Using jar(mods/atlas_api-26.1.2-1.2.0.jar)
+[29Oct2026 00:49:53.539] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 85 dependencies adding them to mods collection
+[29Oct2026 00:49:53.560] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Accelerated Decay 26.1.2.4 (accelerateddecay)
+		Adrenaline 1.0.2 (adrenaline)
+		Advanced AE 26.1.7 (advanced_ae)
+		AdvancedCoreInfo 1.5.0 (aci)
+		AdvancedLootInfo 2.5.0 (ali)
+		AE2 Import Export Card 26.1.2-2.3.1 (ae2importexportcard)
+		AE2 Pattern Restocker 1.1.0 (ae2_pattern_restocker)
+		AE2AddonLib 26.1.3-alpha (ae2addonlib)
+		AE2NetworkAnalyzer 26.1-1.0.0-neoforge (ae2netanalyser)
+		AE2WTLib 26.1.2-beta (ae2wtlib)
+		AE2WTLib API 26.1.2-beta (ae2wtlib_api)
+		Agritech: Evolved 2.2.0.6+neoforge-mc26.1.2 (agritechevolved)
+		Ancient Remnants 1.0.2.2-26.1.2 (ancient_remnants)
+		Anima 1.0.3 (anima)
+		Animal Garden - Alligator Gar 1.0.0 (animalgarden_alligatorgar)
+		Animal Garden - Bull Shark 1.1.1 (animalgarden_bullshark)
+		Animal Garden - Crocodile 1.1.0 (animalgarden_crocodile)
+		Animal Garden - Sea Otter 1.1.1 (animalgarden_seaotter)
+		Animal Pen 2.5.2 (animal_pen)
+		Animus: NeoVitae 5.2.20 (animusnv)
+		Another Config Manager 1.0.0.0.0 (another_config_manager)
+		Apollib 1.2.0 (apollib)
+		Apotheosis 9.1.0 (apotheosis)
+		Apothic Attributes 3.1.0 (apothic_attributes)
+		Apothic Compats 0.3.1 (apothic_compats)
+		Apothic Enchanting 2.1.0 (apothic_enchanting)
+		Apothic Spawners 2.0.1 (apothic_spawners)
+		Applied Cooking 7.2.0 (appliedcooking)
+		Applied Energistics 2 26.1.13-beta (ae2)
+		Applied Oritech 1.0.4+26.1.2 (applied_oritech)
+		AppliedFlux 26.1-1.0.4-neoforge (appflux)
+		Aquarius Libs 1.2.0 (aquarius_libs)
+		Architectural Building Wand 1.3.1 (architectural_building_wand)
+		Architectury 20.1.17 (architectury)
+		Armor Cosmetic 1.1.3 (armor_cosmetic)
+		Armor Poser 14.1.0 (armorposer)
+		Ars Magica: Legacy 1.7.1 (arsmagicalegacy)
+		Artifacts 15.1.3 (artifacts)
+		ATi Structures 1.4.5 (mr_ati_structuresfabricforge)
+		Atlas API 26.1.2-1.2.0 (atlas_api)
+		AttributeFix 26.1.2.3 (attributefix)
+		Auroral 26.1.2-1.5.11 (auroral)
+		BaguetteLib 2.0.7 (baguettelib)
+		Balm 26.1.2.15 (balm)
+		Baubley Heart Canisters 26.1.2-1.7.4 (bhc)
+		BBL Core 12.6.12 (bblcore)
+		BEER 1.4.4 (beer)
+		Better Advanced Tooltips 2601.1.0-build.11 (betteradvancedtooltips)
+		Better Compatibility Checker 26.1.2.1 (bcc)
+		Better Fishtanks 1.4.1 (betterfishtanks)
+		BetterBlockZ 0.3.3-26.1.2-neoforge (betterblockz)
+		BetterBlockZ: DecorZ 0.1.1-26.1.2-neoforge (decorz)
+		BloodMagic Additions 1.0.2 (bmaddon)
+		Building Gadgets 2 26.1.2.1 (buildinggadgets2)
+		Cable Facades 2.1.4 (cable_facades)
+		Cable Tiers 26.1.2-1.0.3 (cabletiers)
+		CakeStickLib 1.18.2 (cakesticklib)
+		Carry On 2.10.0 (carryon)
+		CarryOnExtend 1.5.1 (carryonextend)
+		CC: Tweaked 1.120.0 (computercraft)
+		Celesthyd Lib 26.1.0 (celesthyd)
+		Chisel 26.1.2.19 (chisel)
+		ChoiceTheorem's Overhauled Village 4.0.0 (ctov)
+		Chunky 1.5.4 (chunky)
+		Clean Swing 1.9.1 (cleanswing)
+		Clickable Advancements mod 3.9 (clickadv)
+		Cloth Config v26.1 API 26.1.154 (cloth_config)
+		Code Defined GUI 1.12.0 (codedefinedgui)
+		Collapsible Groups 2.0.0-beta5 (collapsible_groups)
+		Collective 8.67 (collective)
+		Color Blindness 26.1-5.0.0.2 (colorblindness)
+		Colossal Reactors 2.5.0.0.0 (colossal_reactors)
+		Combat Roll 3.0.1+26.1.2 (combat_roll)
+		Comforts 15.0.0+26.1.2 (comforts)
+		CommonCapabilities 2.11.8 (commoncapabilities)
+		Compressium 26.1.2.1 (compressium)
+		Configured 2.7.5 (configured)
+		Configured Defaults 26.1.1 (configureddefaults)
+		Connected Glass 1.1.14 (connectedglass)
+		Construction Sticks 3.2.1 (constructionstick)
+		ConText Matters 0.9.1 (context_matters)
+		Cooking for Blockheads 26.1.2.6 (cookingforblockheads)
+		Crafting on a Stick 26.1-1.1 (crafting_on_a_stick)
+		Crafting Tweaks 26.1.2.3 (craftingtweaks)
+		Crash Utilities 10.0.1 (crashutilities)
+		Crawl 0.15.0 (crawl)
+		CreativeCore 2.14.16 (creativecore)
+		Crystalix 4.1.1 (crystalix)
+		CTM 26.1.2.13 (ctm)
+		Cucumber Library 9.0.7 (cucumber)
+		Cupboard mod 4.1 (cupboard)
+		Curios API 15.0.0+26.1.2 (curios)
+		Cyclops Core 1.31.3 (cyclopscore)
+		Dank Storage 2 (dankstorage)
+		Decorative wooden lattices 1.0-26.1.2 (decorativewoodenlattices)
+		Default Server Properties 26.1.0.2 (dsp)
+		Deimos 2.7 (deimos)
+		Dim Energy 1.1.0 (dimenergy)
+		Dimensional Resources 1.0.10 (dimresources)
+		DimStorage 10.0.1 (dimstorage)
+		Director's Camera 26.1.2-1.0.1 (directorscamera)
+		Double Doors 7.2 (doubledoors)
+		Dragon Egg Respawns 1-v1.0.3 (dragon_egg_respawns)
+		Dungeon Crawl 2.3.17 (dungeoncrawl)
+		Dungeons and Taverns Ancient City Overhaul 3.3 (mr_dungeons_andtavernsancientcityoverhaul)
+		Easy NPC 7.17.1 (easy_npc)
+		Easy Piglins 1.1.7+26.1.2 (easy_piglins)
+		Easy Villagers 1.1.42+26.1.2 (easy_villagers)
+		Eccentric Tome 26.1-1.2.1 (eccentrictome)
+		EclipseUI 1.0.4+mc26.1 (eclipseui)
+		EdivadLib 4.0.1 (edivadlib)
+		ElevatorMod 26.1-1.16.2 (elevatorid)
+		Emojiful 5.3.2 (emojiful)
+		Ender Core 9.0.6-alpha (endercore)
+		Ender IO 9.0.6-alpha (enderio)
+		Ender IO - Modded Conduits 9.0.6-alpha (enderio_modded_conduits)
+		Ender IO:Evolution 4.0.1-NeoForge-26.1.2 (enderio_evolution)
+		Enderthing 1.10.3 (enderthing)
+		Energized Power 3.0.5+26.1.x-neoforge (energizedpower)
+		Energy Meter 26.1.2-0.5.1 (energymeter)
+		Entangled 1.3.21 (entangled)
+		EvilCraft 1.2.108 (evilcraft)
+		Ex Machina 26.1.0.2 (exmachina)
+		ExoConfig 0.3.6 (exoconfig)
+		ExpandAbility 14.0.2 (expandability)
+		Explorer's Compass 26.1-3.3.0-neoforge (explorerscompass)
+		Explorify 1.6.5 (explorify)
+		ExtendedAE 26.1-1.0.4-neoforge (extendedae)
+		ExtraStorage 6.1.0 (extrastorage)
+		Fancy Tab Sections 6.2-NEOFORGE-26.1.2 (fancytabsections)
+		Farming for Blockheads 26.1.2.5 (farmingforblockheads)
+		Fast Workbench 10.0.0 (fastbench)
+		FastFurnace 10.0.0 (fastfurnace)
+		Ferrite Core 9.0.0 (ferritecore)
+		Fertilization 26.1.2.3 (fertilization)
+		Flat Bedrock 99.0.0 (flatbedrock)
+		FlickerFix 7.0.0 (flickerfix)
+		Flopper 1.1.9 (flopper)
+		ForgeEndertech 26.1.0.0 (forgeendertech)
+		Fragmentum 4.1.0 (fragmentum)
+		FramedBlocks 11.4.0 (framedblocks)
+		Framework 0.13.23 (framework)
+		FrostBear 2.0.0 (frostbear)
+		FTB Armory 26.1.2.11 (ftbarmory)
+		FTB Backups 3 26.1.2.2 (ftbbackups3)
+		FTB Chunks 26.1.2.9 (ftbchunks)
+		FTB Echoes 26.1.2.2 (ftbechoes)
+		FTB Essentials 26.1.2.5 (ftbessentials)
+		FTB Evolution 2 Companion 26.1.2.25 (ftbevolutioncompanion)
+		FTB EZ Crystals 26.1.2.1 (ftbezcrystals)
+		FTB Filter System 26.1.2.2 (ftbfiltersystem)
+		FTB Industrial Contraptions 26.1.2.20 (ftbic)
+		FTB Library 26.1.2.10 (ftblibrary)
+		FTB Materials 26.1.2.6 (ftbmaterials)
+		FTB Obsidian 26.1.2.2 (ftbobsidian)
+		FTB Ocean Mobs 26.1.2.1 (ftboceanmobs)
+		FTB Pack Companion 26.1.2.6 (ftbpc)
+		FTB Quests 26.1.2.9 (ftbquests)
+		FTB Ranks 26.1.2.4 (ftbranks)
+		FTB Teams 26.1.2.4 (ftbteams)
+		FTB Ultimine 26.1.2.6 (ftbultimine)
+		FTB XMod Compat 26.1.2.5 (ftbxmodcompat)
+		Functional Storage 26.1.2-1.6.4 (functionalstorage)
+		Fusion 1.3.16 (fusion)
+		Fzzy Config 0.7.7+26.1+neoforge (fzzy_config)
+		Gateways To Eternity 6.0.2 (gateways)
+		GeckoLib 5 5.5.2 (geckolib)
+		GeOre 8.1.0 (geore)
+		Get It Together, Drops! 1.5 (getittogetherdrops)
+		Glassential-renewed 5.0.2 (glassential)
+		GlitchCore 26.1.2.0.2 (glitchcore)
+		Glodium 26.1-1.2-neoforge (glodium)
+		Goblin Traders 1.12.0 (goblintraders)
+		Graveless 1.4.3 (graveless)
+		Growth Accelerator Tiers 2.0.0 (growthacceleratortiers)
+		GuideME 26.1.16-beta (guideme)
+		Hats 26.1-1.2.0 (hats)
+		Hephaestus Forge 1.0.19 (hephaestus)
+		Hephaestus Tools 1.0.11 (hephaestus_tools)
+		HoloSigns 4.0.0 (holosigns)
+		HopoBetterUnderwaterRuins 1.2.7 (hopour)
+		Horse Powered 3.11.7 (horsepowered)
+		Horsing Around 0.3.5 (horsingaround)
+		Hostile Neural Networks 7.0.0 (hostilenetworks)
+		Huge Structure Blocks 1.1.9 (hugestructureblocks)
+		Ice And Fire Community Edition 2.2-beta.4 (iceandfire)
+		Iceberg 1.4.1.2 (iceberg)
+		imfast 1.0.3 (imfast)
+		Incendium 5.4.12 (incendium)
+		Infinity Storage 2.0.3 (infinitystorage)
+		IntegratedDynamics 1.36.2 (integrateddynamics)
+		IntegratedTerminals 1.11.1 (integratedterminals)
+		IntegratedTunnels 1.13.2 (integratedtunnels)
+		Integration 0.2 (integration)
+		Interdimensional Wireless Transmitter 26.1.2-1.0.1 (interdimensionalwirelesstransmitter)
+		Inventory Essentials 26.1.2.7 (inventoryessentials)
+		Inventory Totem 3.4 (inventorytotem)
+		Iron Furnaces 4.4.2 (ironfurnaces)
+		Iron Jetpacks 9.0.3 (ironjetpacks)
+		Iron's Arms 'n Artifice 26.1.2-1.1.1 (irons_artifice)
+		Iron's Gems 'n Jewelry 26.1.2-2.0.2.1 (irons_jewelry)
+		Iron's Lib 26.1.2-2.3.0 (irons_lib)
+		Iskandert Library 1.12.0.1.0 (iska_lib)
+		Item Collectors 1.1.12+a (itemcollectors)
+		Jade 26.1.12+neoforge (jade)
+		Jumpy Boats 26.1.2-1.0.6 (jumpboat)
+		Jupiter 2.4.3 (jupiter)
+		Just Another Mining Dimension 26.1.1.1 (jamd)
+		Just Another Void Dimension 26.1.1.0 (javd)
+		Just Dire Fuels 1.1.0-26.1 (justdirefuels)
+		Just Dire Things 1.6.11 (justdirethings)
+		Just Dyna Things 2.0-alpha-build-13 (justdynathings)
+		Just Enough Archaeology 26.1.2-1.3.0 (jearchaeology)
+		Just Enough Crafting Tables 26.1.2-1.0.0 (justenoughcraftingtables)
+		Just Enough Items 29.47.0.111 (jei)
+		Just Enough Professions (JEP) 11.0.2 (justenoughprofessions)
+		Just Hammers 26.1.2.1 (justhammers)
+		KeyBind Bundles 2.0.0 (keybindbundles)
+		Kindred Spirits 1.0.9 (kindredspirits)
+		Konkrete 1.10.1 (konkrete)
+		Kotlin For Forge 6.4.0 (kotlinforforge)
+		KubeJS 26.1.2-8.0.7 (kubejs)
+		KumaAPI 26.1.2.2 (kuma_api)
+		Laser Bridges 6.2 (laserbridges)
+		LaserIO 1.10.2 (laserio)
+		LimaCore 2.11.3 (limacore)
+		Lithostitched 1.8.1 (lithostitched)
+		Little Big Redstone 1.9.11-26.1.2 (little_big_redstone)
+		Little Joys 26.1.2.5 (littlejoys)
+		LogisticsNetworks 1.13.0 (logisticsnetworks)
+		Lootr 1.23.38.123 (lootr)
+		LTX Industries 2.4.3 (ltxi)
+		Macaw's Bridges 3.1.2 (mcwbridges)
+		Macaw's Doors 1.1.5 (mcwdoors)
+		Macaw's Lights and Lamps 1.1.5 (mcwlights)
+		Macaw's Paths and Pavings 1.1.1 (mcwpaths)
+		Macaw's Roofs 2.3.2 (mcwroofs)
+		Macaw's Windows 2.4.2 (mcwwindows)
+		Magic Particles Lib 1.4.0 (magicparticleslib)
+		Magnum Torch 26.1.0 (magnumtorch)
+		Malisis Doors (Reborn) 1.0.16 (malisisdoorsreborn)
+		Malisis Switches (Reborn) 1.0.10 (malisisswitchesreborn)
+		MaxHealthFix 26.1.2.3 (maxhealthfix)
+		Measurements 4.0.0 (measurements)
+		MEInfinityCell 26.1-1.0.0 (meinfinitycell)
+		Melody 1.0.16 (melody)
+		MezzConfig 0.6.9 (mezz_config)
+		MezzConfig GUI 0.5.10 (mezz_config_gui)
+		Minecraft 26.1.2 (minecraft)
+		Mining Gadgets 1.19.3 (mininggadgets)
+		Mining Helmet 2.1.3 (mining_helmet)
+		MINT Lib 0.5.1 (mint_lib)
+		Mob Flow Utilities 3.2.1.9-mc-26.1.2 (mobflowutilities)
+		ModernFix 5.27.25+mc26.1.2 (modernfix)
+		Modified Biome Source 0.0.4+26.1 (modifiedbiomesource)
+		Modonomicon 2.19.0 (modonomicon)
+		Modular Drones 1.3.2 (drones)
+		Modular Force Field System 5.8.39 (mffs)
+		Modular Routers 26.1.2.2 (modularrouters)
+		Moog's Structure Lib 3.4.2 (moogs_structures)
+		MoogsEndStructures 2.1.1 (mes)
+		MoogsNetherStructures 3.1.1 (mns)
+		MoogsSoaringStructures 2.2.0 (mss)
+		MoogsTemplesReimagined 2.0.4 (mtr)
+		MoogsVoyagerStructures 5.1.3 (mvs)
+		More Red 26.1.2.3 (morered)
+		Mutant Monsters 26.1.3 (mutantmonsters)
+		Mystian Apiary 1.10 (mystianapiary)
+		Mystical Agradditions 9.0.4 (mysticalagradditions)
+		Mystical Agriculture 9.0.11 (mysticalagriculture)
+		Mystical Agriculture Tiered Crystals 1.8.0 (matc)
+		Mystical Automation 2.0.7 (mysticalautomation)
+		Mystical Customization 7.0.0 (mysticalcustomization)
+		Nanite Library 26.1.2.7 (nanitelibrary)
+		NaturalSizes 1.2 (naturalsizes)
+		Nature's Compass 26.1-3.3.0-neoforge (naturescompass)
+		NauTec 2 2.0.21 (nautec)
+		Neo Vitae 1.1.49 (neovitae)
+		NeoForge 26.1.2.121 (neoforge)
+		NeoSync 26.1.2-1.7.3 (neosync)
+		NetherPortalFix 26.1.0.1 (netherportalfix)
+		Nodeworks 0.11.3 (nodeworks)
+		Not Enough Recipe Book 0.4.3+26.1.2 (nerb)
+		Nullscape 1.2.20 (nullscape)
+		Nutritional 1.2.4 (nutritional)
+		Obsidian Boat 26.1.1.0 (obsidianboat)
+		Occult Cooking 2.0.0 (occultcooking)
+		Occultism 1.257.2 (occultism)
+		Oracle Index 2.0.0 (oracle_index)
+		Oreno Commons 0.0.9a+26.1 (orenocommons)
+		Oritech 2.0.0-exp12 (oritech)
+		Oritech Things 0.1.8 (oritechthings)
+		Overflowing Bars 26.1.0 (overflowingbars)
+		Pantry for Blockheads 26.1.2.8 (pantryforblockheads)
+		Paraglider 26.1.2 (paraglider)
+		Patchouli 26.1-94 (patchouli)
+		Peekaboo! 1.0.0 (peekaboo_api)
+		Peekaboo! 1.0.0 (peekaboo)
+		Pipe Connector 0.6.8 (pipe_connector)
+		Pipe Graph 0.9.1 (pipe_graph)
+		Pipez 1.2.31+26.1.2 (pipez)
+		PipezLagFix 1.1.0 (pipezlagfix)
+		Placebo 10.0.2 (placebo)
+		Player Animation Library 1.2.8+mc.26.1 (player_animation_library)
+		Plonk 10.0.10 (plonk)
+		Polylib 2.0.11 (polylib)
+		Potentials 0.11.1 (potentials)
+		Powah 7.0.4-alpha (powah)
+		Preview Placement 26.1.2.0 (preview_placement)
+		PrickleMC 26.1.2.6 (prickle)
+		Productive Bees 26.1.2-15.4.0 (productivebees)
+		Productive Farming 26.1.2-0.13.0 (productivefarming)
+		Productive Lib 26.1.2-0.4.9 (productivelib)
+		Pufferfish's Attributes 0.8.2 (puffish_attributes)
+		Pufferfish's Skills 0.19.2 (puffish_skills)
+		Puzzles Lib 26.1.16 (puzzleslib)
+		Pylons 6.0.1 (pylons)
+		Quantum Cubes 1.0.3 (quantumcubes)
+		Rain Shield 2.0.0 (rainshield)
+		Random Bone Meal Flowers 4.7 (randombonemealflowers)
+		Recursive AE2 Pattern Provider 1.1.2 (recursiveae2patternprovider)
+		Refined Cooking 7.3.1 (refinedcooking)
+		Refined Fluid Substitution 26.1.2-1.0.1 (refinedfluidsubstitution)
+		Refined Storage 3.2.1 (refinedstorage)
+		Refined Storage - Curios Integration 2.0.1 (refinedstorage_curios_integration)
+		Refined Storage - JEI Integration 2.0.1 (refinedstorage_jei_integration)
+		Refined Storage - Quartz Arsenal 2.0.6 (refinedstorage_quartz_arsenal)
+		Refined Types 26.1.2-1.0.2 (refinedtypes)
+		Refined Wireless Upgrades 26.1.2-3.0.1 (rsinsertexportupgrade)
+		Reliquary Reincarnations 2.0.94 (reliquary)
+		Replication 26.1.2-1.2.8 (replication)
+		Replication AE2 Bridge 3.0.0.0.0 (rep_ae2_bridge)
+		Resettable Trial Vaults & Spawners 1.1.0 (resettable_trial_chambers)
+		Resonance 1.0.2 (resonance)
+		Resourcefulconfig 4.0.1 (resourcefulconfig)
+		Retro Factory Manager 1.0.3 (retrofactorymanager)
+		Rhino 2101.2.8-build.91 (rhino)
+		Roots Classic 26.1.2-1.6.7 (rootsclassic)
+		RSRRequestify: Reforged 1.0.3 (rsrreforged)
+		SathLib 1.1.0 (sathlib)
+		Scannable Reforged 1.0.1 (scannable)
+		Searchables 1.0.2 (searchables)
+		ServerCore 1.5.19+26.1.2 (servercore)
+		SG Economy API 26.1.0 (sg_economy)
+		ShatterLib 0.7.0+26.1.2 (shatterlib)
+		Shogi 26.1.2.12 (shogi)
+		Shogi API 26.1.2.12 (shogi_api)
+		Shrink 2.1.1 (shrink)
+		Simple Belts 2.0.0-exp1 (belts)
+		Simple Magnets 1.1.12 (simplemagnets)
+		Simple Teleporters 5.1.0 (simpleteleporters)
+		Simple Weather 1.1.15 (simple_weather)
+		Simply Winged: Horse & Pegasus Flight 1.0.1 (in2bubble_simply_winged)
+		Sky Aesthetics 2.2.0 (sky_aesthetics)
+		Sophisticated Backpacks 3.26.17 (sophisticatedbackpacks)
+		Sophisticated Core 1.5.20 (sophisticatedcore)
+		Sophisticated Inventory Interactions 0.1.19 (sophisticatedinventoryinteractions)
+		Sophisticated Item Actions 0.4.18 (sophisticateditemactions)
+		Sophisticated Storage 1.5.125 (sophisticatedstorage)
+		Sophisticated Storage In Motion 0.10.38 (sophisticatedstorageinmotion)
+		spark 1.10.187 (spark)
+		SpectreLib 0.21.0+26.1.2 (spectrelib)
+		Squat Grow 26.1.2.2 (squatgrow)
+		Starcatcher 3.3.10.2-NEOFORGE-26.1.2 (starcatcher)
+		Stellaris 2.0.9 (stellaris)
+		Step Crafter 26.1.2-1.0.4 (stepcrafter)
+		Structure Essentials mod 5.1 (structureessentials)
+		Structurify 2.0.43 (structurify)
+		Super Factory Manager (SFM) 4.34.0 (sfm)
+		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
+		SuperMartijn642's Core Lib 1.1.26 (supermartijn642corelib)
+		Tectonic 3.0.28 (tectonic)
+		TerraBlender 26.1.2.0.3 (terrablender)
+		Terralith 2.6.1 (terralith)
+		Tesseract 1.0.39 (tesseract)
+		Tesseract API 1.13.6-26.1.2 (tesseract_api)
+		Thunder Relics 1.4 (thunderrelics)
+		Time In A Bottle 8.0.0 (tiab)
+		Tiny Config 3.1.0 (tiny_config)
+		Tiny Multiblock Lib 4.0.0 (tinymultiblocklib)
+		Titanium 4.0.16 (titanium)
+		Tool Belt 2.9.5 (toolbelt)
+		Training Dummy 1.9.0+mc26.1.2 (trainingdummy)
+		Trample Stopper 26.1.1.0 (tramplestopper)
+		Transparent AE2 26.1.2-1.1.1 (transparentae2)
+		Trash Cans 1.1.2 (trashcans)
+		TrashSlot 26.1.2.4 (trashslot)
+		Traveler's Titles 26.1.2-NeoForge-6.1.0 (travelerstitles)
+		Trenzalore 26.1.2.1 (trenzalore)
+		TrimsEffects 2.1.1 (trimeffects)
+		Underwater Village 1.0.0 (underwater_village)
+		Universal Grid 26.1.2-1.0.2 (universalgrid)
+		Uranus 3.0-alpha.1 (uranus)
+		Utilitarian 26.1.2-0.22.0 (utilitarian)
+		Volumetrics 1.0.17 (volumetrics)
+		Waystones 26.1.2.16 (waystones)
+		wd's Selling Bin 1.6-NEOFORGE-26.1.2 (selling_bin)
+		wd's Tooltips Library 2.3.2-NEOFORGE-26.1.2 (libtooltips)
+		wd's Utils 2.0-NEOFORGE-26.1.2 (wdutils)
+		Weather Gate 26.1.1.0 (weathergate)
+		WhatTheBucket 26.1.2.2 (whatthebucket)
+		Witchery 0.5.34+mc26.1.2 (witchery)
+		Witchery: Forbidden Magic 0.5.27+mc26.1.2 (witchery_forbidden_magic)
+		Wits 1.4.3+26.1-neoforge (wits)
+		XyCraft: Core 0.9.2 (xycraft_core)
+		XyCraft: Machines 0.9.2 (xycraft_machines)
+		XyCraft: World 0.9.2 (xycraft_world)
+		YetAnotherConfigLib 3.9.7+26.1-neoforge (yet_another_config_lib_v3)
+		YUNG's API 26.1.2-NeoForge-6.1.3 (yungsapi)
+		YUNG's Better Caves 26.1.2-NeoForge-4.1.2 (bettercaves)
+		YUNG's Better Mineshafts 26.1.2-NeoForge-6.1.1 (bettermineshafts)
+		YUNG's Better Nether Fortresses 26.1.2-NeoForge-4.1.1 (betterfortresses)
+		YUNG's Better Strongholds 26.1.2-NeoForge-6.1.1 (betterstrongholds)
+		YUNG's Bridges 26.1.2-NeoForge-6.1.0 (yungsbridges)
+		YUNG's Cave Biomes 26.1.2-NeoForge-4.1.1 (yungscavebiomes)
+		YUNG's Extras 26.1.2-NeoForge-6.1.0 (yungsextras)
+		Z-Core 0.1.3-26.1.2-neoforge (z_core)
+[29Oct2026 00:49:54.844] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Testserver/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=FML Env=SERVER
+[29Oct2026 00:49:54.879] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[29Oct2026 00:49:54.879] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/modonomicon-26.1.2-neoforge-2.19.0.jar > commonmark-ext-ins-0.31.0.jar
+[29Oct2026 00:49:54.880] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlinx-serialization-json-jvm-1.11.0.jar
+[29Oct2026 00:49:54.880] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > exp4j-0.4.8.jar
+[29Oct2026 00:49:54.880] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/cable_facades-26.1.2-NeoForge-2.1.4.jar > mixinsquared-neoforge-0.3.7-beta.1.jar > MixinSquared-0.3.7-beta.1.jar
+[29Oct2026 00:49:54.881] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kubejs-neoforge-26.1.2-8.0.7.jar > animated-gif-lib-for-java-animated-gif-lib-1.7.jar
+[29Oct2026 00:49:54.881] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/cc-tweaked-26.1.2-forge-1.120.0.jar > cobalt-0.9.9.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/configureddefaults-v26.1.1-mc26.1.x+neoforge.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > gson-0.2.1.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/fzzy_config-0.7.7+26.1+neoforge.jar > tomlkt-jvm-0.3.7.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/modonomicon-26.1.2-neoforge-2.19.0.jar > commonmark-ext-gfm-strikethrough-0.31.0.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kubejs-neoforge-26.1.2-8.0.7.jar > tiny-java-server-1.0.0-build.45.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/servercore-neoforge-1.5.19+26.1.2.jar > dazzleconf-core-1.3.0-M2.jar
+[29Oct2026 00:49:54.882] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/ftb-library-neoforge-26.1.2.10.jar > json5-java-3.0.0.jar
+[29Oct2026 00:49:54.884] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/fzzy_config-0.7.7+26.1+neoforge.jar > jankson-1.2.3.jar
+[29Oct2026 00:49:54.885] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > jsoup-1.17.2.jar
+[29Oct2026 00:49:54.886] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/Emojiful-Neoforge-26.1.2-5.3.2.jar > yamlbeans-1.17.jar
+[29Oct2026 00:49:54.886] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlin-reflect-2.4.0.jar
+[29Oct2026 00:49:54.886] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > json-0.2.1.jar
+[29Oct2026 00:49:54.887] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlinx-serialization-core-jvm-1.11.0.jar
+[29Oct2026 00:49:54.888] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > commonmark-ext-gfm-tables-0.27.1.jar
+[29Oct2026 00:49:54.888] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/cc-tweaked-26.1.2-forge-1.120.0.jar > netty-codec-socks-4.2.7.Final.jar
+[29Oct2026 00:49:54.888] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > commonmark-0.27.1.jar
+[29Oct2026 00:49:54.890] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/servercore-neoforge-1.5.19+26.1.2.jar > snakeyaml-2.6.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > langchain4j-embeddings-1.0.0-beta5.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > thedarkcolour.kfflang-6.4.0.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/26.1.2.121/neoforge-26.1.2.121-universal.jar > net.neoforged.neoforge-coremods-26.1.2.121.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > common-image-3.12.0.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/servercore-neoforge-1.5.19+26.1.2.jar > dazzleconf-ext-snakeyaml-1.3.0-M2.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > api-0.31.1.jar
+[29Oct2026 00:49:54.891] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > imageio-metadata-3.12.0.jar
+[29Oct2026 00:49:54.892] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/ApothicEnchanting-26.1.2-2.1.0.jar > Apothic-Enchanting.ApothicEnchanting-coremods-26.1.2-2.1.0.jar
+[29Oct2026 00:49:54.893] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/PlayerAnimationLibMerged-1.2.8+mc.26.1.jar > services-1.2.8.jar
+[29Oct2026 00:49:54.893] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlinx-coroutines-jdk8-1.11.0.jar
+[29Oct2026 00:49:54.894] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/starcatcher-3.3.10.2-NEOFORGE-26.1.2.jar > tiny-multiblock-lib-neo-26.1-4.0.0.jar > nikdo-color-1.0.0.jar
+[29Oct2026 00:49:54.894] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/cc-tweaked-26.1.2-forge-1.120.0.jar > netty-handler-proxy-4.2.7.Final.jar
+[29Oct2026 00:49:54.894] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > langchain4j-1.0.0.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > onnxruntime-1.20.0.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/mffs-5.8.39.jar > streamex-0.8.4.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/arsmagicalegacy-26.1.2-1.7.1.jar > color-thief-1.1.2.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlin-stdlib-jdk8-2.4.0.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlin-stdlib-jdk7-2.4.0.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > imageio-webp-3.12.0.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > tokenizers-0.31.1.jar
+[29Oct2026 00:49:54.895] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > common-lang-3.12.0.jar
+[29Oct2026 00:49:54.896] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlinx-coroutines-core-jvm-1.11.0.jar
+[29Oct2026 00:49:54.896] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > langchain4j-embeddings-all-minilm-l6-v2-q-1.0.0-beta5.jar
+[29Oct2026 00:49:54.897] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/pipe-graph-0.9.1.jar > jgrapht-core-1.5.2.jar
+[29Oct2026 00:49:54.897] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar > kotlin-stdlib-2.4.0.jar
+[29Oct2026 00:49:54.897] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > opennlp-tools-2.5.4.jar
+[29Oct2026 00:49:54.898] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/kotlinforforge-6.4.0-all.jar
+[29Oct2026 00:49:54.898] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > langchain4j-core-1.0.0.jar
+[29Oct2026 00:49:54.899] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/Super Factory Manager (SFM)-MC26.1.2-4.34.0.jar > antlr4-runtime-4.13.1.jar
+[29Oct2026 00:49:54.899] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/pipe-graph-0.9.1.jar > jgrapht-ext-1.5.2.jar
+[29Oct2026 00:49:54.900] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > imageio-core-3.12.0.jar
+[29Oct2026 00:49:54.900] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/oracle_index-neoforge-2.0.0.jar > commonmark-ext-yaml-front-matter-0.27.1.jar
+[29Oct2026 00:49:54.900] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar > common-io-3.12.0.jar
+[29Oct2026 00:49:54.909] [main/INFO] [Configured Defaults/]: Applying default files...
+[29Oct2026 00:49:54.938] [main/WARN] [net.neoforged.fml.loading.LanguageProviderLoader/]: Mod jar(mods/Incendium_26.1_v5.4.12.jar) is using the deprecated 'lowcodefml' language loader. This warning can be fixed by simply removing the modLoader and loaderVersion settings from neoforge.mods.toml.
+[29Oct2026 00:49:54.940] [main/WARN] [net.neoforged.fml.loading.LanguageProviderLoader/]: Mod jar(mods/HopoBetterUnderwaterRuins-[26.1]-1.2.7.jar) is using the deprecated 'lowcodefml' language loader. This warning can be fixed by simply removing the modLoader and loaderVersion settings from neoforge.mods.toml.
+[29Oct2026 00:49:54.940] [main/WARN] [net.neoforged.fml.loading.LanguageProviderLoader/]: Mod jar(mods/Explorify v1.6.5.mod.jar) is using the deprecated 'lowcodefml' language loader. This warning can be fixed by simply removing the modLoader and loaderVersion settings from neoforge.mods.toml.
+[29Oct2026 00:49:54.942] [main/WARN] [net.neoforged.fml.loading.LanguageProviderLoader/]: Mod jar(mods/rhino-2101.2.8-build.91.jar) is using the deprecated 'lowcodefml' language loader. This warning can be fixed by simply removing the modLoader and loaderVersion settings from neoforge.mods.toml.
+[29Oct2026 00:49:54.942] [main/WARN] [net.neoforged.fml.loading.LanguageProviderLoader/]: Mod jar(mods/Nullscape_26.1.2_v1.2.20.jar) is using the deprecated 'lowcodefml' language loader. This warning can be fixed by simply removing the modLoader and loaderVersion settings from neoforge.mods.toml.
+[29Oct2026 00:49:57.074] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - GraphLib3 (jar(mods/enderio-9.0.6-alpha.jar > GraphLib3-3.0.5.jar))
+ - accelerateddecay (jar(mods/accelerated-decay-neoforge-26.1.2.4.jar))
+ - aci (jar(mods/AdvancedCoreInfo-neoforge-26.1.2-1.5.0.jar))
+ - adrenaline (jar(mods/adrenaline-26.1.2-1.0.2.jar))
+ - advanced_ae (jar(mods/AdvancedAE-26.1.7.jar))
+ - ae2 (jar(mods/appliedenergistics2-26.1.13-beta.jar))
+ - ae2_pattern_restocker (jar(mods/ae2_pattern_restocker-neoforge-26.1-1.1.0.jar))
+ - ae2addonlib (jar(mods/AdvancedAE-26.1.7.jar > ae2addonlib-26.1.3-alpha.jar))
+ - ae2importexportcard (jar(mods/ae2importexportcard-26.1.2-2.3.1.jar))
+ - ae2netanalyser (jar(mods/AE2NetworkAnalyzer-26.1-1.0.0-neoforge.jar))
+ - ae2wtlib (jar(mods/ae2wtlib-26.1.2-beta.jar))
+ - ae2wtlib_api (jar(mods/ae2wtlib-26.1.2-beta.jar > de.mari_023.ae2wtlib_api-26.1.2-beta.jar))
+ - agritechevolved (jar(mods/agritechevolved-2.2.0.6+neoforge-mc26.1.2.jar))
+ - ali (jar(mods/AdvancedLootInfo-neoforge-26.1.2-2.5.0.jar))
+ - ancient_remnants (jar(mods/ancient_remnants-1.0.2.2-26.1.2.jar))
+ - anima (jar(mods/Anima-1.0.3+Neoforge-26.1.2.jar))
+ - animal_pen (jar(mods/animal_pen-neoforge-26.1-2.5.2.jar))
+ - animalgarden_alligatorgar (jar(mods/animalgarden-alligatorgar-1.0.0-neoforge-26.1.1.8.jar))
+ - animalgarden_bullshark (jar(mods/animalgarden-bullshark-1.1.1-neoforge-26.1.1.10.jar))
+ - animalgarden_crocodile (jar(mods/animalgarden-crocodile-1.1.0-neoforge-26.1.2.7.jar))
+ - animalgarden_seaotter (jar(mods/animalgarden-seaotter-1.1.1-neoforge-26.2.0.6.jar))
+ - animusnv (jar(mods/animusnv-26.1.2-5.2.20.jar))
+ - another_config_manager (jar(mods/another_config_manager-1.0.0.0.0-neoforge-26.1.2.jar))
+ - apollib (jar(mods/lithostitched-1.8.1-neoforge-26.1.jar > apollib-1.2.0-neoforge-26.1.jar))
+ - apotheosis (jar(mods/Apotheosis-26.1.2-9.1.0.jar))
+ - apothic_attributes (jar(mods/ApothicAttributes-26.1.2-3.1.0.jar))
+ - apothic_compats (jar(mods/apothic_compats-0.3.1.jar))
+ - apothic_enchanting (jar(mods/ApothicEnchanting-26.1.2-2.1.0.jar))
+ - apothic_spawners (jar(mods/ApothicSpawners-26.1.2-2.0.1.jar))
+ - appflux (jar(mods/AppliedFlux-26.1-1.0.4-neoforge.jar))
+ - applied_oritech (jar(mods/applied_oritech-1.0.4+26.1.2.jar))
+ - appliedcooking (jar(mods/appliedcooking-7.2.0.jar))
+ - aquarius_libs (jar(mods/aquariuslibs-1.2.0-neoforge-26.2.0.2.jar))
+ - architectural_building_wand (jar(mods/architectural-building-wand-1.3.1.jar))
+ - architectury (jar(mods/architectury-neoforge-20.1.17.jar))
+ - armor_cosmetic (jar(mods/armor_cosmetic-26.1.2-neoforge-26.1.2.78-1.1.3.jar))
+ - armorposer (jar(mods/ArmorPoser-neoforge-26.1.2-14.1.0.jar))
+ - arsmagicalegacy (jar(mods/arsmagicalegacy-26.1.2-1.7.1.jar))
+ - artifacts (jar(mods/artifacts-neoforge-15.1.3.jar))
+ - atlas_api (jar(mods/atlas_api-26.1.2-1.2.0.jar))
+ - attributefix (jar(mods/AttributeFix-neoforge-MC26.1.2-26.1.2.3.jar))
+ - auroral (jar(mods/auroral-26.1.2-1.5.11.jar))
+ - baguettelib (jar(mods/baguettelib-26.1.2-NeoForge-2.0.7.jar))
+ - balm (jar(mods/balm-neoforge-26.1.2-26.1.2.15.jar))
+ - bblcore (jar(mods/bblcore-26.1.2-12.6.12.jar))
+ - bcc (jar(mods/better-compatability-checker-neoforge-26.1.2.1.jar))
+ - beer (jar(mods/beer-26.1.2-1.4.4.jar))
+ - belts (jar(mods/belts-neoforge-2.0.0-exp1.jar))
+ - betteradvancedtooltips (jar(mods/better-advanced-tooltips-2601.1.0-build.11.jar))
+ - betterblockz (jar(mods/betterblockz-0.3.3-26.1.2-neoforge.jar))
+ - bettercaves (jar(mods/YungsBetterCaves-26.1.2-NeoForge-4.1.2.jar))
+ - betterfishtanks (jar(mods/betterfishtanks-1.4.1-26.1-neoforge.jar))
+ - betterfortresses (jar(mods/YungsBetterNetherFortresses-26.1.2-NeoForge-4.1.1.jar))
+ - bettermineshafts (jar(mods/YungsBetterMineshafts-26.1.2-NeoForge-6.1.1.jar))
+ - betterstrongholds (jar(mods/YungsBetterStrongholds-26.1.2-NeoForge-6.1.1.jar))
+ - bhc (jar(mods/baubley-heart-canisters-26.1.2-1.7.4.jar))
+ - bmaddon (jar(mods/RBMAddon26.1.2-beta3.jar))
+ - buildinggadgets2 (jar(mods/buildinggadgets2-26.1.2.1.jar))
+ - cable_facades (jar(mods/cable_facades-26.1.2-NeoForge-2.1.4.jar))
+ - cabletiers (jar(mods/cabletiers-neoforge-26.1.2-1.0.3.jar))
+ - cakesticklib (jar(mods/cakesticklib-1.18.2.jar))
+ - carryon (jar(mods/carryon-neoforge-26.1.2-2.10.0.jar))
+ - carryonextend (jar(mods/carryonextend-architectury-neoforge-26.1.2-1.5.1.jar))
+ - celesthyd (jar(mods/sg_economy-26.1.0.jar > celesthyd-26.1.0.jar))
+ - chisel (jar(mods/chisel-26.1.2.19.jar))
+ - chunky (jar(mods/Chunky-NeoForge-1.5.4.jar))
+ - cleanswing (jar(mods/cleanswing-1.9-26.1.jar))
+ - clickadv (jar(mods/clickadv-26.1-3.9.jar))
+ - cloth_config (jar(mods/cloth-config-26.1.154.jar))
+ - codedefinedgui (jar(mods/occultism-26.1.2-neoforge-1.257.2.jar > codedefinedgui-26.1.2-neoforge-1.12.0.jar))
+ - collapsible_groups (jar(mods/collapsible_groups-neoforge-26.1.2-2.0.0-beta5.jar))
+ - collective (jar(mods/collective-26.1.2-8.67.jar))
+ - colorblindness (jar(mods/colorblindness-neoforge-26.1-5.0.0.2.jar))
+ - colossal_reactors (jar(mods/colossal_reactors-2.5.0.0.0-neoforge-26.1.2.jar))
+ - combat_roll (jar(mods/combat_roll-neoforge-3.0.1+26.1.2.jar))
+ - comforts (jar(mods/comforts-neoforge-15.0.0+26.1.2.jar))
+ - commoncapabilities (jar(mods/commoncapabilities-26.1.2-neoforge-2.11.8.jar))
+ - compressium (jar(mods/compressium-26.1.2.1.jar))
+ - computercraft (jar(mods/cc-tweaked-26.1.2-forge-1.120.0.jar))
+ - configured (jar(mods/configured-neoforge-26.1.2-2.7.5.jar))
+ - connectedglass (jar(mods/connectedglass-1.1.14-neoforge-mc26.1.jar))
+ - constructionstick (jar(mods/ConstructionSticks-26.1.2-3.2.1.jar))
+ - context_matters (jar(mods/context-matters-0.9.1.jar))
+ - cookingforblockheads (jar(mods/cookingforblockheads-neoforge-26.1.2-26.1.2.6.jar))
+ - crafting_on_a_stick (jar(mods/crafting_on_a_stick-neoforge-26.1-1.1.jar))
+ - craftingtweaks (jar(mods/craftingtweaks-neoforge-26.1.2-26.1.2.3.jar))
+ - crashutilities (jar(mods/crashutilities-10.0.1.jar))
+ - crawl (jar(mods/crawl-mc26.1.2-neoforge-0.15.0.jar))
+ - creativecore (jar(mods/CreativeCore_NEOFORGE_v2.14.16_mc26.1.2.jar))
+ - crystalix (jar(mods/crystalix-4.1.1+26.1.2.jar))
+ - ctm (jar(mods/ctm-26.1.2.13.jar))
+ - ctov (jar(mods/[Neoforge]ctov-26-4.0.0.jar))
+ - cucumber (jar(mods/Cucumber-26.1.2-9.0.7.jar))
+ - cupboard (jar(mods/cupboard-26.1-4.1.jar))
+ - curios (jar(mods/curios-neoforge-15.0.0+26.1.2.jar))
+ - cyclopscore (jar(mods/cyclopscore-26.1.2-neoforge-1.31.3.jar))
+ - dankstorage (jar(mods/dankstorage-neoforge-26.1.2-2.jar))
+ - decorativewoodenlattices (jar(mods/Decorativewoodenlattices 26.1.2 - v1.0 - NeoForge.jar))
+ - decorz (jar(mods/decorz-0.1.1-26.1.2-neoforge.jar))
+ - deimos (jar(mods/deimos-26.1.2-neoforge-2.7.jar))
+ - dimenergy (jar(mods/dimenergy-26.1.2-1.1.0.jar))
+ - dimresources (jar(mods/dimresources-26.1.2-1.0.10.jar))
+ - dimstorage (jar(mods/DimStorage-26.1.2-10.0.1.jar))
+ - directorscamera (jar(mods/directorscamera-26.1.2-1.0.1.jar))
+ - doubledoors (jar(mods/doubledoors-26.1.2-7.2.jar))
+ - dragon_egg_respawns (jar(mods/dragon-egg-respawns-v1.0.3.jar))
+ - drones (jar(mods/drones-neoforge-26.1.2-1.3.2.jar))
+ - dsp (jar(mods/default-server-properties-neoforge-26.1.0.2.jar))
+ - dungeoncrawl (jar(mods/DungeonCrawl-NeoForge-26.1-2.3.17.jar))
+ - easy_npc (jar(mods/easy_npc-neoforge-26.1.2-7.17.1.jar))
+ - easy_piglins (jar(mods/easy-piglins-neoforge-1.1.7+26.1.2.jar))
+ - easy_villagers (jar(mods/easy-villagers-neoforge-1.1.42+26.1.2.jar))
+ - eccentrictome (jar(mods/eccentrictome-1.2.1.jar))
+ - eclipseui (jar(mods/EclipseUI-neoforge-1.0.4+mc26.1.jar))
+ - edivadlib (jar(mods/EdivadLib-26.1.2-4.0.1.jar))
+ - elevatorid (jar(mods/elevatorid-neoforge-26.1-1.16.2.jar))
+ - emojiful (jar(mods/Emojiful-Neoforge-26.1.2-5.3.2.jar))
+ - endercore (jar(mods/enderio-9.0.6-alpha.jar > com.enderio.endercore-9.0.6-alpha.jar))
+ - enderio (jar(mods/enderio-9.0.6-alpha.jar))
+ - enderio_evolution (jar(mods/enderio_evolution-4.0.1-NeoForge-26.1.2.jar))
+ - enderio_modded_conduits (jar(mods/enderio-9.0.6-alpha.jar > com.enderio.enderio-modded-conduits-9.0.6-alpha.jar))
+ - enderthing (jar(mods/Enderthing-26.1.2-1.10.3.jar))
+ - energizedpower (jar(mods/energizedpower-3.0.5+26.1.x-neoforge.jar))
+ - energymeter (jar(mods/energymeter-neoforge-26.1.2-0.5.1.jar))
+ - entangled (jar(mods/entangled-1.3.21-neoforge-mc26.1.jar))
+ - evilcraft (jar(mods/evilcraft-26.1.2-neoforge-1.2.108.jar))
+ - exmachina (jar(mods/morered-26.1.2.3.jar > exmachina-26.1.0.2.jar))
+ - exoconfig (jar(mods/ExoConfig-26.1.2-neoforge-0.3.6.jar))
+ - expandability (jar(mods/artifacts-neoforge-15.1.3.jar > expandability-neoforge-14.0.2.jar))
+ - explorerscompass (jar(mods/ExplorersCompass-26.1-3.3.0-neoforge.jar))
+ - explorify (jar(mods/Explorify v1.6.5.mod.jar))
+ - extendedae (jar(mods/ExtendedAE-26.1-1.0.4-neoforge.jar))
+ - extrastorage (jar(mods/ExtraStorage-26.1.2-6.1.0.jar))
+ - fancytabsections (jar(mods/fancytabsections-6.2-NEOFORGE-26.1.2.jar))
+ - farmingforblockheads (jar(mods/farmingforblockheads-neoforge-26.1.2-26.1.2.5.jar))
+ - fastbench (jar(mods/FastWorkbench-26.1.2-10.0.0.jar))
+ - fastfurnace (jar(mods/FastFurnace-26.1.2-10.0.0.jar))
+ - ferritecore (jar(mods/ferritecore-9.0.0-neoforge.jar))
+ - fertilization (jar(mods/fertilization-neoforge-26.1.2-26.1.2.3.jar))
+ - flatbedrock (jar(mods/flatbedrock-neoforge-99.0.0.jar))
+ - flickerfix (jar(mods/flickerfix-26.1-7.0.0.jar))
+ - flopper (jar(mods/flopper-26.1.2-neoforge-1.1.9.jar))
+ - forgeendertech (jar(mods/forgeendertech-26.1.0.0-neoforge-26.1.2-build.0046.jar))
+ - fragmentum (jar(mods/fragmentum-neoforge-26.1-4.1.0.jar))
+ - framedblocks (jar(mods/FramedBlocks-11.4.0.jar))
+ - framework (jar(mods/framework-neoforge-26.1.2-0.13.23.jar))
+ - frostbear (jar(mods/frostbear-neoforge-26.1.2-2.0.0.jar))
+ - ftbarmory (jar(mods/ftb-armory-26.1.2.11.jar))
+ - ftbbackups3 (jar(mods/ftb-backups-3-26.1.2.2.jar))
+ - ftbchunks (jar(mods/ftb-chunks-neoforge-26.1.2.9.jar))
+ - ftbechoes (jar(mods/ftb-echoes-26.1.2.2.jar))
+ - ftbessentials (jar(mods/ftb-essentials-neoforge-26.1.2.5.jar))
+ - ftbevolutioncompanion (jar(mods/ftb-evolution-companion-26.1.2.25.jar))
+ - ftbezcrystals (jar(mods/ftb-ez-crystals-26.1.2.1.jar))
+ - ftbfiltersystem (jar(mods/ftb-filter-system-neoforge-26.1.2.2.jar))
+ - ftbic (jar(mods/ftb-industrial-contraptions-26.1.2.20.jar))
+ - ftblibrary (jar(mods/ftb-library-neoforge-26.1.2.10.jar))
+ - ftbmaterials (jar(mods/ftb-materials-26.1.2.6.jar))
+ - ftbobsidian (jar(mods/ftb-obsidian-26.1.2.2.jar))
+ - ftboceanmobs (jar(mods/ftboceanmobs-26.1.2.1.jar))
+ - ftbpc (jar(mods/ftb-pack-companion-26.1.2.6.jar))
+ - ftbquests (jar(mods/ftb-quests-neoforge-26.1.2.9.jar))
+ - ftbranks (jar(mods/ftb-ranks-neoforge-26.1.2.4.jar))
+ - ftbteams (jar(mods/ftb-teams-neoforge-26.1.2.4.jar))
+ - ftbultimine (jar(mods/ftb-ultimine-neoforge-26.1.2.6.jar))
+ - ftbxmodcompat (jar(mods/ftb-xmod-compat-neoforge-26.1.2.5.jar))
+ - functionalstorage (jar(mods/functionalstorage-26.1.2-1.6.4.jar))
+ - fusion (jar(mods/fusion-1.3.16-neoforge-mc26.1.jar))
+ - fzzy_config (jar(mods/fzzy_config-0.7.7+26.1+neoforge.jar))
+ - gateways (jar(mods/GatewaysToEternity-26.1.2-6.0.2.jar))
+ - geckolib (jar(mods/geckolib-neoforge-26.1.2-5.5.2.jar))
+ - geore (jar(mods/GeOre-26.1.2-8.1.0.jar))
+ - getittogetherdrops (jar(mods/getittogetherdrops-neoforge-26.1.1-1.5.jar))
+ - glassential (jar(mods/Glassential-renewed-26.1.2-5.0.2.jar))
+ - glitchcore (jar(mods/GlitchCore-neoforge-26.1.2-26.1.2.0.2.jar))
+ - glodium (jar(mods/Glodium-26.1-1.2-neoforge.jar))
+ - goblintraders (jar(mods/goblintraders-neoforge-26.1.2-1.12.0.jar))
+ - graveless (jar(mods/graveless-neoforge-26.1.2-1.4.3.jar))
+ - growthacceleratortiers (jar(mods/growthacceleratortiers-2.0.0+26.1.2.jar))
+ - guideme (jar(mods/guideme-26.1.16-beta.jar))
+ - hats (jar(mods/hatsneoforge-26.1-1.2.0.jar))
+ - hephaestus (jar(mods/hephaestus-neoforge-26.1.2-1.0.19.jar))
+ - hephaestus_tools (jar(mods/hephaestus_tools-neoforge-26.1.2-1.0.11.jar))
+ - holosigns (jar(mods/HoloSigns-26.1-4.0.0.jar))
+ - hopour (jar(mods/HopoBetterUnderwaterRuins-[26.1]-1.2.7.jar))
+ - horsepowered (jar(mods/horsepowered-26.1.2-3.11.7.jar))
+ - horsingaround (jar(mods/HorsingAround-26.1.2-0.3.5.jar))
+ - hostilenetworks (jar(mods/HostileNeuralNetworks-26.1.2-7.0.0.jar))
+ - hugestructureblocks (jar(mods/huge-structure-blocks-neoforge-1.1.9.jar))
+ - iceandfire (jar(mods/iceandfire-2.2-beta.4.jar))
+ - iceberg (jar(mods/Iceberg-26.1.2-neoforge-1.4.1.2.jar))
+ - imfast (jar(mods/imfast-NEOFORGE-26.1.2-1.0.3.jar))
+ - in2bubble_simply_winged (jar(mods/simply-winged-1.0.1.jar))
+ - incendium (jar(mods/Incendium_26.1_v5.4.12.jar))
+ - infinitystorage (jar(mods/infinitystorage-26.1.2-2.0.3.jar))
+ - integrateddynamics (jar(mods/integrateddynamics-26.1.2-neoforge-1.36.2.jar))
+ - integratedterminals (jar(mods/integratedterminals-26.1.2-neoforge-1.11.1.jar))
+ - integratedtunnels (jar(mods/integratedtunnels-26.1.2-neoforge-1.13.2.jar))
+ - integration (jar(mods/iceandfire-2.2-beta.4.jar > integration-neoforge-0.2.jar))
+ - interdimensionalwirelesstransmitter (jar(mods/interdimensionalwirelesstransmitter-neoforge-26.1.2-1.0.1.jar))
+ - inventoryessentials (jar(mods/inventoryessentials-neoforge-26.1.2-26.1.2.7.jar))
+ - inventorytotem (jar(mods/inventorytotem-26.1.2-3.4.jar))
+ - ironfurnaces (jar(mods/ironfurnaces-neoforge-26.1.2-4.4.2.jar))
+ - ironjetpacks (jar(mods/IronJetpacks-26.1.2-9.0.3.jar))
+ - irons_artifice (jar(mods/irons_artifice-26.1.2-1.1.1.jar))
+ - irons_jewelry (jar(mods/irons_jewelry-26.1.2-2.0.2.1.jar))
+ - irons_lib (jar(mods/irons_lib-26.1.2-2.3.0.jar))
+ - iska_lib (jar(mods/iska_lib-1.12.0.1.0-neoforge-26.1.2.jar))
+ - itemcollectors (jar(mods/itemcollectors-1.1.12a-neoforge-mc26.1.jar))
+ - jade (jar(mods/Jade-mc26.1-NeoForge-26.1.12.jar))
+ - jamd (jar(mods/jamd-neo-26.1.1.1+mc26.1.1.jar))
+ - javd (jar(mods/javd-neo-26.1.1.0+mc26.1.1.jar))
+ - jearchaeology (jar(mods/jearchaeology-26.1.2-1.3.0.jar))
+ - jei (jar(mods/jei-26.1.2-neoforge-29.47.0.111.jar))
+ - jumpboat (jar(mods/jumpboat-26.1.2-1.0.6.jar))
+ - jupiter (jar(mods/jupiter-2.4.3-26.1.2-universal.jar))
+ - justdirefuels (jar(mods/justdirefuels-1.1.0-26.1.jar))
+ - justdirethings (jar(mods/justdirethings-1.6.11.jar))
+ - justdynathings (jar(mods/justdynathings-2.0-alpha-build-13.jar))
+ - justenoughcraftingtables (jar(mods/justenoughcraftingtables-26.1.2-1.0.0.jar))
+ - justenoughprofessions (jar(mods/JustEnoughProfessions-neoforge-26.1.2-11.0.2.jar))
+ - justhammers (jar(mods/just-hammers-neoforge-26.1.2.1.jar))
+ - keybindbundles (jar(mods/keybindbundles-2.0.0.jar))
+ - kindredspirits (jar(mods/kindredspirits-26.1.2-1.0.9.jar))
+ - konkrete (jar(mods/konkrete_neoforge_1.10.1_MC_26.1.1.jar))
+ - kotlinforforge (jar(mods/kotlinforforge-6.4.0-all.jar > thedarkcolour.kffmod-6.4.0.jar))
+ - kubejs (jar(mods/kubejs-neoforge-26.1.2-8.0.7.jar))
+ - kuma_api (jar(mods/balm-neoforge-26.1.2-26.1.2.15.jar > kuma-api-neoforge-26.1.2.2.jar))
+ - laserbridges (jar(mods/laserbridges-26.1.2-neoforge-6.2.jar))
+ - laserio (jar(mods/laserio-1.10.2.jar))
+ - libtooltips (jar(mods/libtooltips-2.3.2-NEOFORGE-26.1.2.jar))
+ - limacore (jar(mods/limacore-26.1.2-2.11.3.jar))
+ - lithostitched (jar(mods/lithostitched-1.8.1-neoforge-26.1.jar))
+ - little_big_redstone (jar(mods/little-big-redstone-1.9.11-26.1.2.jar))
+ - littlejoys (jar(mods/littlejoys-neoforge-26.1.2-26.1.2.5.jar))
+ - logisticsnetworks (jar(mods/logisticsnetworks-26.1.2-1.13.0.jar))
+ - lootr (jar(mods/lootr-neoforge-26.1.2-1.23.38.123.jar))
+ - ltxi (jar(mods/ltxi-26.1.2-2.4.3.jar))
+ - magicparticleslib (jar(mods/occultism-26.1.2-neoforge-1.257.2.jar > magicparticleslib-26.1.2-neoforge-1.4.0.jar))
+ - magnumtorch (jar(mods/MagnumTorch-v26.1.0-mc26.1.x-NeoForge.jar))
+ - malisisdoorsreborn (jar(mods/malisisdoorsreborn-neoforge-26.1.2-1.0.16.jar))
+ - malisisswitchesreborn (jar(mods/malisisswitchesreborn-neoforge-26.1.2-1.0.10.jar))
+ - matc (jar(mods/matc-1.8.0.jar))
+ - maxhealthfix (jar(mods/MaxHealthFix-neoforge-MC26.1.2-26.1.2.3.jar))
+ - mcwbridges (jar(mods/mcw-bridges-3.1.2-mc26.1neoforge.jar))
+ - mcwdoors (jar(mods/mcw-doors-1.1.5-mc26.1neoforge.jar))
+ - mcwlights (jar(mods/mcw-lights-1.1.5-mc26.1neoforge.jar))
+ - mcwpaths (jar(mods/mcw-paths-1.1.1-mc26.1neoforge.jar))
+ - mcwroofs (jar(mods/mcw-roofs-2.3.2-mc26.1neoforge.jar))
+ - mcwwindows (jar(mods/mcw-windows-2.4.2-mc26.1neoforge.jar))
+ - measurements (jar(mods/Measurements-neoforge-26.1-4.0.0.jar))
+ - meinfinitycell (jar(mods/meinfinitycell-26.1-1.0.0.jar))
+ - melody (jar(mods/melody_neoforge_1.0.16_MC_26.1.1.jar))
+ - mes (jar(mods/MoogsEndStructures-universal-1.21-2.1.1.jar))
+ - mezz_config (jar(mods/mezz_config-26.1.2-neoforge-0.6.9-standalone.jar > mezz_config-26.1.2-neoforge-0.6.9.jar))
+ - mezz_config_gui (jar(mods/mezz_config_gui-26.1.2-neoforge-mc26.1.2-0.5.10.jar))
+ - mffs (jar(mods/mffs-5.8.39.jar))
+ - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/26.1.2.121/minecraft-server-patched-26.1.2.121.jar))
+ - mining_helmet (jar(mods/mining_helmet-26.1.2-2.1.3.jar))
+ - mininggadgets (jar(mods/mininggadgets-1.19.3.jar))
+ - mint_lib (jar(mods/mint_lib-0.5.1-26.1-neoforge.jar))
+ - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/26.1.2.121/neoforge-26.1.2.121-universal.jar > mixinextras-neoforge-0.5.5.jar))
+ - mixinsquared.neoforge.beta._1 (jar(mods/cable_facades-26.1.2-NeoForge-2.1.4.jar > mixinsquared-neoforge-0.3.7-beta.1.jar))
+ - mns (jar(mods/MoogsNetherStructures-universal-1.21-3.1.1.jar))
+ - mobflowutilities (jar(mods/mobflowutilities-3.2.1.9-mc-26.1.2.jar))
+ - mochafloats (jar(mods/PlayerAnimationLibMerged-1.2.8+mc.26.1.jar > mochafloats-5.0.0.jar))
+ - modernfix (jar(mods/modernfix-neoforge-5.27.25+mc26.1.2.jar))
+ - modifiedbiomesource (jar(mods/modifiedbiomesource-neoforge-0.0.4+26.1.jar))
+ - modonomicon (jar(mods/modonomicon-26.1.2-neoforge-2.19.0.jar))
+ - modularrouters (jar(mods/modular-routers-26.1.2.2.jar))
+ - moogs_structures (jar(mods/MoogsStructureLib-neoforge-26.1.2-3.4.2.jar))
+ - morered (jar(mods/morered-26.1.2.3.jar))
+ - mr_ati_structuresfabricforge (jar(mods/ATi Structures V1.4.7.jar))
+ - mr_dungeons_andtavernsancientcityoverhaul (jar(mods/DnT-ancient-city-overhaul-3.3 [NeoForge].jar))
+ - mss (jar(mods/MoogsSoaringStructures-universal-1.21-2.2.0.jar))
+ - mtr (jar(mods/MoogsTemplesReimagined-universal-1.21-2.0.4.jar))
+ - mutantmonsters (jar(mods/MutantMonsters-v26.1.3-mc26.1.x-NeoForge.jar))
+ - mvs (jar(mods/MoogsVoyagerStructures-universal-1.21-5.1.3.jar))
+ - mystianapiary (jar(mods/mystianapiary-neoforge-1.10.jar))
+ - mysticalagradditions (jar(mods/MysticalAgradditions-26.1.2-9.0.4.jar))
+ - mysticalagriculture (jar(mods/MysticalAgriculture-26.1.2-9.0.11.jar))
+ - mysticalautomation (jar(mods/MysticalAutomation-26.1.2-2.0.7.jar))
+ - mysticalcustomization (jar(mods/MysticalCustomization-26.1.2-7.0.0.jar))
+ - nanitelibrary (jar(mods/nanite-library-neoforge-26.1.2.7.jar))
+ - naturalsizes (jar(mods/naturalsizes-1.2-neoforge-26.1.2.jar))
+ - naturescompass (jar(mods/NaturesCompass-26.1-3.3.0-neoforge.jar))
+ - nautec (jar(mods/nautec-26.1.2-NeoForge-2.0.21.jar))
+ - neoforge (jar(~libraries/net/neoforged/neoforge/26.1.2.121/neoforge-26.1.2.121-universal.jar))
+ - neosync (jar(mods/NeoSync-26.1.2-1.7.3.jar))
+ - neovitae (jar(mods/neovitae-26.1.2-1.1.49.jar))
+ - nerb (jar(mods/nerb-neoforge-0.4.3+26.1.2.jar))
+ - net.mezzdev.config.neoforge.distribution (jar(mods/mezz_config-26.1.2-neoforge-0.6.9-standalone.jar))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+ - netherportalfix (jar(mods/netherportalfix-neoforge-26.1-26.1.0.1.jar))
+ - nodeworks (jar(mods/nodeworks-0.11.3.jar))
+ - nullscape (jar(mods/Nullscape_26.1.2_v1.2.20.jar))
+ - nutritional (jar(mods/nutritional-26.1.2-1.2.4.jar))
+ - obsidianboat (jar(mods/obsidianboat-neo-26.1.1.0+mc26.1.1.jar))
+ - occultcooking (jar(mods/occultcooking-2.0.0.jar))
+ - occultism (jar(mods/occultism-26.1.2-neoforge-1.257.2.jar))
+ - oracle_index (jar(mods/oracle_index-neoforge-2.0.0.jar))
+ - orenocommons (jar(mods/modifiedbiomesource-neoforge-0.0.4+26.1.jar > orenocommons-neoforge-0.0.9a+26.1.jar))
+ - oritech (jar(mods/oritech-2.0.0-exp12.jar))
+ - oritechthings (jar(mods/oritechthings-0.1.8.jar))
+ - overflowingbars (jar(mods/OverflowingBars-v26.1.0-mc26.1.x-NeoForge.jar))
+ - pantryforblockheads (jar(mods/pantryforblockheads-neoforge-26.1.2-26.1.2.8.jar))
+ - paraglider (jar(mods/Paraglider-neoforge-26.1.2.jar))
+ - patchouli (jar(mods/patchouli-neoforge-26.1-94.jar))
+ - peekaboo (jar(mods/peekaboo-1.0.0+26.1.1.jar))
+ - peekaboo_api (jar(mods/peekaboo-1.0.0+26.1.1.jar > org.lovetropics.peekaboo-api-1.0.0+26.1.1.jar))
+ - pipe_connector (jar(mods/pipe_connector-neoforge-0.6.8.jar))
+ - pipe_graph (jar(mods/pipe-graph-0.9.1.jar))
+ - pipez (jar(mods/pipez-neoforge-1.2.31+26.1.2.jar))
+ - pipezlagfix (jar(mods/pipezlagfix-26.1.2-1.1.0.jar))
+ - placebo (jar(mods/Placebo-26.1.2-10.0.2.jar))
+ - player_animation_library (jar(mods/PlayerAnimationLibMerged-1.2.8+mc.26.1.jar))
+ - plonk (jar(mods/plonk-26.1.2-10.0.10-neo.jar))
+ - polylib (jar(mods/polylib-neoforge-26.1.2-2.0.11.jar))
+ - potentials (jar(mods/potentials-neoforge-26.1.2-0.11.1.jar))
+ - powah (jar(mods/Powah-7.0.4-alpha.jar))
+ - preview_placement (jar(mods/morered-26.1.2.3.jar > preview_placement-26.1.2.0.jar))
+ - prickle (jar(mods/PrickleMC-neoforge-MC26.1.2-26.1.2.6.jar))
+ - productivebees (jar(mods/productivebees-26.1.2-15.4.0.jar))
+ - productivefarming (jar(mods/productivefarming-26.1.2-0.13.0.jar))
+ - productivelib (jar(mods/productivebees-26.1.2-15.4.0.jar > productivelib-26.1.2-0.4.9.jar))
+ - puffish_attributes (jar(mods/puffish_attributes-0.8.2-26.1-neoforge.jar))
+ - puffish_skills (jar(mods/puffish_skills-0.19.2-26.1-neoforge.jar))
+ - puzzleslib (jar(mods/puzzleslib-v26.1.16-mc26.1.x+neoforge.jar))
+ - pylons (jar(mods/pylons-26.1-6.0.1.jar))
+ - quantumcubes (jar(mods/quantumcubes-neoforge-26.1.2-1.0.3.jar))
+ - rainshield (jar(mods/RainShield-26.1.2-2.0.0.jar))
+ - randombonemealflowers (jar(mods/randombonemealflowers-26.1.2-4.7.jar))
+ - recursiveae2patternprovider (jar(mods/recursiveae2patternprovider-1.1.2.jar))
+ - refinedcooking (jar(mods/refinedcooking-neoforge-26.1.2-7.3.1.jar))
+ - refinedfluidsubstitution (jar(mods/refinedfluidsubstitution-neoforge-26.1.2-1.0.1.jar))
+ - refinedstorage (jar(mods/refinedstorage-neoforge-3.2.1.jar))
+ - refinedstorage_curios_integration (jar(mods/refinedstorage-curios-integration-2.0.1.jar))
+ - refinedstorage_jei_integration (jar(mods/refinedstorage-jei-integration-neoforge-2.0.1.jar))
+ - refinedstorage_quartz_arsenal (jar(mods/refinedstorage-quartz-arsenal-neoforge-2.0.6.jar))
+ - refinedtypes (jar(mods/refined-types-26.1.2-1.0.2.jar))
+ - reliquary (jar(mods/reliquary-26.1.2-2.0.94.1582.jar))
+ - rep_ae2_bridge (jar(mods/rep_ae2_bridge-3.0.0.0.0-neoforge-26.1.2.jar))
+ - replication (jar(mods/Replication-26.1.2-1.2.8.jar))
+ - resettable_trial_chambers (jar(mods/resettable_trial_chambers-1.1.0-neoforge-26.1.x.jar))
+ - resonance (jar(mods/resonance-neoforge-26.1.2-1.0.2.jar))
+ - resourcefulconfig (jar(mods/lootr-neoforge-26.1.2-1.23.38.123.jar > resourcefulconfig-neoforge-26.1-4.0.1.jar))
+ - retrofactorymanager (jar(mods/retrofactorymanager-26.1.2-1.0.3.jar))
+ - rhino (jar(mods/rhino-2101.2.8-build.91.jar))
+ - rootsclassic (jar(mods/RootsClassic-26.1.2-1.6.7.jar))
+ - rsinsertexportupgrade (jar(mods/refinedwirelessupgrades-neoforge-26.1.2-3.0.1.jar))
+ - rsrreforged (jar(mods/rsrreforged-neoforge-26.1.2-1.0.3.jar))
+ - sathlib (jar(mods/crystalix-4.1.1+26.1.2.jar > sathlib-1.1.0+26.1.2.jar))
+ - scannable (jar(mods/ScannableReforged-MC26.1.2-neoforge-1.0.1.jar))
+ - searchables (jar(mods/Searchables-neoforge-26.1.2-1.0.2.jar))
+ - selling_bin (jar(mods/selling_bin-1.6-NEOFORGE-26.1.2.jar))
+ - servercore (jar(mods/servercore-neoforge-1.5.19+26.1.2.jar))
+ - sfm (jar(mods/Super Factory Manager (SFM)-MC26.1.2-4.34.0.jar))
+ - sg_economy (jar(mods/sg_economy-26.1.0.jar))
+ - shatterlib (jar(mods/shatterlib-neoforge-0.7.0+26.1.2.jar))
+ - shogi (jar(mods/shogi-neoforge-26.1.2-26.1.2.12.jar))
+ - shogi_api (jar(mods/shogi-neoforge-26.1.2-26.1.2.12.jar > net.blay09.mods.shogi-api-26.1.2.12.jar))
+ - shrink (jar(mods/shrink-neoforge-26.1.2-2.1.1.jar))
+ - simple_weather (jar(mods/simple_weather-1.1.15.jar))
+ - simplemagnets (jar(mods/simplemagnets-1.1.12-neoforge-mc26.1.jar))
+ - simpleteleporters (jar(mods/SimpleTeleportersReforged-26.1.2-5.1.0.jar))
+ - sky_aesthetics (jar(mods/sky_aesthetics-neoforge-2.2.0.jar))
+ - sophisticatedbackpacks (jar(mods/sophisticatedbackpacks-26.1.2-3.26.17.2229.jar))
+ - sophisticatedcore (jar(mods/sophisticatedcore-26.1.2-1.5.20.2437.jar))
+ - sophisticatedinventoryinteractions (jar(mods/sophisticatedinventoryinteractions-26.1.2-0.1.19.231.jar))
+ - sophisticateditemactions (jar(mods/sophisticateditemactions-26.1.2-0.4.18.439.jar))
+ - sophisticatedstorage (jar(mods/sophisticatedstorage-26.1.2-1.5.125.2202.jar))
+ - sophisticatedstorageinmotion (jar(mods/sophisticatedstorageinmotion-26.1.2-0.10.38.384.jar))
+ - spark (jar(mods/spark-1.10.187-neoforge.jar))
+ - spectrelib (jar(mods/comforts-neoforge-15.0.0+26.1.2.jar > spectrelib-neoforge-0.21.0+26.1.2.jar))
+ - squatgrow (jar(mods/squatgrow-neoforge-26.1.2.2.jar))
+ - starcatcher (jar(mods/starcatcher-3.3.10.2-NEOFORGE-26.1.2.jar))
+ - stellaris (jar(mods/stellaris-26.1.2-neoforge-2.0.9.jar))
+ - stepcrafter (jar(mods/stepcrafter-neoforge-26.1.2-1.0.4.jar))
+ - structureessentials (jar(mods/structureessentials-26.1-5.1.jar))
+ - structurify (jar(mods/structurify-neoforge-2.0.43+mc26.1.2.jar))
+ - supermartijn642configlib (jar(mods/supermartijn642configlib-1.1.8-neoforge-mc26.1.jar))
+ - supermartijn642corelib (jar(mods/supermartijn642corelib-1.1.26-neoforge-mc26.1.jar))
+ - tectonic (jar(mods/tectonic-3.0.28-neoforge-26.1.jar))
+ - terrablender (jar(mods/TerraBlender-neoforge-26.1.2-26.1.2.0.3.jar))
+ - terralith (jar(mods/Terralith_26.1_v2.6.1_Neoforge.jar))
+ - tesseract (jar(mods/tesseract-1.0.39-neoforge-mc26.1.jar))
+ - tesseract.api (jar(mods/tesseract-api-neoforge-1.13.6-26.1.2.jar > tesseract-api-1.0.2.jar))
+ - tesseract_api (jar(mods/tesseract-api-neoforge-1.13.6-26.1.2.jar))
+ - thedarkcolour.kfflib (jar(mods/kotlinforforge-6.4.0-all.jar > thedarkcolour.kfflib-6.4.0.jar))
+ - thunderrelics (jar(mods/26.1.2-neoforge-Thunder Relics-1.4.jar))
+ - tiab (jar(mods/tiab-neoforge-8.0.0.jar))
+ - tiny_config (jar(mods/combat_roll-neoforge-3.0.1+26.1.2.jar > tiny-config-3.1.0-neoforge.jar))
+ - tinymultiblocklib (jar(mods/starcatcher-3.3.10.2-NEOFORGE-26.1.2.jar > tiny-multiblock-lib-neo-26.1-4.0.0.jar))
+ - titanium (jar(mods/titanium-26.1.2-4.0.16.jar))
+ - toolbelt (jar(mods/ToolBelt-26.1.2-2.9.5.jar))
+ - trainingdummy (jar(mods/trainingdummy-1.9.0+mc26.1.2.jar))
+ - tramplestopper (jar(mods/tramplestopper-neo-26.1.1.0+mc26.1.1.jar))
+ - transparentae2 (jar(mods/transparentae2-26.1.2-1.1.1.jar))
+ - trashcans (jar(mods/trashcans-1.1.2-neoforge-mc26.1.jar))
+ - trashslot (jar(mods/trashslot-neoforge-26.1.2-26.1.2.4.jar))
+ - travelerstitles (jar(mods/TravelersTitles-26.1.2-NeoForge-6.1.0.jar))
+ - trenzalore (jar(mods/trenzalore-neo-26.1.2.1+mc26.1.2.jar))
+ - trimeffects (jar(mods/trimeffects-neoforge-mc26.1.2-2.1.1.jar))
+ - underwater_village (jar(mods/underwater_village-1.0.0 Neoforge 26.1.2.jar))
+ - universalgrid (jar(mods/universalgrid-neoforge-26.1.2-1.0.2.jar))
+ - uranus (jar(mods/uranus-3.0-alpha.1.jar))
+ - utilitarian (jar(mods/utilitarian-26.1.2-0.22.0.jar))
+ - volumetrics (jar(mods/volumetrics-1.0.17.jar))
+ - waystones (jar(mods/waystones-neoforge-26.1.2-26.1.2.16.jar))
+ - wdutils (jar(mods/starcatcher-3.3.10.2-NEOFORGE-26.1.2.jar > wdUtils-2.0-NEOFORGE-26.1.2.jar))
+ - weathergate (jar(mods/weathergate-neo-26.1.1.0+mc26.1.1.jar))
+ - whatthebucket (jar(mods/WhatTheBucket-neoforge-MC26.1.2-26.1.2.2.jar))
+ - witchery (jar(mods/witchery-0.5.34+mc26.1.2.jar))
+ - witchery_forbidden_magic (jar(mods/witchery_forbidden_magic-0.5.27+mc26.1.2.jar))
+ - wits (jar(mods/wits-1.4.3+26.1-neoforge.jar))
+ - xycraft_core (jar(mods/xycraft-core-0.9.2.jar))
+ - xycraft_machines (jar(mods/xycraft-machines-0.9.2.jar))
+ - xycraft_world (jar(mods/xycraft-world-0.9.2.jar))
+ - yet_another_config_lib_v3 (jar(mods/yet_another_config_lib_v3-3.9.7+26.1-neoforge.jar))
+ - yungsapi (jar(mods/YungsApi-26.1.2-NeoForge-6.1.3.jar))
+ - yungsbridges (jar(mods/YungsBridges-26.1.2-NeoForge-6.1.0.jar))
+ - yungscavebiomes (jar(mods/YungsCaveBiomes-26.1.2-NeoForge-4.1.1.jar))
+ - yungsextras (jar(mods/YungsExtras-26.1.2-NeoForge-6.1.0.jar))
+ - z_core (jar(mods/z_core-0.1.3-26.1.2-neoforge.jar))
+[29Oct2026 00:49:57.708] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 1621ms
+[29Oct2026 00:49:57.894] [main/INFO] [net.neoforged.fml.loading.mixin.MixinFacade/]: Mixin config lootr-neoforge-digsite_workshop.mixins.json from jar(mods/lootr-neoforge-26.1.2-1.23.38.123.jar) not applied as required mod 'digsite_workshop' is missing
+[29Oct2026 00:49:57.912] [main/INFO] [net.neoforged.fml.loading.mixin.MixinFacade/]: Mixin config sophisticatedcore.create.mixins.json from jar(mods/sophisticatedcore-26.1.2-1.5.20.2437.jar) not applied as required mod 'create' is missing
+[29Oct2026 00:49:58.280] [main/WARN] [mixin/]: Reference map 'tinymultiblocklib.refmap.json' for tinymultiblocklib.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.281] [main/WARN] [mixin/]: Reference map 'forgeendertech.refmap.json' for forgeendertech.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.553] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix [unknown]: 76 options available, 2 override(s) found
+[29Oct2026 00:49:58.555] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[29Oct2026 00:49:58.556] [main/WARN] [ModernFix/]: Option 'mixin.perf.deduplicate_climate_parameters' overriden (by user configuration) to 'true'
+[29Oct2026 00:49:58.557] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29Oct2026 00:49:58.572] [main/WARN] [mixin/]: Reference map 'clickadv.refmap.json' for clickadv.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.576] [main/WARN] [mixin/]: Reference map 'productivefarming.refmap.json' for productivefarming.mixin.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.578] [main/WARN] [mixin/]: Reference map 'productivefarming.refmap.json' for productivefarming.compat.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.591] [main/WARN] [mixin/]: Reference map 'sfm.refmap.json' for sfm.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.595] [main/WARN] [mixin/]: Reference map 'mining_helmet.refmap.json' for mining_helmet.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.596] [main/WARN] [mixin/]: Reference map 'irons_lib.refmap.json' for irons_lib.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.600] [main/WARN] [mixin/]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.602] [main/WARN] [mixin/]: Reference map 'laserbridges.refmap.json' for laserbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.619] [main/WARN] [mixin/]: Reference map 'terrablender.refmap.json' for terrablender.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.622] [main/WARN] [mixin/]: Reference map 'neovitae.refmap.json' for neovitae.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.628] [main/WARN] [mixin/]: Reference map 'occultism.refmap.json' for occultism.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.644] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.669] [main/WARN] [mixin/]: Reference map 'structureessentials.refmap.json' for structureessentials.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.670] [main/WARN] [mixin/]: Reference map 'glassential.refmap.json' for glassential.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.677] [main/WARN] [mixin/]: Reference map 'fastfurnace.refmap.json' for fastfurnace.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.678] [main/WARN] [mixin/]: Reference map 'mixins.malisisswitchesreborn.refmap.json' for mixins.malisisswitchesreborn.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.962] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.968] [main/WARN] [mixin/]: Reference map 'utilitarian.refmap.json' for utilitarian.mixin.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.973] [main/WARN] [mixin/]: Reference map 'baguettelib.refmap.json' for baguettelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.981] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.984] [main/WARN] [mixin/]: Reference map 'contextmatters.refmap.json' for META-INF/context_matters.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:58.985] [main/WARN] [mixin/]: Reference map 'framework.refmap.json' for framework.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.010] [main/WARN] [mixin/]: Reference map 'travelerstitles.refmap.json' for travelerstitles.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.015] [main/WARN] [mixin/]: Reference map 'oritechthings.refmap.json' for oritechthings.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.024] [main/WARN] [mixin/]: Reference map 'apothic_spawners.refmap.json' for apothic_spawners.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.027] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.031] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.034] [main/WARN] [mixin/]: Reference map 'enderio_evolution.refmap.json' for mixins.enderio_evolution.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.035] [main/WARN] [mixin/]: Reference map 'fastbench.refmap.json' for fastbench.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.113] [main/WARN] [mixin/]: Reference map 'limacore.refmap.json' for limacore.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.120] [main/WARN] [mixin/]: Reference map 'collapsible_groups.refmap.json' for collapsible_groups.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.155] [main/WARN] [mixin/]: Reference map 'emojiful.refmap.json' for emojiful.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.160] [main/WARN] [mixin/]: Reference map 'yungsbridges.refmap.json' for yungsbridges.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.162] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.306] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.311] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.312] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.316] [main/WARN] [mixin/]: Reference map 'deimos.refmap.json' for deimos.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.320] [main/WARN] [mixin/]: Reference map 'crafting_on_a_stick.refmap.json' for crafting_on_a_stick.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.327] [main/WARN] [mixin/]: Reference map 'ftbbackups3.refmap.json' for ftbbackups3.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.333] [main/WARN] [mixin/]: Reference map 'structurify.refmap.json' for structurify-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.335] [main/WARN] [mixin/]: Reference map 'structurify.refmap.json' for structurify-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.338] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.344] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.379] [main/WARN] [mixin/]: Reference map 'xycraft_core.refmap.json' for META-INF/xycraft_core.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.384] [main/WARN] [mixin/]: Reference map 'easy_npc.refmap.json' for easy_npc.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.386] [main/WARN] [mixin/]: Reference map 'netherportalfix.refmap.json' for netherportalfix.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.398] [main/WARN] [mixin/]: Reference map 'ftbevolutioncompanion.refmap.json' for ftbevolutioncompanion.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.404] [main/WARN] [mixin/]: Reference map 'dankstorage.refmap.json' for dankstorage.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.415] [main/WARN] [mixin/]: Reference map 'xycraft_core.refmap.json' for META-INF/xycraft_machines.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.417] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.418] [main/WARN] [mixin/]: Reference map 'apotheosis.refmap.json' for apotheosis.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.438] [main/WARN] [mixin/]: Reference map 'productivebees.refmap.json' for productivebees.mixin.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.441] [main/WARN] [mixin/]: Reference map 'mixins.justdirethings.refmap.json' for mixins.justdirethings.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.441] [main/WARN] [mixin/]: Reference map 'mixins.justdirefuels.refmap.json' for mixins.justdirefuels.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.448] [main/WARN] [mixin/]: Reference map 'irons_jewelry.refmap.json' for irons_jewelry.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.455] [main/WARN] [mixin/]: Reference map 'cucumber.refmap.json' for cucumber.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.459] [main/WARN] [mixin/]: Reference map 'productivelib.refmap.json' for productivelib.mixin.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.466] [main/WARN] [mixin/]: Reference map 'yungscavebiomes.refmap.json' for yungscavebiomes.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.466] [main/WARN] [mixin/]: Reference map 'yungscavebiomes.refmap.json' for yungscavebiomes_neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.490] [main/WARN] [mixin/]: Reference map 'hephaestus_tools.refmap.json' for hephaestus_tools.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.508] [main/WARN] [mixin/]: Reference map 'ltxi.refmap.json' for ltxi.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.518] [main/WARN] [mixin/]: Reference map 'mixins.aae.refmap.json' for mixins.aae.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.532] [main/WARN] [mixin/]: Reference map 'bmaddon.refmap.json' for bmaddon.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.541] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.546] [main/WARN] [mixin/]: Reference map 'animusnv.refmap.json' for animusnv.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:49:59.549] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[29Oct2026 00:50:00.166] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.AbstractContainerScreen)
+[29Oct2026 00:50:00.168] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found stepcrafter.mixins.json:AbstractContainerScreenAccessor from mod stepcrafter
+[29Oct2026 00:50:00.879] [main/WARN] [mixin/]: Error loading class: com/refinedmods/refinedstorage/block/shape/ShapeCache (java.lang.ClassNotFoundException: com.refinedmods.refinedstorage.block.shape.ShapeCache)
+[29Oct2026 00:50:01.151] [main/WARN] [mixin/]: Error loading class: com/teammetallurgy/aquaculture/entity/AquaFishingBobberEntity (java.lang.ClassNotFoundException: com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity)
+[29Oct2026 00:50:01.151] [main/WARN] [mixin/]: @Mixin target com.teammetallurgy.aquaculture.entity.AquaFishingBobberEntity was not found littlejoys.neoforge.mixins.json:AquaFishingBobberEntityMixin from mod littlejoys
+[29Oct2026 00:50:01.442] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/SchematicPrinter (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.SchematicPrinter)
+[29Oct2026 00:50:01.549] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[29Oct2026 00:50:02.254] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[29Oct2026 00:50:02.402] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Minecraft (java.lang.ClassNotFoundException: net.minecraft.client.Minecraft)
+[29Oct2026 00:50:02.405] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Minecraft was not found animal_pen.mixins.json:MinecraftAccessor from mod animal_pen
+[29Oct2026 00:50:02.682] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found ae2importexportcard.mixins.json:AbstractContainerScreenAccessor from mod ae2importexportcard
+[29Oct2026 00:50:02.793] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[29Oct2026 00:50:02.799] [main/WARN] [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+[29Oct2026 00:50:03.225] [main/WARN] [mixin/]: Error loading class: com/almostreliable/lootjs/loot/modifier/handler/DropExperienceAction (java.lang.ClassNotFoundException: com.almostreliable.lootjs.loot.modifier.handler.DropExperienceAction)
+[29Oct2026 00:50:03.227] [main/WARN] [mixin/]: @Mixin target com.almostreliable.lootjs.loot.modifier.handler.DropExperienceAction was not found ali.lootjs.mixins.json:MixinDropExperienceAction from mod ali
+[29Oct2026 00:50:03.228] [main/WARN] [mixin/]: Error loading class: com/almostreliable/lootjs/loot/modifier/handler/ExplodeAction (java.lang.ClassNotFoundException: com.almostreliable.lootjs.loot.modifier.handler.ExplodeAction)
+[29Oct2026 00:50:03.230] [main/WARN] [mixin/]: @Mixin target com.almostreliable.lootjs.loot.modifier.handler.ExplodeAction was not found ali.lootjs.mixins.json:MixinExplodeAction from mod ali
+[29Oct2026 00:50:03.232] [main/WARN] [mixin/]: Error loading class: com/almostreliable/lootjs/loot/modifier/handler/LightningStrikeAction (java.lang.ClassNotFoundException: com.almostreliable.lootjs.loot.modifier.handler.LightningStrikeAction)
+[29Oct2026 00:50:03.232] [main/WARN] [mixin/]: @Mixin target com.almostreliable.lootjs.loot.modifier.handler.LightningStrikeAction was not found ali.lootjs.mixins.json:MixinLightningStrikeAction from mod ali
+[29Oct2026 00:50:03.233] [main/WARN] [mixin/]: Error loading class: com/almostreliable/lootjs/LootModificationsAPI (java.lang.ClassNotFoundException: com.almostreliable.lootjs.LootModificationsAPI)
+[29Oct2026 00:50:03.234] [main/WARN] [mixin/]: @Mixin target com.almostreliable.lootjs.LootModificationsAPI was not found ali.lootjs.mixins.json:MixinLootModificationsAPI from mod ali
+[29Oct2026 00:50:03.559] [main/WARN] [mixin/]: Error loading class: me/cg360/mod/bridging/compat/handler/DankStorageHandler (java.lang.ClassNotFoundException: me.cg360.mod.bridging.compat.handler.DankStorageHandler)
+[29Oct2026 00:50:03.559] [main/WARN] [mixin/]: @Mixin target me.cg360.mod.bridging.compat.handler.DankStorageHandler was not found ftbevolutioncompanion.mixins.json:compat.bridging.BridgingDankSelectedItemMixin from mod ftbevolutioncompanion
+[29Oct2026 00:50:04.365] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/components/DebugScreenOverlay (java.lang.ClassNotFoundException: net.minecraft.client.gui.components.DebugScreenOverlay)
+[29Oct2026 00:50:04.366] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.components.DebugScreenOverlay was not found kubejs.mixins.json:DebugScreenOverlayMixin from mod kubejs
+[29Oct2026 00:50:04.927] [main/INFO] [STDOUT/]: [com.lumengrid.recursiveae2patternprovider.mixin.RecursiveAE2MixinPlugin:shouldApplyMixin:34]: [RecursiveAE2PatternProvider] ExtendedAEPlus not found, skipping SuperAssemblerMatrixClusterMixin
+[29Oct2026 00:50:04.940] [main/WARN] [mixin/]: Error loading class: com/lhy/wcwt/menu/WirelessComprehensiveWorkTerminalMenu (java.lang.ClassNotFoundException: com.lhy.wcwt.menu.WirelessComprehensiveWorkTerminalMenu)
+[29Oct2026 00:50:04.941] [main/WARN] [mixin/]: @Mixin target com.lhy.wcwt.menu.WirelessComprehensiveWorkTerminalMenu was not found recursiveae2patternprovider.mixins.json:WirelessComprehensiveWorkTerminalMenuMixin from mod recursiveae2patternprovider
+[29Oct2026 00:50:05.438] [main/INFO] [dev.ftb.mods.ftbevolutioncompanion.CompanionMixinPlugin/]: Moved 1 Growth Accelerator Tiers GeOre injection(s) to the GeOre 8.1.0+ randomTick
+[29Oct2026 00:50:05.976] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[29Oct2026 00:50:06.414] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method decoratedId in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Oct2026 00:50:07.360] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.33 s after launch)
+[29Oct2026 00:50:08.067] [main/WARN] [mixin/]: Method overwrite conflict for setWasTouchingWater in animal_pen.mixins.json:accessors.EntityAccessor from mod animal_pen, previously written by de.markusbordihn.easynpc.mixin.entity.EntityWaterStateMixin. Skipping method.
+[29Oct2026 00:50:20.251] [main/WARN] [mixin/]: Method overwrite conflict for clone in modifiedbiomesource.mixins.json:ClimateParameterListMixin from mod modifiedbiomesource, previously written by terrablender.mixin.MixinParameterList. Skipping method.
+[29Oct2026 00:50:21.313] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 13939 milliseconds
+[29Oct2026 00:50:23.029] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.1.2.121, for MC 26.1.2
+[29Oct2026 00:50:25.127] [modloading-worker-0/INFO] [dev.wuffs.bcc.BetterCompatibilityChecker/]: Better Compatibility Checker starting
+[29Oct2026 00:50:25.163] [modloading-worker-0/INFO] [dev.ftb.mods.ftbmaterials.resources.ResourceRegistries/]: Initializing resource registry holders
+[29Oct2026 00:50:25.345] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: Config spec system detected, register to Jupiter Config System.
+[29Oct2026 00:50:25.357] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: Cloth Config API detected, register to Jupiter Config System.
+[29Oct2026 00:50:25.377] [modloading-worker-0/INFO] [com.breakinblocks.auroral.Auroral/]: Auroral initializing...
+[29Oct2026 00:50:25.447] [modloading-worker-0/INFO] [com.breakinblocks.auroral.Auroral/]: Auroral initialized successfully!
+[29Oct2026 00:50:25.525] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] The frozen north stirs...
+[29Oct2026 00:50:25.532] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering sounds
+[29Oct2026 00:50:25.540] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering status effects
+[29Oct2026 00:50:25.542] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering particles
+[29Oct2026 00:50:25.561] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering entities
+[29Oct2026 00:50:25.563] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering blocks
+[29Oct2026 00:50:25.572] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] Registering items
+[29Oct2026 00:50:25.579] [modloading-worker-0/INFO] [frostbear/]: [FrostBear] NeoForge initialization registered.
+[29Oct2026 00:50:25.738] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for fertilization:common (COMMON) with 11 properties.
+[29Oct2026 00:50:25.745] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for littlejoys:common (COMMON) with 35 properties.
+[29Oct2026 00:50:25.926] [modloading-worker-0/INFO] [com.convallyria.hugestructureblocks.HugeStructureBlocksMod/]: Huge Structure Blocks is now making your structure blocks even bigger!
+[29Oct2026 00:50:25.927] [modloading-worker-0/INFO] [com.convallyria.hugestructureblocks.HugeStructureBlocksMod/]: New structure size = 512
+[29Oct2026 00:50:26.238] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.client.registry.SFMMenuScreens#registerPip(Lnet/neoforged/neoforge/client/event/RegisterPictureInPictureRenderersEvent;)V}
+[29Oct2026 00:50:26.241] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.client.registry.SFMMenuScreens#register(Lnet/neoforged/neoforge/client/event/RegisterMenuScreensEvent;)V}
+[29Oct2026 00:50:26.262] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.block_network.CableNetworkManager#onLevelUnload(Lnet/neoforged/neoforge/event/level/LevelEvent$Unload;)V}
+[29Oct2026 00:50:26.262] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.block_network.CableNetworkManager#onChunkUnload(Lnet/neoforged/neoforge/event/level/ChunkEvent$Unload;)V}
+[29Oct2026 00:50:26.267] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.block_network.WaterNetworkManager#onLevelUnload(Lnet/neoforged/neoforge/event/level/LevelEvent$Unload;)V}
+[29Oct2026 00:50:26.267] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.block_network.WaterNetworkManager#onChunkUnload(Lnet/neoforged/neoforge/event/level/ChunkEvent$Unload;)V}
+[29Oct2026 00:50:26.293] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.command.SFMCommand#onRegisterCommand(Lnet/neoforged/neoforge/event/RegisterCommandsEvent;)V}
+[29Oct2026 00:50:26.294] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.config.SFMConfigTracker$GameConfigEventListeners#onServerStopped(Lnet/neoforged/neoforge/event/server/ServerStoppedEvent;)V}
+[29Oct2026 00:50:26.298] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.config.SFMConfigTracker$ModConfigEventListeners#onConfigReloaded(Lnet/neoforged/fml/event/config/ModConfigEvent$Reloading;)V}
+[29Oct2026 00:50:26.298] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.config.SFMConfigTracker$ModConfigEventListeners#onConfigLoaded(Lnet/neoforged/fml/event/config/ModConfigEvent$Loading;)V}
+[29Oct2026 00:50:26.298] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.config.SFMServerConfig#onConfigReloaded(Lnet/neoforged/fml/event/config/ModConfigEvent$Reloading;)V}
+[29Oct2026 00:50:26.298] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.config.SFMServerConfig#onConfigLoaded(Lnet/neoforged/fml/event/config/ModConfigEvent$Loading;)V}
+[29Oct2026 00:50:26.301] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.handler.FallingAnvilHandler#onLeave(Lnet/neoforged/neoforge/event/entity/EntityLeaveLevelEvent;)V}
+[29Oct2026 00:50:26.306] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.handler.OpenContainerTracker#onCloseContainer(Lnet/neoforged/neoforge/event/entity/player/PlayerContainerEvent$Close;)V}
+[29Oct2026 00:50:26.306] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.handler.OpenContainerTracker#onOpenContainer(Lnet/neoforged/neoforge/event/entity/player/PlayerContainerEvent$Open;)V}
+[29Oct2026 00:50:26.319] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.program.LimitedInputSlotObjectPool#onServerStopped(Lnet/neoforged/neoforge/event/server/ServerStoppedEvent;)V}
+[29Oct2026 00:50:26.332] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.program.LimitedOutputSlotObjectPool#onServerStopped(Lnet/neoforged/neoforge/event/server/ServerStoppedEvent;)V}
+[29Oct2026 00:50:26.344] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.registry.registration.SFMBlockCapabilities#registerCapabilities(Lnet/neoforged/neoforge/capabilities/RegisterCapabilitiesEvent;)V}
+[29Oct2026 00:50:26.352] [modloading-worker-0/INFO] [sfm/]: Registered listener=SFMEventListenerMethod.createConsumer(){ca.teamdman.sfm.common.registry.registration.SFMPackets#register(Lnet/neoforged/neoforge/network/event/RegisterPayloadHandlersEvent;)V}
+[29Oct2026 00:50:26.462] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for mutantmonsters:common
+[29Oct2026 00:50:26.581] [modloading-worker-0/INFO] [Puzzles Lib/]: Dispatching loading event for config mutantmonsters-common.toml
+[29Oct2026 00:50:26.942] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for farmingforblockheads:common (COMMON) with 12 properties.
+[29Oct2026 00:50:27.599] [modloading-worker-0/INFO] [com.leonxkingx.underwater_village.UnderwaterVillage/]: UnderwaterVillage loaded
+[29Oct2026 00:50:27.843] [modloading-worker-0/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Loaded 44 materials from config
+[29Oct2026 00:50:27.885] [modloading-worker-0/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Populated in-memory resource pack for 44 materials (1 localized)
+[29Oct2026 00:50:28.283] [modloading-worker-0/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Curios detected - enabling compatibility
+[29Oct2026 00:50:28.463] [modloading-worker-0/INFO] [com.astryxion.hats.Hats/]: Auto-registered 333 hats
+[29Oct2026 00:50:28.473] [modloading-worker-0/INFO] [com.astryxion.hats.Hats/]: Loaded 220 hat rarities
+[29Oct2026 00:50:28.484] [modloading-worker-0/INFO] [com.astryxion.hats.Hats/]: Astryxion's Hats common setup complete.
+[29Oct2026 00:50:28.506] [modloading-worker-0/INFO] [STDOUT/]: [aquariusplayz.animalgarden.crocodile.config.ModConfigs:assignConfigs:95]: All 16 have been set properly
+[29Oct2026 00:50:28.817] [modloading-worker-0/INFO] [malisisdoorsreborn/]: [MDR v1.0.16 @P261022_release_116] is alive!
+[29Oct2026 00:50:29.601] [modloading-worker-0/INFO] [dev.nanite.library.core.config.Config/]: Loaded config from: /workspaces/Testserver/config/squatgrow-common.json5
+[29Oct2026 00:50:29.828] [modloading-worker-0/INFO] [malisisswitchesreborn/]: [MSR v1.0.10 @P261021_release_110] is alive!
+[29Oct2026 00:50:30.106] [modloading-worker-0/WARN] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[29Oct2026 00:50:30.113] [modloading-worker-0/INFO] [BaguetteLib/]: BaguetteLib loaded on NeoForge!
+[29Oct2026 00:50:30.185] [modloading-worker-0/INFO] [com.breakinblocks.graveless.Graveless/]: Graveless loaded on NeoForge
+[29Oct2026 00:50:30.388] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.10.1 in server-side mode on NEOFORGE!
+[29Oct2026 00:50:30.388] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[29Oct2026 00:50:30.631] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[29Oct2026 00:50:31.662] [modloading-worker-0/INFO] [rearth.oritech.Oritech/]: Hello from Oritech!
+[29Oct2026 00:50:32.058] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[29Oct2026 00:50:32.074] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalcustomization.lib.ModCorePlugin
+[29Oct2026 00:50:32.080] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[29Oct2026 00:50:32.114] [modloading-worker-0/INFO] [Mystical Customization/]: Created /config/mysticalcustomization/mobsoultypes/ directory
+[29Oct2026 00:50:32.115] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 3 plugins
+[29Oct2026 00:50:32.161] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for craftingtweaks:common (COMMON) with 8 properties.
+[29Oct2026 00:50:32.387] [modloading-worker-0/INFO] [rearth.oritech.Oritech/]: All events registered to the event busses
+[29Oct2026 00:50:33.152] [modloading-worker-0/INFO] [RSRequestify: Reforged/]: Hello NeoForge world!
+[29Oct2026 00:50:33.156] [modloading-worker-0/INFO] [RSRequestify: Reforged/]: RSRReforgedCommon has been initialized
+[29Oct2026 00:50:33.157] [modloading-worker-0/INFO] [net.permutated.pylons.Pylons/]: Registering mod: pylons
+[29Oct2026 00:50:33.361] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for functionalstorage
+[29Oct2026 00:50:33.612] [modloading-worker-0/INFO] [in2bubble_simply_winged/]: Simply Winged mod initialized!
+[29Oct2026 00:50:33.625] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for overflowingbars:common
+[29Oct2026 00:50:33.680] [modloading-worker-0/INFO] [STDOUT/]: [aquariusplayz.animalgarden.seaotter.config.ModConfigs:assignConfigs:63]: All 7 have been set properly
+[29Oct2026 00:50:33.731] [modloading-worker-0/INFO] [me.jddev0.ep.config.ModConfigs/]: Energized Power common config was successfully loaded
+[29Oct2026 00:50:33.733] [modloading-worker-0/INFO] [me.jddev0.ep.config.ModConfigs/]: Energized Power server config was successfully loaded
+[29Oct2026 00:50:34.600] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Starting proxy manager entrypoint loader
+[29Oct2026 00:50:34.626] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Loaded proxy entrypoint net.swedz.tesseract.neoforge.proxy.builtin.TesseractProxy (TesseractProxy)
+[29Oct2026 00:50:34.626] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Loaded proxy entrypoint net.swedz.little_big_redstone.proxy.LBRProxy (LBRProxy)
+[29Oct2026 00:50:34.626] [modloading-worker-0/INFO] [Tesseract API/Proxies/]: Done proxy manager entrypoint loader
+[29Oct2026 00:50:34.669] [modloading-worker-0/INFO] [Tesseract API/]: Tesseract API has completed initialization!
+[29Oct2026 00:50:35.710] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method elementOrTag in modernfix-modernfix.mixins.json:perf.tag_id_caching.TagEntryMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29Oct2026 00:50:36.104] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.19+26.1.2!
+[29Oct2026 00:50:37.713] [modloading-worker-0/INFO] [FTB Library/]: creating new default config file at /workspaces/Testserver/local/ftbpackcompanion/shader_notice.json5
+[29Oct2026 00:50:38.607] [modloading-worker-0/INFO] [MINT Lib/]: MINT Lib starting on neoforge (development environment: false)
+[29Oct2026 00:50:38.647] [modloading-worker-0/INFO] [Better Fishtanks/]: Better Fishtanks starting on neoforge (development environment: false)
+[29Oct2026 00:50:39.441] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for puzzleslib:common
+[29Oct2026 00:50:39.595] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[29Oct2026 00:50:40.247] [modloading-worker-0/INFO] [com.breakinblocks.nutritional.Nutritional/]: nutritional initialized.
+[29Oct2026 00:50:40.282] [modloading-worker-0/INFO] [com.breakinblocks.justdirefuels.JustDireFuels/]: Just Dire Fuels loading
+[29Oct2026 00:50:41.299] [modloading-worker-0/INFO] [Easy NPC: Core/]: Initializing Easy NPC (NeoForge) ...
+[29Oct2026 00:50:41.308] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Debug Manager ...
+[29Oct2026 00:50:41.354] [modloading-worker-0/WARN] [Easy NPC: Core/]: [Debug Manager] Detected debug log level for Easy NPC: Core with ALL!
+[29Oct2026 00:50:41.355] [modloading-worker-0/WARN] [Easy NPC: Core/]: [Debug Manager] Adjusting log level for Easy NPC: Core from ALL to INFO, for performance reasons!
+[29Oct2026 00:50:41.355] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Debug Manager] Add new logger config for Easy NPC: Core with level INFO ...
+[29Oct2026 00:50:41.358] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Constants ...
+[29Oct2026 00:50:41.378] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Configuration ...
+[29Oct2026 00:50:41.382] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Config] Registering common configuration ...
+[29Oct2026 00:50:41.413] [modloading-worker-0/INFO] [Easy NPC: Core/]: Initialized 741 supported and 261 unsupported entity types from defaults.
+[29Oct2026 00:50:41.475] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Config] Registering server configuration ...
+[29Oct2026 00:50:41.476] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Common Data Files ...
+[29Oct2026 00:50:41.486] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Common data folders ...
+[29Oct2026 00:50:41.489] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Entity Data Serializers ...
+[29Oct2026 00:50:41.510] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Compatibility Handler ...
+[29Oct2026 00:50:41.516] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Compat Handler ...
+[29Oct2026 00:50:41.521] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Compat Manager] Epic Fight mod with id 'epicfight' loaded: false
+[29Oct2026 00:50:41.526] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Compat Manager] Cobblemon mod with id 'cobblemon' loaded: false
+[29Oct2026 00:50:41.527] [modloading-worker-0/INFO] [Easy NPC: Core/]: [Compat Manager] Easy Model Entities mod with id 'easy_model_entities' loaded: false
+[29Oct2026 00:50:41.533] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Command Argument Types ...
+[29Oct2026 00:50:41.549] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Entity Types ...
+[29Oct2026 00:50:41.788] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for cookingforblockheads:common (COMMON) with 12 properties.
+[29Oct2026 00:50:41.999] [modloading-worker-0/INFO] [shatterlib/]: Loading common configs
+[29Oct2026 00:50:42.012] [modloading-worker-0/INFO] [shatterlib/]: Loading server configs
+[29Oct2026 00:50:42.120] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.67.
+[29Oct2026 00:50:42.161] [modloading-worker-0/INFO] [architectural_building_wand/]: Initializing Architectural Building Wand v1.3.1...
+[29Oct2026 00:50:42.163] [modloading-worker-0/INFO] [architectural_building_wand/]: Registering network handlers for architectural_building_wand
+[29Oct2026 00:50:42.202] [modloading-worker-0/INFO] [architectural_building_wand/]: Architectural Building Wand initialized successfully!
+[29Oct2026 00:50:42.206] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for replication
+[29Oct2026 00:50:42.601] [modloading-worker-0/INFO] [dev.ftb.mods.ftbultimine.FTBUltimine/]: FTB Ranks detected, listening for ranks events
+[29Oct2026 00:50:43.236] [modloading-worker-0/INFO] [net.unfamily.iskalib.liquid.LiquidJsonLoader/]: Liquid JSON overlays loaded: 0 (source=jar)
+[29Oct2026 00:50:43.709] [modloading-worker-0/INFO] [net.unfamily.iskalib.gas.GasJsonLoader/]: Gas JSON overlays loaded: 0 (source=jar)
+[29Oct2026 00:50:43.849] [modloading-worker-0/INFO] [net.unfamily.iskalib.tool.ToolBehaviorLoader/]: Tool startup: 0 library item(s), 0 java binding(s)
+[29Oct2026 00:50:43.873] [modloading-worker-0/INFO] [net.unfamily.iskalib.stage.StageActionsLoader/]: Loading stage actions (type match under load/) ...
+[29Oct2026 00:50:43.876] [modloading-worker-0/INFO] [net.unfamily.iskalib.stage.StageActionsLoader/]: Stage actions loaded: 0
+[29Oct2026 00:50:43.886] [modloading-worker-0/INFO] [net.unfamily.iskalib.stage.StageItemHandler/]: Loaded 0 item restrictions
+[29Oct2026 00:50:43.886] [modloading-worker-0/INFO] [net.unfamily.iskalib.stage.StageItemEvents/]: Item stage system successfully initialized from datapack load
+[29Oct2026 00:50:43.887] [modloading-worker-0/INFO] [net.unfamily.iskalib.stage.StageBootstrap/]: Library stage loaders installed
+[29Oct2026 00:50:43.941] [modloading-worker-0/INFO] [net.unfamily.iskalib.integration.ftbultimine.FtbUltimineIntegration/]: FTB Ultimine stage gate listener registered
+[29Oct2026 00:50:44.007] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[29Oct2026 00:50:44.135] [modloading-worker-0/INFO] [drones/]: May your drones assemble without issue!
+[29Oct2026 00:50:44.241] [modloading-worker-0/INFO] [oracle_index/]: Hello from the Oracle Wiki Mod!
+[29Oct2026 00:50:44.275] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 32 raw entity types.
+[29Oct2026 00:50:44.275] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 37 NPC entity types.
+[29Oct2026 00:50:44.275] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 4 custom entity types.
+[29Oct2026 00:50:44.276] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Blocks ...
+[29Oct2026 00:50:44.281] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Blocks Entity Types ...
+[29Oct2026 00:50:44.281] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Items ...
+[29Oct2026 00:50:44.825] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for inventoryessentials:common (COMMON) with 14 properties.
+[29Oct2026 00:50:44.836] [modloading-worker-0/INFO] [PolyLib/]: Registering Common Config
+[29Oct2026 00:50:45.029] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 37 NPC spawn eggs.
+[29Oct2026 00:50:45.030] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registered 4 custom spawn eggs.
+[29Oct2026 00:50:45.032] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Menu Types ...
+[29Oct2026 00:50:45.033] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Menu Handler ...
+[29Oct2026 00:50:45.038] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Mod Data Components ...
+[29Oct2026 00:50:45.043] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Network Handler ...
+[29Oct2026 00:50:45.045] [modloading-worker-0/INFO] [Easy NPC: Core/]: Registering client network handler for Server -> Client messages.
+[29Oct2026 00:50:45.051] [modloading-worker-0/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Client Network Message Handler ...
+[29Oct2026 00:50:45.153] [modloading-worker-0/INFO] [KubeJS/]: Loading vanilla registries...
+[29Oct2026 00:50:45.180] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[29Oct2026 00:50:45.185] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[29Oct2026 00:50:45.203] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin does not load on server side, skipping
+[29Oct2026 00:50:45.206] [modloading-worker-0/ERROR] [KubeJS/]: Failed to load plugin dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration architectury from source kubejs: java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[29Oct2026 00:50:45.207] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[29Oct2026 00:50:45.209] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at net.neoforged.fml.classloading.ModuleClassLoader.loadClass(ModuleClassLoader.java:254)
+[29Oct2026 00:50:45.209] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[29Oct2026 00:50:45.209] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.Class.forName0(Native Method)
+[29Oct2026 00:50:45.209] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.Class.forName(Unknown Source)
+[29Oct2026 00:50:45.209] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.Class.forName(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at TRANSFORMER/kubejs@26.1.2-8.0.7/dev.latvian.mods.kubejs.plugin.KubeJSPlugins.lambda$loadFromFile$2(KubeJSPlugins.java:98)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.StringLatin1$LinesSpliterator.forEachRemaining(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+[29Oct2026 00:50:45.210] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+[29Oct2026 00:50:45.212] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.stream.ReferencePipeline.forEach(Unknown Source)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at TRANSFORMER/kubejs@26.1.2-8.0.7/dev.latvian.mods.kubejs.plugin.KubeJSPlugins.loadFromFile(KubeJSPlugins.java:106)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at TRANSFORMER/kubejs@26.1.2-8.0.7/dev.latvian.mods.kubejs.plugin.KubeJSPlugins.loadMod(KubeJSPlugins.java:53)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at TRANSFORMER/kubejs@26.1.2-8.0.7/dev.latvian.mods.kubejs.plugin.KubeJSPlugins.load(KubeJSPlugins.java:34)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at TRANSFORMER/kubejs@26.1.2-8.0.7/dev.latvian.mods.kubejs.KubeJS.<init>(KubeJS.java:125)
+[29Oct2026 00:50:45.213] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:124)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at net.neoforged.fml.ModLoader.lambda$constructMods$0(ModLoader.java:125)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$3(ModLoader.java:203)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(Unknown Source)
+[29Oct2026 00:50:45.214] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)
+[29Oct2026 00:50:45.216] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[29Oct2026 00:50:45.216] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+[29Oct2026 00:50:45.216] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[29Oct2026 00:50:45.216] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.kubejs.plugin.KubeJSPlugins:lambda$loadFromFile$2:101]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[29Oct2026 00:50:45.218] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source neovitae
+[29Oct2026 00:50:45.223] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source collapsible_groups
+[29Oct2026 00:50:45.223] [modloading-worker-0/WARN] [KubeJS/]: Plugin com.starskyxiii.collapsible_groups.compat.kubejs.CollapsibleGroupsKubeJSPlugin does not load on server side, skipping
+[29Oct2026 00:50:45.224] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source replication
+[29Oct2026 00:50:45.228] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[29Oct2026 00:50:45.243] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source directorscamera
+[29Oct2026 00:50:45.246] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbpc
+[29Oct2026 00:50:45.254] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source meinfinitycell
+[29Oct2026 00:50:45.257] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source extendedae
+[29Oct2026 00:50:45.259] [modloading-worker-0/INFO] [KubeJS/]: Done in 78.79 ms
+[29Oct2026 00:50:45.267] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[29Oct2026 00:50:45.268] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Chunks] Enabled KubeJS integration
+[29Oct2026 00:50:45.355] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[29Oct2026 00:50:45.729] [modloading-worker-0/INFO] [STDOUT/]: [aquariusplayz.animalgarden.bullshark.config.ModConfigs:assignConfigs:56]: All 8 have been set properly
+[29Oct2026 00:50:45.783] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 32 properties.
+[29Oct2026 00:50:46.096] [modloading-worker-0/INFO] [STDOUT/]: [dev.ftb.packcompanion.features.kube.KubeAddons:registerBindings:19]: Registering KubeJS bindings for Pack Companion
+[29Oct2026 00:50:46.364] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#1: Loaded Java class 'damien.nodeworks.block.StabilizerBlock'
+[29Oct2026 00:50:46.366] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#2: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour$Properties'
+[29Oct2026 00:50:46.372] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#3: Loaded Java class 'net.minecraft.world.item.BlockItem'
+[29Oct2026 00:50:46.373] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#4: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[29Oct2026 00:50:46.374] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#5: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[29Oct2026 00:50:46.375] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#6: Loaded Java class 'net.minecraft.core.registries.Registries'
+[29Oct2026 00:50:46.378] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#7: Loaded Java class 'net.minecraft.core.registries.BuiltInRegistries'
+[29Oct2026 00:50:46.379] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#8: Loaded Java class 'net.minecraft.resources.Identifier'
+[29Oct2026 00:50:46.380] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:block.js#9: Loaded Java class 'net.neoforged.neoforge.event.BlockEntityTypeAddBlocksEvent'
+[29Oct2026 00:50:46.402] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:block.js in 0.293 s
+[29Oct2026 00:50:46.404] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:capacitors.js#1: Loaded Java class 'com.enderio.enderio.api.capacitor.CapacitorData'
+[29Oct2026 00:50:46.405] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:capacitors.js#2: Loaded Java class 'com.enderio.enderio.init.EIODataComponents'
+[29Oct2026 00:50:46.406] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:capacitors.js in 0.002 s
+[29Oct2026 00:50:46.411] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#1: Loaded Java class 'net.minecraft.core.component.DataComponents'
+[29Oct2026 00:50:46.422] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#2: Loaded Java class 'net.minecraft.world.food.FoodProperties'
+[29Oct2026 00:50:46.424] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#3: Loaded Java class 'net.minecraft.world.item.component.Consumables'
+[29Oct2026 00:50:46.424] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#4: Loaded Java class 'net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect'
+[29Oct2026 00:50:46.428] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#5: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[29Oct2026 00:50:46.428] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#6: Loaded Java class 'net.minecraft.world.effect.MobEffects'
+[29Oct2026 00:50:46.434] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#7: Loaded Java class 'net.minecraft.world.item.component.UseRemainder'
+[29Oct2026 00:50:46.436] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#8: Loaded Java class 'net.minecraft.world.item.ItemStackTemplate'
+[29Oct2026 00:50:46.437] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#9: Loaded Java class 'net.minecraft.world.item.Items'
+[29Oct2026 00:50:46.439] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:coffee.js#10: Loaded Java class 'java.util.ArrayList'
+[29Oct2026 00:50:46.440] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:coffee.js in 0.034 s
+[29Oct2026 00:50:46.445] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:dragonsteel_armor.js in 0.001 s
+[29Oct2026 00:50:46.451] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:fluids.js in 0.002 s
+[29Oct2026 00:50:46.456] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:food.js in 0.001 s
+[29Oct2026 00:50:46.461] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:infinity_cells.js in 0.001 s
+[29Oct2026 00:50:46.467] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:items.js#2: Loaded Java class 'net.minecraft.world.food.Foods'
+[29Oct2026 00:50:46.467] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items.js in 0.003 s
+[29Oct2026 00:50:46.479] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:lex_vitae.js#1: Loaded Java class 'net.minecraft.world.item.component.Tool'
+[29Oct2026 00:50:46.479] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:lex_vitae.js#2: Loaded Java class 'net.minecraft.world.item.component.Tool$Rule'
+[29Oct2026 00:50:46.480] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:lex_vitae.js in 0.013 s
+[29Oct2026 00:50:46.482] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:main.js in 0.002 s
+[29Oct2026 00:50:46.483] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:music.js in 0.0 s
+[29Oct2026 00:50:46.485] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:ore_processing.js in 0.001 s
+[29Oct2026 00:50:46.496] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:renaming.js in 0.006 s
+[29Oct2026 00:50:46.505] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:titanium_tools.js in 0.009 s
+[29Oct2026 00:50:46.522] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapon_damage.js in 0.014 s
+[29Oct2026 00:50:46.529] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 15/15 KubeJS startup scripts in 1.251 s with 0 errors and 0 warnings
+[29Oct2026 00:50:46.541] [modloading-worker-0/INFO] [KubeJS Startup/]: Validated 0 files in kubejs/data/ in 2ms
+[29Oct2026 00:50:46.629] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.17...
+[29Oct2026 00:50:46.642] [modloading-worker-0/INFO] [FTB Library/]: Setting game stages provider implementation to: KubeJS Stages
+[29Oct2026 00:50:46.645] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [KubeJS Stages] as the active game stages implementation
+[29Oct2026 00:50:46.648] [modloading-worker-0/INFO] [FTB Library/]: Setting permissions provider implementation to: FTB Ranks
+[29Oct2026 00:50:46.648] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FTB Ranks] as the active permissions implementation
+[29Oct2026 00:50:46.651] [modloading-worker-0/INFO] [FTB Library/]: Setting permissions currency implementation to: SG Economy
+[29Oct2026 00:50:46.654] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [SG Economy] as the active currency implementation
+[29Oct2026 00:50:46.659] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[29Oct2026 00:50:46.664] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled FTB Filter System integration
+[29Oct2026 00:50:46.665] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Chunks] FTB Ranks detected, listening for ranks events
+[29Oct2026 00:50:46.668] [modloading-worker-0/INFO] [FTB Library/]: registered docs provider mod: guideme
+[29Oct2026 00:50:46.668] [modloading-worker-0/INFO] [FTB Library/]: registered docs provider mod: patchouli
+[29Oct2026 00:50:47.006] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[29Oct2026 00:50:47.030] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing components for magnumtorch:common
+[29Oct2026 00:50:47.189] [modloading-worker-0/INFO] [net.unfamily.colossal_reactors.heatingcoil.HeatingCoilRegistry/]: Heating coils for block registration: 2 (jar=2, external=0)
+[29Oct2026 00:50:47.219] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for refinedcooking:common (COMMON) with 2 properties.
+[29Oct2026 00:50:48.155] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.platform.config.internal.NeoForgeBalmConfig/]: Registering config for pantryforblockheads:common (COMMON) with 7 properties.
+[29Oct2026 00:50:48.541] [modloading-worker-0/INFO] [net.unfamily.repae2bridge.RepAE2Bridge/]: RepAE2Bridge: Config registered
+[29Oct2026 00:50:48.622] [modloading-worker-0/INFO] [rearth.transparentae2.TransparentAE2/]: Transparent AE2 enabled
+[29Oct2026 00:50:48.815] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/Testserver/config/yacl.json5'
+[29Oct2026 00:50:49.033] [modloading-worker-0/INFO] [liedge.ltxindustries.LTXIndustries/]: Registered upgrade value type codecs.
+[29Oct2026 00:50:49.399] [modloading-worker-0/INFO] [com.lumengrid.recursiveae2patternprovider.RecursiveAE2PatternProvider/]: Recursive AE2 Pattern Provider loaded, build=alt-priority-2026-10-27-tier-uncraft-last-mc26.1
+[29Oct2026 00:50:50.333] [modloading-worker-0/INFO] [nodeworks/]: Nodeworks initialized
+[29Oct2026 00:50:50.338] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[29Oct2026 00:50:50.448] [modloading-worker-0/WARN] [stellaris/]: Config value oilConfig.chunkOilChance = 0 is below its minimum of 1; using 1
+[29Oct2026 00:50:52.062] [modloading-sync-worker/INFO] [com.breakinblocks.plonk.common.registry.RegistryDataComponents/]: Registering Data Component Type: plonk:item_block_placed_items_data
+[29Oct2026 00:50:53.365] [modloading-sync-worker/INFO] [com.breakinblocks.plonk.common.registry.RegistryBlocks/]: Registering Block: plonk:placed_items
+[29Oct2026 00:50:54.097] [modloading-sync-worker/INFO] [Mystical Customization/]: Created /config/mysticalcustomization/tiers/ directory
+[29Oct2026 00:50:54.099] [modloading-sync-worker/INFO] [Mystical Customization/]: Created /config/mysticalcustomization/types/ directory
+[29Oct2026 00:50:57.259] [modloading-sync-worker/INFO] [com.breakinblocks.plonk.common.registry.RegistryItems/]: Registering Item: plonk:placed_items
+[29Oct2026 00:50:58.142] [modloading-sync-worker/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[29Oct2026 00:50:58.282] [modloading-sync-worker/INFO] [com.breakinblocks.plonk.common.registry.RegistryTileEntities/]: Registering BlockEntity: plonk:placed_items
+[29Oct2026 00:51:00.766] [modloading-sync-worker/INFO] [net.unfamily.repae2bridge.RepAE2Bridge/]: RepAE2Bridge: Registered AE2 matter key type
+[29Oct2026 00:51:01.650] [modloading-sync-worker/INFO] [net.unfamily.repae2bridge.item.CustomMatterAutoRegistrar/]: RepAE2Bridge: Auto-registered 0 custom matter item(s) from matter type registry
+[29Oct2026 00:51:32.565] [modloading-sync-worker/INFO] [com.misterd.agritechevolved.Config/]: AgriTech: Evolved configuration loaded
+[29Oct2026 00:51:32.780] [modloading-sync-worker/INFO] [eccentrictome/]: Successfully downloaded 3 entries from items.txt
+[29Oct2026 00:51:32.911] [modloading-sync-worker/INFO] [eccentrictome/]: Successfully downloaded 0 entries from aliases.txt
+[29Oct2026 00:51:32.911] [modloading-sync-worker/INFO] [eccentrictome/]: Loaded 47 items and 13 aliases
+[29Oct2026 00:51:33.049] [modloading-sync-worker/INFO] [com.portingdeadmods.cable_facades.CFMain/]: Config version changed from 0 to 1. Merging changes...
+[29Oct2026 00:51:33.050] [modloading-sync-worker/INFO] [com.portingdeadmods.cable_facades.CFMain/]: Merged 7 new blocks into config
+[29Oct2026 00:51:33.053] [modloading-sync-worker/INFO] [com.portingdeadmods.cable_facades.CFMain/]: Downloaded 11 whitelist blocks from GitHub
+[29Oct2026 00:51:33.056] [modloading-sync-worker/INFO] [com.portingdeadmods.cable_facades.CFMain/]: Downloaded 0 blacklist blocks from GitHub
+[29Oct2026 00:51:33.062] [modloading-sync-worker/INFO] [com.portingdeadmods.cable_facades.CFMain/]: Downloaded 1 zfighting blocks from GitHub
+[29Oct2026 00:51:33.092] [modloading-sync-worker/WARN] [yungsapi/]: WARNING: block Block{minecraft:redstone_ore}[lit=false] added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[29Oct2026 00:51:33.276] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[29Oct2026 00:51:33.278] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: Global NeoForge version check system disabled, no further processing.
+[29Oct2026 00:51:33.298] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[29Oct2026 00:51:33.332] [modloading-worker-0/INFO] [dev.wuffs.bcc.BetterCompatibilityChecker/]: Better Compatibility Checker setup
+[29Oct2026 00:51:33.332] [modloading-worker-0/INFO] [dev.wuffs.bcc.BetterCompatibilityChecker/]: Loading metadata.json
+[29Oct2026 00:51:33.338] [modloading-worker-0/INFO] [dev.wuffs.bcc.BetterCompatibilityChecker/]: Loaded metadata.json - Modpack: FTB Evolution 2 | Version: 1.6.1
+[29Oct2026 00:51:33.340] [modloading-worker-0/INFO] [dev.wuffs.bcc.neoforge.BetterCompatibilityCheckerNeoForge/]: Loaded BetterCompatibilityChecker - Modpack: FTB Evolution 2 | Version: 1.6.1
+[29Oct2026 00:51:33.435] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[29Oct2026 00:51:33.435] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[29Oct2026 00:51:33.570] [modloading-worker-0/INFO] [rearth.oritech.Oritech/]: HELLO FROM COMMON SETUP
+[29Oct2026 00:51:33.623] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 157 crops
+[29Oct2026 00:51:33.624] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 7 crop tiers
+[29Oct2026 00:51:33.624] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
+[29Oct2026 00:51:33.624] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
+[29Oct2026 00:51:33.624] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 23 mob soul types
+[29Oct2026 00:51:33.820] [modloading-worker-0/INFO] [Modular Routers/]: Modular Routers is loading!
+[29Oct2026 00:51:33.857] [modloading-worker-0/INFO] [Tesseract API/NativeMaterialItemSanityCheck/]: Starting validation process...
+[29Oct2026 00:51:33.859] [modloading-worker-0/INFO] [Tesseract API/NativeMaterialItemSanityCheck/]: Successfully validated 0 item ids.
+[29Oct2026 00:51:34.433] [modloading-worker-0/INFO] [me.almana.pipezlagfix.Pipezlagfix/]: PipezLagFix Common Setup
+[29Oct2026 00:51:34.572] [modloading-worker-0/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Registered ALI plugin [neoforge] com.yanny.ali.neoforge.plugin.NeoForgePlugin
+[29Oct2026 00:51:34.590] [modloading-worker-0/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Registered ALI plugin [ali] com.yanny.ali.plugin.Plugin
+[29Oct2026 00:51:34.613] [modloading-worker-0/INFO] [com.yanny.ali.neoforge.platform.NeoForgePlatformHelper/]: Found 2 plugin(s)
+[29Oct2026 00:51:34.614] [modloading-worker-0/INFO] [com.yanny.aci.manager.CorePluginManager/]: [ali] Registering common plugin data...
+[29Oct2026 00:51:34.696] [modloading-worker-0/INFO] [com.yanny.aci.configuration.CoreConfigUtils/]: [ali] Loading configuration file /workspaces/Testserver/config/ali/ali_common.json
+[29Oct2026 00:51:34.796] [modloading-worker-0/WARN] [com.yanny.ali.datagen.LanguageHolder/]: [ali] Missing enum translations: Rarity.LTXI_LTX, Rarity.xycraft_core_base, Rarity.xycraft_core_legendary, Rarity.xycraft_core_mythic, Rarity.xycraft_core_specialization
+[29Oct2026 00:51:34.800] [modloading-worker-0/INFO] [com.yanny.aci.manager.ManagedRegistry/]: [ali] Registered 1 entity variants
+[29Oct2026 00:51:34.801] [modloading-worker-0/INFO] [com.yanny.aci.manager.CorePluginManager/]: [ali] Registering common plugin data finished
+[29Oct2026 00:51:35.324] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[29Oct2026 00:51:35.327] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[29Oct2026 00:51:35.586] [modloading-worker-0/INFO] [net.unfamily.colossal_reactors.ColossalReactors/]: Reactor validation debug (dev.001_reactor_validation_debug): false
+[29Oct2026 00:51:35.586] [modloading-worker-0/INFO] [net.unfamily.colossal_reactors.ColossalReactors/]: Reactor simulation debug (dev.002_reactor_simulation_debug): false
+[29Oct2026 00:51:35.617] [modloading-worker-0/INFO] [net.unfamily.repae2bridge.RepAE2Bridge/]: GuideME detected — standalone guide available (rep_ae2_bridge:guide)
+[29Oct2026 00:51:35.619] [modloading-worker-0/INFO] [net.unfamily.repae2bridge.RepAE2Bridge/]: RepAE2Bridge: Bridge energy consumption set to 500 AE/t
+[29Oct2026 00:51:35.624] [modloading-worker-0/INFO] [liedge.ltxindustries.integration.ae2.AE2Integration/]: Registered fabrication blueprint AE2 decoder
+[29Oct2026 00:51:35.659] [modloading-worker-0/INFO] [com.breakinblocks.horsepowered.HorsePowerMod/]: Horse Powered common setup
+[29Oct2026 00:51:36.625] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered 13 anointments
+[29Oct2026 00:51:36.626] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.structures.ModRoomPools/]: Initializing dungeon room pools and rooms...
+[29Oct2026 00:51:36.669] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.structures.DungeonRoomLoader/]: Loaded 42 dungeon schematics
+[29Oct2026 00:51:36.669] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.structures.ModRoomPools/]: Dungeon initialization complete. Loaded 42 rooms and 11 pools.
+[29Oct2026 00:51:36.672] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registering built-in altar rune blocks...
+[29Oct2026 00:51:36.672] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_speed} (hash=2112646354) as rune neovitae:speed with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_sacrifice} (hash=1728739221) as rune neovitae:sacrifice with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_sacrifice_self} (hash=322709587) as rune neovitae:self_sacrifice with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_dislocation} (hash=504658458) as rune neovitae:displacement with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_capacity} (hash=85553660) as rune neovitae:capacity with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_capacity_augmented} (hash=1004719595) as rune neovitae:augmented_capacity with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_orb} (hash=341888094) as rune neovitae:orb with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_acceleration} (hash=859071490) as rune neovitae:acceleration with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_charging} (hash=257995741) as rune neovitae:charging with amount 1
+[29Oct2026 00:51:36.673] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_efficiency} (hash=183810300) as rune neovitae:efficiency with amount 1
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_speed} (hash=1826974537) as rune neovitae:speed with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_sacrifice} (hash=443603412) as rune neovitae:sacrifice with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_sacrifice_self} (hash=663331882) as rune neovitae:self_sacrifice with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_dislocation} (hash=551409065) as rune neovitae:displacement with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_capacity} (hash=899255993) as rune neovitae:capacity with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_capacity_augmented} (hash=436597678) as rune neovitae:augmented_capacity with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_orb} (hash=536867806) as rune neovitae:orb with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_acceleration} (hash=359717930) as rune neovitae:acceleration with amount 2
+[29Oct2026 00:51:36.674] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_charging} (hash=111621955) as rune neovitae:charging with amount 2
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered block Block{neovitae:rune_2_efficiency} (hash=1485274187) as rune neovitae:efficiency with amount 2
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registered 20 built-in altar rune blocks
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Rune registry state: 20 block associations registered
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   - Block{neovitae:rune_2_capacity} (hash=899255993) -> [CAPACITY]
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   - Block{neovitae:rune_2_orb} (hash=536867806) -> [ORB]
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   - Block{neovitae:rune_2_sacrifice_self} (hash=663331882) -> [SELF_SACRIFICE]
+[29Oct2026 00:51:36.675] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   - Block{neovitae:rune_2_sacrifice} (hash=443603412) -> [SACRIFICE]
+[29Oct2026 00:51:36.676] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   - Block{neovitae:rune_2_charging} (hash=111621955) -> [CHARGING]
+[29Oct2026 00:51:36.676] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]:   ... and 15 more
+[29Oct2026 00:51:36.678] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Armed FTB Ultimine suppression for ritual block operations
+[29Oct2026 00:51:36.678] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: FTB Chunks found, claim permissions will be checked before block edits
+[29Oct2026 00:51:36.678] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Applied Energistics 2 found, terminals can be bound with the Sigil of Bound Treasures
+[29Oct2026 00:51:36.680] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Occultism found, storage actuators can be bound with the Sigil of Bound Treasures
+[29Oct2026 00:51:36.680] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Apotheosis found, ritual kills will use the ritual owner's world tier
+[29Oct2026 00:51:36.680] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Refined Storage found, grids can be bound with the Sigil of Bound Treasures
+[29Oct2026 00:51:36.688] [modloading-sync-worker/INFO] [com.breakinblocks.neovitae.NeoVitae/]: CC: Tweaked found, Neo Vitae blocks can be read by computers and turtles
+[29Oct2026 00:51:36.764] [modloading-sync-worker/INFO] [com.breakinblocks.graveless.Graveless/]: Graveless Curios integration active
+[29Oct2026 00:51:36.766] [modloading-sync-worker/INFO] [com.breakinblocks.graveless.Graveless/]: Graveless Armor Cosmetic integration active
+[29Oct2026 00:51:36.813] [modloading-sync-worker/INFO] [net.ricmc.betterblockz.BetterBlockZ/]: Variants synced.
+[29Oct2026 00:51:36.813] [modloading-sync-worker/INFO] [net.ricmc.decorz.DecorZ/]: Variants synced.
+[29Oct2026 00:51:36.842] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29Oct2026 00:51:36.842] [modloading-sync-worker/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29Oct2026 00:51:36.842] [modloading-sync-worker/INFO] [terrablender/]: Registered region integrateddynamics:overworld to index 1 for type OVERWORLD
+[29Oct2026 00:51:36.844] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Easy NPC Custom Data Component easy_npc:custom_data ...
+[29Oct2026 00:51:36.845] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Easy NPC Preset Data Component easy_npc:preset_data ...
+[29Oct2026 00:51:36.845] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Easy NPC Test Item Data Component easy_npc:test_item_data ...
+[29Oct2026 00:51:36.858] [modloading-sync-worker/INFO] [com.heaser.pipeconnector.PipeConnector/]: Resolved Ender IO conduit API, conduit support enabled.
+[29Oct2026 00:51:36.858] [modloading-sync-worker/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 2 for type OVERWORLD
+[29Oct2026 00:51:36.870] [modloading-sync-worker/INFO] [STDOUT/]: [com.benbenlaw.dimenergy.util.DimEnergyPlugin:identifier:20]: DimEnergyPlugin identifier() called
+[29Oct2026 00:51:36.930] [modloading-sync-worker/INFO] [com.breakinblocks.justenoughcraftingtables.JustEnoughCraftingTables/]: Registered the Crafting Tweaks grid provider for the crafting station
+[29Oct2026 00:51:36.949] [modloading-sync-worker/INFO] [net.unfamily.repae2bridge.RepAE2Bridge/]: Replication mod is loaded, skipping DefaultMatterNetworkElement registration to avoid conflicts
+[29Oct2026 00:51:36.977] [modloading-sync-worker/INFO] [net.unfamily.repae2bridge.ae2.matter.MatterBehaviors/]: RepAE2Bridge: Registered matter import/export/storage-bus strategies
+[29Oct2026 00:51:37.007] [modloading-sync-worker/INFO] [com.breakinblocks.horsepowered.HorsePowerMod/]: Registered seed oil fluid interactions
+[29Oct2026 00:51:37.017] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[29Oct2026 00:51:37.610] [modloading-sync-worker/INFO] [liedge.ltxindustries.integration.ae2.AE2Integration/]: Registered Auto Fabricator crafting machine capability for AE2.
+[29Oct2026 00:51:37.757] [modloading-sync-worker/INFO] [PolyLib/]: =====Registering Capabilities=====
+[29Oct2026 00:51:38.142] [modloading-worker-0/INFO] [AttributeFix/]: Initializing AttributeFix on NeoForge.
+[29Oct2026 00:51:38.162] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:armor from 200.0 to 1000000.0.
+[29Oct2026 00:51:38.167] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:armor_toughness from 100.0 to 1000000.0.
+[29Oct2026 00:51:38.174] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:attack_damage from 1.7976931348623157E308 to 1000000.0.
+[29Oct2026 00:51:38.181] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:attack_knockback from 5.0 to 1000000.0.
+[29Oct2026 00:51:38.188] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:attack_speed from 1024.0 to 6.0.
+[29Oct2026 00:51:38.226] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:max_health from 1.7976931348623157E308 to 1000000.0.
+[29Oct2026 00:51:38.237] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for minecraft:movement_speed from 1024.0 to 1.0.
+[29Oct2026 00:51:38.378] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for apothic_attributes:crit_chance from 10.0 to 1.5.
+[29Oct2026 00:51:38.383] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for apothic_attributes:dodge_chance from 1.0 to 0.4.
+[29Oct2026 00:51:38.400] [modloading-worker-0/INFO] [AttributeFix/]: Changing maximum value for apothic_attributes:life_steal from 10.0 to 0.5.
+[29Oct2026 00:51:38.695] [modloading-worker-0/INFO] [AttributeFix/]: Initialized AttributeFix. Took 550.05ms.
+[29Oct2026 00:51:38.746] [modloading-sync-worker/INFO] [net.ricmc.z_core.Z_Core/]: Registry finalized.
+[29Oct2026 00:51:38.842] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Modular Force Field System: dev.su5ed.mffs.compat.jade.MFFSJadePlugin
+[29Oct2026 00:51:38.848] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from EvilCraft: org.cyclops.evilcraftcompat.modcompat.jade.JadeEvilCraftConfig
+[29Oct2026 00:51:38.851] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Gateways To Eternity: dev.shadowsoffire.gateways.compat.GatewayJadePlugin
+[29Oct2026 00:51:38.855] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Productive Farming: cy.jdkdigital.productivefarming.integrations.jade.JadePlugin
+[29Oct2026 00:51:38.866] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Auroral: com.breakinblocks.auroral.integration.jade.AuroralJadePlugin
+[29Oct2026 00:51:38.869] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from ExtraStorage: edivad.extrastorage.compat.jade.JadeCompatibility
+[29Oct2026 00:51:38.873] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FTB Echoes: dev.ftb.mods.ftbechoes.integration.jade.JadePlugin
+[29Oct2026 00:51:38.875] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Plonk: com.breakinblocks.plonk.common.compat.jade.PlonkJadePlugin
+[29Oct2026 00:51:38.876] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Neo Vitae: com.breakinblocks.neovitae.compat.jade.NVJadePlugin
+[29Oct2026 00:51:38.882] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Lootr: noobanidus.mods.lootr.common.integration.jade.LootrWailaPlugin
+[29Oct2026 00:51:38.884] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Occultism: com.klikli_dev.occultism.integration.jade.OccultismPlugin
+[29Oct2026 00:51:38.888] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Malisis Doors (Reborn): dev.mostlyharmless.malisisdoorsreborn.compat.jade.MdrJadePlugin
+[29Oct2026 00:51:38.889] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Malisis Switches (Reborn): dev.mostlyharmless.malisisswitchesreborn.compat.jade.MsrJadePlugin
+[29Oct2026 00:51:38.893] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Hostile Neural Networks: dev.shadowsoffire.hostilenetworks.compat.jade.HostileJadePlugin
+[29Oct2026 00:51:38.896] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Agritech: Evolved: com.misterd.agritechevolved.compat.jade.ATJadePlugin
+[29Oct2026 00:51:38.900] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Mystical Agriculture: com.blakebr0.mysticalagriculture.compat.JadeCompat
+[29Oct2026 00:51:38.901] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Apothic Spawners: dev.shadowsoffire.apothic_spawners.compat.SpawnerHwylaPlugin
+[29Oct2026 00:51:38.903] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Ender IO: com.enderio.enderio.compat.jade.EIOJadePlugin
+[29Oct2026 00:51:38.906] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Easy Villagers: de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[29Oct2026 00:51:38.907] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Reliquary Reincarnations: reliquary.compat.jade.JadeCompat
+[29Oct2026 00:51:38.910] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Functional Storage: com.buuz135.functionalstorage.compat.jade.FSJadePlugin
+[29Oct2026 00:51:38.913] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Modular Routers: me.desht.modularrouters.integration.jade.JadeIntegration
+[29Oct2026 00:51:38.917] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Oritech: rearth.oritech.init.compat.jade.OritechJadePlugin
+[29Oct2026 00:51:38.924] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Balm: net.blay09.mods.balm.platform.compatibility.hudinfo.internal.JadeModIntegration
+[29Oct2026 00:51:38.926] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Mystical Agradditions: com.blakebr0.mysticalagradditions.compat.JadeCompat
+[29Oct2026 00:51:38.928] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FramedBlocks: io.github.xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[29Oct2026 00:51:38.930] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Apothic Enchanting: dev.shadowsoffire.apothic_enchanting.compat.EnchJadePlugin
+[29Oct2026 00:51:38.941] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Ars Magica: Legacy: at.minecraftschurli.mods.arsmagicalegacy.compat.jade.AMJadePlugin
+[29Oct2026 00:51:38.945] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Tesseract: com.supermartijn642.tesseract.integration.TesseractJadePlugin
+[29Oct2026 00:51:38.948] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Ice And Fire Community Edition: com.iafenvoy.iceandfire.compat.jade.IceAndFireJadePlugin
+[29Oct2026 00:51:38.952] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Crystalix: dev.satherov.crystalix.compat.jade.CXJadePlugin
+[29Oct2026 00:51:38.957] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Growth Accelerator Tiers: dev.satherov.growthacceleratortiers.compat.jade.GATJadePlugin
+[29Oct2026 00:51:38.964] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Hephaestus Forge: com.titammods.compat.jade.HephaestusJadePlugin
+[29Oct2026 00:51:38.975] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from IntegratedDynamics: org.cyclops.integrateddynamicscompat.modcompat.jade.JadeIntegratedDynamicsConfig
+[29Oct2026 00:51:38.982] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FTB Evolution 2 Companion: dev.ftb.mods.ftbevolutioncompanion.compat.jade.FabricatorJadePlugin
+[29Oct2026 00:51:38.994] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Entangled: com.supermartijn642.entangled.integration.EntangledWailaPlugin
+[29Oct2026 00:51:38.998] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from XyCraft: Machines: tv.soaryn.xycraft.machines.compat.viewers.jade.JadePlugin
+[29Oct2026 00:51:39.003] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Apotheosis: dev.shadowsoffire.apotheosis.compat.AdventureHwylaPlugin
+[29Oct2026 00:51:39.006] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Replication: com.buuz135.replication.compat.JadePlugin
+[29Oct2026 00:51:39.013] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Productive Bees: cy.jdkdigital.productivebees.compat.hwyla.ProductiveBeesWailaPlugin
+[29Oct2026 00:51:39.033] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from CakeStickLib: com.devdyna.cakesticklib.setup.compat.jade.JadePlugin
+[29Oct2026 00:51:39.048] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FTB XMod Compat: dev.ftb.mods.ftbxmodcompat.generic.jade.JadePlugin
+[29Oct2026 00:51:39.051] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Sophisticated Storage: net.p3pp3rf1y.sophisticatedstorage.compat.jade.StorageJadePlugin
+[29Oct2026 00:51:39.055] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from DimStorage: edivad.dimstorage.compat.jade.JadeCompatibility
+[29Oct2026 00:51:39.068] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FTB Industrial Contraptions: dev.ftb.mods.ftbic.integration.jade.FTBICJadePlugin
+[29Oct2026 00:51:39.078] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[29Oct2026 00:51:39.090] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[29Oct2026 00:51:39.105] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[29Oct2026 00:51:39.110] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[29Oct2026 00:51:39.144] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[29Oct2026 00:51:39.162] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from BEER: com.breakinblocks.beer.compat.BeerJadePlugin
+[29Oct2026 00:51:39.164] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Just Enough Crafting Tables: com.breakinblocks.justenoughcraftingtables.integration.jade.StationJadePlugin
+[29Oct2026 00:51:39.165] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Refined Cooking: sebastrn.refinedcooking.compat.jade.JadePlugin
+[29Oct2026 00:51:39.171] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Applied Energistics 2: appeng.integration.modules.jade.JadeModule
+[29Oct2026 00:51:39.200] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Occult Cooking: sebastrn.occultcooking.compat.jade.JadePlugin
+[29Oct2026 00:51:39.204] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Kindred Spirits: com.breakinblocks.kindredspirits.integration.jade.KindredJadePlugin
+[29Oct2026 00:51:39.205] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from ExtendedAE: com.glodblock.github.extendedae.xmod.jade.JadePlugin
+[29Oct2026 00:51:39.209] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Applied Cooking: sebastrn.appliedcooking.compat.jade.JadePlugin
+[29Oct2026 00:51:39.212] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from LTX Industries: liedge.ltxindustries.integration.jade.LTXIJadePlugin
+[29Oct2026 00:51:39.223] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Horse Powered: com.breakinblocks.horsepowered.compat.jade.HorsePowerJadePlugin
+[29Oct2026 00:51:39.229] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from LogisticsNetworks: me.almana.logisticsnetworks.integration.jade.LogisticsJadePlugin
+[29Oct2026 00:51:39.232] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from NauTec 2: com.breakinblocks.nautec.compat.jade.JadePlugin
+[29Oct2026 00:51:39.243] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from AppliedFlux: com.glodblock.github.appflux.xmod.jade.JadePlugin
+[29Oct2026 00:51:39.245] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Chisel: io.github.chiselteam.chisel.integration.jade.JadeCompatibility
+[29Oct2026 00:51:39.247] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Witchery: dev.sterner.witchery.integration.jade.JadePlugin
+[29Oct2026 00:51:39.249] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from FTB Armory: dev.ftb.mods.ftbarmory.integration.jade.FTBArmoryJadePlugin
+[29Oct2026 00:51:39.250] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Witchery: Forbidden Magic: dev.sterner.witchery_forbidden_magic.integration.jade.JadePlugin
+[29Oct2026 00:51:39.259] [modloading-sync-worker/INFO] [snownee.jade.Jade/]: Start loading plugin from Stellaris: org.exodusstudio.stellaris.common.compats.jade.JadePlugin
+[29Oct2026 00:51:40.632] [modloading-sync-worker/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register NetworkHandler ...
+[29Oct2026 00:51:40.634] [modloading-sync-worker/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Network Handler ...
+[29Oct2026 00:51:40.634] [modloading-sync-worker/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Network Handler for net.neoforged.neoforge.network.registration.PayloadRegistrar@33650a9c with version 1 ...
+[29Oct2026 00:51:40.634] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Registering network messages for BOTH side ...
+[29Oct2026 00:51:40.634] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Registering client network handler ...
+[29Oct2026 00:51:40.644] [modloading-sync-worker/INFO] [Easy NPC: Core/]: Registering server network handler ...
+[29Oct2026 00:51:40.649] [modloading-sync-worker/INFO] [Easy NPC: Core/]: 🗣 [Easy NPC: Core] Register Network Handler with 1 ...
+[29Oct2026 00:51:41.845] [main/INFO] [dsp/]: Replacing server properties with default properties!
+[29Oct2026 00:51:41.886] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[29Oct2026 00:51:42.267] [main/INFO] [com.breakinblocks.neovitae.NeoVitae/]: Registering material pack for SERVER_DATA
+[29Oct2026 00:51:42.649] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack generated/fragmentum_layer, loading it automatically
+[29Oct2026 00:51:42.650] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/yungsapi:locate_replacer, loading it automatically
+[29Oct2026 00:51:42.651] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/tectonic:tectonic, loading it automatically
+[29Oct2026 00:51:42.651] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack neovitae_materials, loading it automatically
+[29Oct2026 00:51:42.651] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ftb, loading it automatically
+[29Oct2026 00:51:42.651] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ftb-ores, loading it automatically
+[29Oct2026 00:51:42.651] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ftb-unification, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ftbdungeons, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/thaumaturge-absent, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/starcatcher:compat/create, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/starcatcher:compat/tide, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/starcatcher:compat/selling_bin_emeralds, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack mod/starcatcher:compat/selling_bin_fishes, loading it automatically
+[29Oct2026 00:51:42.653] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack nautec/generated_pack, loading it automatically
+[29Oct2026 00:51:42.755] [main/INFO] [STDOUT/]: [dev.ftb.packcompanion.features.kube.KubeAddons:registerBindings:19]: Registering KubeJS bindings for Pack Companion
+[29Oct2026 00:51:42.762] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/evolution_advancements.js in 0.007 s
+[29Oct2026 00:51:42.767] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags/block.js in 0.001 s
+[29Oct2026 00:51:42.772] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags/item.js in 0.005 s
+[29Oct2026 00:51:42.780] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/_all.js in 0.006 s
+[29Oct2026 00:51:42.783] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_cobble.js in 0.003 s
+[29Oct2026 00:51:42.785] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_diamond.js in 0.001 s
+[29Oct2026 00:51:42.786] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_dragon.js in 0.001 s
+[29Oct2026 00:51:42.787] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_iron.js in 0.001 s
+[29Oct2026 00:51:42.788] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_netherite.js in 0.001 s
+[29Oct2026 00:51:42.789] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/after_wither.js in 0.0 s
+[29Oct2026 00:51:42.790] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/trades/before_cobble.js in 0.0 s
+[29Oct2026 00:51:42.804] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_apoth_boss.js in 0.012 s
+[29Oct2026 00:51:42.808] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_creeper.js in 0.004 s
+[29Oct2026 00:51:42.819] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_fairy.js in 0.011 s
+[29Oct2026 00:51:42.823] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_frog.js in 0.001 s
+[29Oct2026 00:51:42.828] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_goat.js in 0.005 s
+[29Oct2026 00:51:42.843] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_gunslinger.js#3: Loaded Java class 'net.minecraft.world.phys.AABB'
+[29Oct2026 00:51:42.859] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_gunslinger.js#4: Loaded Java class 'io.redspace.irons_artifice.entity.Gunslinger'
+[29Oct2026 00:51:42.860] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_gunslinger.js#5: Loaded Java class 'net.minecraft.world.entity.EquipmentSlot'
+[29Oct2026 00:51:42.863] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_gunslinger.js#6: Loaded Java class 'net.sirgrantd.sg_economy.api.SGEconomyApi'
+[29Oct2026 00:51:42.865] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_gunslinger.js#7: Loaded Java class 'net.sirgrantd.sg_economy.SGEconomyMod'
+[29Oct2026 00:51:42.869] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_gunslinger.js in 0.037 s
+[29Oct2026 00:51:42.871] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_phantom.js in 0.002 s
+[29Oct2026 00:51:42.887] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_trader.js#136: Loaded Java class 'net.neoforged.neoforge.event.entity.living.LivingEquipmentChangeEvent'
+[29Oct2026 00:51:42.888] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_trader.js#137: Loaded Java class 'net.minecraft.core.component.DataComponents'
+[29Oct2026 00:51:42.888] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_trader.js in 0.016 s
+[29Oct2026 00:51:42.894] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/events/event_treasure_goblin.js#2: Loaded Java class 'dev.ftb.mods.ftbevolutioncompanion.compat.gateways.TreasureGoblinEvent'
+[29Oct2026 00:51:42.895] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_treasure_goblin.js in 0.004 s
+[29Oct2026 00:51:42.915] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events/event_allay.js in 0.019 s
+[29Oct2026 00:51:42.916] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/blocks.js in 0.001 s
+[29Oct2026 00:51:42.929] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/echo_shop_villagers.js#2: Loaded Java class 'dev.ftb.mods.ftbechoes.echo.progress.TeamProgressManager'
+[29Oct2026 00:51:42.932] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/echo_shop_villagers.js#3: Loaded Java class 'net.minecraft.resources.Identifier'
+[29Oct2026 00:51:42.932] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/echo_shop_villagers.js in 0.015 s
+[29Oct2026 00:51:42.945] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/echo_unlock.js#35: Loaded Java class 'dev.ftb.mods.ftbteams.api.TeamStagesHelper'
+[29Oct2026 00:51:42.947] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/echo_unlock.js#146: Loaded Java class 'dev.ftb.mods.ftbteams.api.neoforge.FTBTeamsEvent$PlayerChangedTeam'
+[29Oct2026 00:51:42.948] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/echo_unlock.js in 0.016 s
+[29Oct2026 00:51:42.972] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/shop_keepers.js#3: Loaded Java class 'net.minecraft.core.registries.Registries'
+[29Oct2026 00:51:42.973] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/shop_keepers.js#4: Loaded Java class 'net.minecraft.core.UUIDUtil'
+[29Oct2026 00:51:42.973] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/shop_keepers.js#5: Loaded Java class 'java.util.UUID'
+[29Oct2026 00:51:42.973] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/shop_keepers.js#6: Loaded Java class 'net.minecraft.core.BlockPos'
+[29Oct2026 00:51:42.974] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/shop_keepers.js#7: Loaded Java class 'net.minecraft.server.permissions.Permissions'
+[29Oct2026 00:51:42.975] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/shop_keepers.js in 0.027 s
+[29Oct2026 00:51:43.023] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_greetings.js#3: Loaded Java class 'de.markusbordihn.easynpc.entity.easynpc.handlers.action.executor.MessageActionExecutor'
+[29Oct2026 00:51:43.027] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_greetings.js#4: Loaded Java class 'de.markusbordihn.easynpc.data.action.MessageActionData'
+[29Oct2026 00:51:43.028] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_greetings.js#5: Loaded Java class 'de.markusbordihn.easynpc.data.action.MessageRecipientScope'
+[29Oct2026 00:51:43.028] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_greetings.js#6: Loaded Java class 'de.markusbordihn.easynpc.data.action.ActionContext'
+[29Oct2026 00:51:43.032] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_greetings.js#7: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[29Oct2026 00:51:43.038] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/broker_greetings.js in 0.063 s
+[29Oct2026 00:51:43.051] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/_lib.js#2: Loaded Java class 'dev.ftb.mods.ftblibrary.math.ChunkDimPos'
+[29Oct2026 00:51:43.056] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/_lib.js#3: Loaded Java class 'dev.ftb.mods.ftbchunks.api.FTBChunksAPI'
+[29Oct2026 00:51:43.059] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/_lib.js#4: Loaded Java class 'dev.ftb.mods.ftbteams.api.FTBTeamsAPI'
+[29Oct2026 00:51:43.063] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/_lib.js#5: Loaded Java class 'dev.ftb.mods.ftblibrary.icon.Color4I'
+[29Oct2026 00:51:43.064] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/spawn_pyramid/_lib.js in 0.024 s
+[29Oct2026 00:51:43.071] [main/INFO] [KubeJS Server/]: server_scripts:systems/ftb_events/_lib.js#4: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[29Oct2026 00:51:43.074] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/_lib.js in 0.008 s
+[29Oct2026 00:51:43.076] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/statistics.js in 0.002 s
+[29Oct2026 00:51:43.083] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/event_functions.js in 0.003 s
+[29Oct2026 00:51:43.093] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/spawn_pyramid/placement.js in 0.009 s
+[29Oct2026 00:51:43.127] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/waystone.js#2: Loaded Java class 'net.blay09.mods.waystones.block.entity.WaystoneBlockEntityBase'
+[29Oct2026 00:51:43.128] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/waystone.js#3: Loaded Java class 'net.blay09.mods.waystones.api.WaystoneVisibility'
+[29Oct2026 00:51:43.131] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/waystone.js#4: Loaded Java class 'net.blay09.mods.waystones.core.WaystoneIndexManager'
+[29Oct2026 00:51:43.137] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/waystone.js#5: Loaded Java class 'net.blay09.mods.waystones.core.WaystoneSyncManager'
+[29Oct2026 00:51:43.144] [main/INFO] [KubeJS Server/]: server_scripts:systems/spawn_pyramid/waystone.js#6: Loaded Java class 'net.blay09.mods.waystones.store.SavedDataWaystonesStore'
+[29Oct2026 00:51:43.147] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/spawn_pyramid/waystone.js in 0.054 s
+[29Oct2026 00:51:43.153] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/spawn_pyramid/slow_falling.js in 0.003 s
+[29Oct2026 00:51:43.162] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/events_main.js in 0.009 s
+[29Oct2026 00:51:43.171] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/ftb_events/commands.js in 0.008 s
+[29Oct2026 00:51:43.185] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/spawn_pyramid/commands.js in 0.013 s
+[29Oct2026 00:51:43.188] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:loot_modification/block_drops.js in 0.001 s
+[29Oct2026 00:51:43.189] [main/INFO] [KubeJS Server/]: server_scripts:loot_modification/peekaboo_drops.js#3: Loaded Java class 'net.neoforged.neoforge.event.entity.living.LivingDeathEvent'
+[29Oct2026 00:51:43.192] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:loot_modification/peekaboo_drops.js in 0.004 s
+[29Oct2026 00:51:43.204] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/productive_farming_trim.js in 0.008 s
+[29Oct2026 00:51:43.209] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/removals.js in 0.003 s
+[29Oct2026 00:51:43.214] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/blood_vial.js in 0.002 s
+[29Oct2026 00:51:43.221] [main/INFO] [KubeJS Server/]: server_scripts:systems/coffee_machine.js#7: Loaded Java class 'net.minecraft.world.item.alchemy.Potions'
+[29Oct2026 00:51:43.231] [main/INFO] [KubeJS Server/]: server_scripts:systems/coffee_machine.js#8: Loaded Java class 'net.minecraft.world.item.ItemUtils'
+[29Oct2026 00:51:43.237] [main/INFO] [KubeJS Server/]: server_scripts:systems/coffee_machine.js#9: Loaded Java class 'net.minecraft.world.level.block.LevelEvent'
+[29Oct2026 00:51:43.240] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/coffee_machine.js in 0.026 s
+[29Oct2026 00:51:43.245] [main/INFO] [KubeJS Server/]: server_scripts:systems/echoes/broker_catch_guard.js#1: Loaded Java class 'net.neoforged.neoforge.event.entity.ProjectileImpactEvent'
+[29Oct2026 00:51:43.249] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/broker_catch_guard.js in 0.007 s
+[29Oct2026 00:51:43.252] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/home_reset.js in 0.002 s
+[29Oct2026 00:51:43.271] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/echoes/stage_triggers.js in 0.015 s
+[29Oct2026 00:51:43.274] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/iaf_boss_spawners.js in 0.001 s
+[29Oct2026 00:51:43.280] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/kindred_starter.js in 0.003 s
+[29Oct2026 00:51:43.283] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/team_stage_sync.js in 0.001 s
+[29Oct2026 00:51:43.286] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/thaumaturge_research.js in 0.0 s
+[29Oct2026 00:51:43.287] [main/INFO] [KubeJS Server/]: server_scripts:systems/witchery_taglock.js#1: Loaded Java class 'dev.sterner.witchery.content.item.taglock.TaglockItem'
+[29Oct2026 00:51:43.301] [main/INFO] [KubeJS Server/]: server_scripts:systems/witchery_taglock.js#2: Loaded Java class 'dev.sterner.witchery.core.registry.WitcheryDataComponents'
+[29Oct2026 00:51:43.301] [main/INFO] [KubeJS Server/]: server_scripts:systems/witchery_taglock.js#3: Loaded Java class 'java.lang.Long'
+[29Oct2026 00:51:43.305] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/witchery_taglock.js in 0.015 s
+[29Oct2026 00:51:43.313] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:systems/world_tiers.js in 0.008 s
+[29Oct2026 00:51:43.316] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags/enchantment.js in 0.0 s
+[29Oct2026 00:51:43.328] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags/energy.js in 0.012 s
+[29Oct2026 00:51:43.374] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags/hide.js in 0.044 s
+[29Oct2026 00:51:43.424] [main/INFO] [KubeJS Server/]: Loaded 54/54 KubeJS server scripts in 0.747 s with 0 errors and 0 warnings

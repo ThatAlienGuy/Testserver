@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "minecraft:diamond"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:diamond_dust"
+    }
+  ],
+  "time": 100
+}

@@ -1,0 +1,10 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "ingredient": "ftbmaterials:silver_block"
+  },
+  "result": {
+    "count": 9,
+    "id": "ftbmaterials:silver_plate"
+  }
+}

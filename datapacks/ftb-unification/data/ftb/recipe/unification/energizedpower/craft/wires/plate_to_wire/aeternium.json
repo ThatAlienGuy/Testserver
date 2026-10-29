@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:tools/hammers",
+    "ftbarmory:aeternium_plate"
+  ],
+  "result": {
+    "id": "ftbarmory:aeternium_wire",
+    "count": 2
+  }
+}

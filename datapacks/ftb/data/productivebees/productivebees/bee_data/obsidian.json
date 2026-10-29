@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:obsidians"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:obsidians"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "endurance": "endurance.strong"
+  },
+  "flowerTag": "c:obsidians",
+  "particleColor": "#3b2754",
+  "primaryColor": "#3b2754",
+  "renderer": "thicc",
+  "secondaryColor": "#06030b",
+  "size": 0.85,
+  "useGlowLayer": true
+}

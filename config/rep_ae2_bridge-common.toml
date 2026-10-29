@@ -1,0 +1,35 @@
+#AE2–Replication Bridge
+[bridge]
+	#Idle AE/t drain of the Bridge AE2 node
+	# Default: 500
+	# Range: > 0
+	000_bridgeEnergyConsumption = 500
+
+#Matter storage cells
+[matter_cells]
+	#Maximum distinct matter types a matter storage cell can hold (AE2 clamps to 63).
+	# Default: 6
+	# Range: > 1
+	000_matterCellMaxTypes = 6
+
+#Matter Assembler
+[matter_assembler]
+	#Ticks required for a Matter Assembler to finish one craft unit (Replicator uses ~100).
+	# Default: 5
+	# Range: 1 ~ 1000
+	000_matterAssemblerMaxProgress = 5
+	#AE/t drained from the AE2 grid while a Matter Assembler is working.
+	# Default: 80
+	# Range: > 0
+	001_matterAssemblerEnergyPerTick = 80
+
+#Logging / development
+[logging]
+	#Enable aggressive debug logging for troubleshooting
+	000_enableDebugLogging = false
+
+#Compatibility / safety fixes
+[fixes]
+	#Enable the Replication NetworkBlockEntity mixin that wraps addElement() in onLoad()
+	#with a try-catch safety net. Requires game restart to take effect.
+	000_enableNetworkBlockEntityFix = true

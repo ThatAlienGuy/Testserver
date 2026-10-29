@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ae2:certus_quartz_crystal"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ae2:certus_quartz_dust"
+    }
+  ],
+  "time": 100
+}

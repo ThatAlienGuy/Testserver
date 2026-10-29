@@ -1,0 +1,108 @@
+[00:51:42] [INIT] KubeJS 26.1.2-8.0.7; MC 2601 NeoForge
+[00:51:42] [INIT] Loaded plugins:
+[00:51:42] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[00:51:42] [INIT] - com.breakinblocks.neovitae.compat.kubejs.NVKubeJSPlugin
+[00:51:42] [INIT] - com.buuz135.replication.integration.kubejs.ReplicationKubeJSPlugin
+[00:51:42] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[00:51:42] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[00:51:42] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:51:42] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[00:51:42] [INIT] - com.breakinblocks.directorscamera.kubejs.DirectorsCameraKubeJSPlugin
+[00:51:42] [INIT] - dev.ftb.packcompanion.features.kube.KubeAddons
+[00:51:42] [INIT] - net.yxiao233.meinfinitycell.common.compact.kubejs.ModKubeJSPlugin
+[00:51:42] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[00:51:42] [INFO] Loaded script server_scripts:systems/evolution_advancements.js in 0.007 s
+[00:51:42] [INFO] Loaded script server_scripts:tags/block.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:tags/item.js in 0.005 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/_all.js in 0.006 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_cobble.js in 0.003 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_diamond.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_dragon.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_iron.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_netherite.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/after_wither.js in 0.0 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/trades/before_cobble.js in 0.0 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_apoth_boss.js in 0.012 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_creeper.js in 0.004 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_fairy.js in 0.011 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_frog.js in 0.001 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_goat.js in 0.005 s
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_gunslinger.js#3: Loaded Java class 'net.minecraft.world.phys.AABB'
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_gunslinger.js#4: Loaded Java class 'io.redspace.irons_artifice.entity.Gunslinger'
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_gunslinger.js#5: Loaded Java class 'net.minecraft.world.entity.EquipmentSlot'
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_gunslinger.js#6: Loaded Java class 'net.sirgrantd.sg_economy.api.SGEconomyApi'
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_gunslinger.js#7: Loaded Java class 'net.sirgrantd.sg_economy.SGEconomyMod'
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_gunslinger.js in 0.037 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_phantom.js in 0.002 s
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_trader.js#136: Loaded Java class 'net.neoforged.neoforge.event.entity.living.LivingEquipmentChangeEvent'
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_trader.js#137: Loaded Java class 'net.minecraft.core.component.DataComponents'
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_trader.js in 0.016 s
+[00:51:42] [INFO] server_scripts:systems/ftb_events/events/event_treasure_goblin.js#2: Loaded Java class 'dev.ftb.mods.ftbevolutioncompanion.compat.gateways.TreasureGoblinEvent'
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_treasure_goblin.js in 0.004 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/ftb_events/events/event_allay.js in 0.019 s
+[00:51:42] [INFO] Loaded script server_scripts:systems/blocks.js in 0.001 s
+[00:51:42] [INFO] server_scripts:systems/echoes/echo_shop_villagers.js#2: Loaded Java class 'dev.ftb.mods.ftbechoes.echo.progress.TeamProgressManager'
+[00:51:42] [INFO] server_scripts:systems/echoes/echo_shop_villagers.js#3: Loaded Java class 'net.minecraft.resources.Identifier'
+[00:51:42] [INFO] Loaded script server_scripts:systems/echoes/echo_shop_villagers.js in 0.015 s
+[00:51:42] [INFO] server_scripts:systems/echoes/echo_unlock.js#35: Loaded Java class 'dev.ftb.mods.ftbteams.api.TeamStagesHelper'
+[00:51:42] [INFO] server_scripts:systems/echoes/echo_unlock.js#146: Loaded Java class 'dev.ftb.mods.ftbteams.api.neoforge.FTBTeamsEvent$PlayerChangedTeam'
+[00:51:42] [INFO] Loaded script server_scripts:systems/echoes/echo_unlock.js in 0.016 s
+[00:51:42] [INFO] server_scripts:systems/echoes/shop_keepers.js#3: Loaded Java class 'net.minecraft.core.registries.Registries'
+[00:51:42] [INFO] server_scripts:systems/echoes/shop_keepers.js#4: Loaded Java class 'net.minecraft.core.UUIDUtil'
+[00:51:42] [INFO] server_scripts:systems/echoes/shop_keepers.js#5: Loaded Java class 'java.util.UUID'
+[00:51:42] [INFO] server_scripts:systems/echoes/shop_keepers.js#6: Loaded Java class 'net.minecraft.core.BlockPos'
+[00:51:42] [INFO] server_scripts:systems/echoes/shop_keepers.js#7: Loaded Java class 'net.minecraft.server.permissions.Permissions'
+[00:51:42] [INFO] Loaded script server_scripts:systems/echoes/shop_keepers.js in 0.027 s
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_greetings.js#3: Loaded Java class 'de.markusbordihn.easynpc.entity.easynpc.handlers.action.executor.MessageActionExecutor'
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_greetings.js#4: Loaded Java class 'de.markusbordihn.easynpc.data.action.MessageActionData'
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_greetings.js#5: Loaded Java class 'de.markusbordihn.easynpc.data.action.MessageRecipientScope'
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_greetings.js#6: Loaded Java class 'de.markusbordihn.easynpc.data.action.ActionContext'
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_greetings.js#7: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[00:51:43] [INFO] Loaded script server_scripts:systems/echoes/broker_greetings.js in 0.063 s
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/_lib.js#2: Loaded Java class 'dev.ftb.mods.ftblibrary.math.ChunkDimPos'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/_lib.js#3: Loaded Java class 'dev.ftb.mods.ftbchunks.api.FTBChunksAPI'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/_lib.js#4: Loaded Java class 'dev.ftb.mods.ftbteams.api.FTBTeamsAPI'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/_lib.js#5: Loaded Java class 'dev.ftb.mods.ftblibrary.icon.Color4I'
+[00:51:43] [INFO] Loaded script server_scripts:systems/spawn_pyramid/_lib.js in 0.024 s
+[00:51:43] [INFO] server_scripts:systems/ftb_events/_lib.js#4: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[00:51:43] [INFO] Loaded script server_scripts:systems/ftb_events/_lib.js in 0.008 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/ftb_events/statistics.js in 0.002 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/ftb_events/event_functions.js in 0.003 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/spawn_pyramid/placement.js in 0.009 s
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/waystone.js#2: Loaded Java class 'net.blay09.mods.waystones.block.entity.WaystoneBlockEntityBase'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/waystone.js#3: Loaded Java class 'net.blay09.mods.waystones.api.WaystoneVisibility'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/waystone.js#4: Loaded Java class 'net.blay09.mods.waystones.core.WaystoneIndexManager'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/waystone.js#5: Loaded Java class 'net.blay09.mods.waystones.core.WaystoneSyncManager'
+[00:51:43] [INFO] server_scripts:systems/spawn_pyramid/waystone.js#6: Loaded Java class 'net.blay09.mods.waystones.store.SavedDataWaystonesStore'
+[00:51:43] [INFO] Loaded script server_scripts:systems/spawn_pyramid/waystone.js in 0.054 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/spawn_pyramid/slow_falling.js in 0.003 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/ftb_events/events_main.js in 0.009 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/ftb_events/commands.js in 0.008 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/spawn_pyramid/commands.js in 0.013 s
+[00:51:43] [INFO] Loaded script server_scripts:loot_modification/block_drops.js in 0.001 s
+[00:51:43] [INFO] server_scripts:loot_modification/peekaboo_drops.js#3: Loaded Java class 'net.neoforged.neoforge.event.entity.living.LivingDeathEvent'
+[00:51:43] [INFO] Loaded script server_scripts:loot_modification/peekaboo_drops.js in 0.004 s
+[00:51:43] [INFO] Loaded script server_scripts:recipes/productive_farming_trim.js in 0.008 s
+[00:51:43] [INFO] Loaded script server_scripts:recipes/removals.js in 0.003 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/blood_vial.js in 0.002 s
+[00:51:43] [INFO] server_scripts:systems/coffee_machine.js#7: Loaded Java class 'net.minecraft.world.item.alchemy.Potions'
+[00:51:43] [INFO] server_scripts:systems/coffee_machine.js#8: Loaded Java class 'net.minecraft.world.item.ItemUtils'
+[00:51:43] [INFO] server_scripts:systems/coffee_machine.js#9: Loaded Java class 'net.minecraft.world.level.block.LevelEvent'
+[00:51:43] [INFO] Loaded script server_scripts:systems/coffee_machine.js in 0.026 s
+[00:51:43] [INFO] server_scripts:systems/echoes/broker_catch_guard.js#1: Loaded Java class 'net.neoforged.neoforge.event.entity.ProjectileImpactEvent'
+[00:51:43] [INFO] Loaded script server_scripts:systems/echoes/broker_catch_guard.js in 0.007 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/echoes/home_reset.js in 0.002 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/echoes/stage_triggers.js in 0.015 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/iaf_boss_spawners.js in 0.001 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/kindred_starter.js in 0.003 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/team_stage_sync.js in 0.001 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/thaumaturge_research.js in 0.0 s
+[00:51:43] [INFO] server_scripts:systems/witchery_taglock.js#1: Loaded Java class 'dev.sterner.witchery.content.item.taglock.TaglockItem'
+[00:51:43] [INFO] server_scripts:systems/witchery_taglock.js#2: Loaded Java class 'dev.sterner.witchery.core.registry.WitcheryDataComponents'
+[00:51:43] [INFO] server_scripts:systems/witchery_taglock.js#3: Loaded Java class 'java.lang.Long'
+[00:51:43] [INFO] Loaded script server_scripts:systems/witchery_taglock.js in 0.015 s
+[00:51:43] [INFO] Loaded script server_scripts:systems/world_tiers.js in 0.008 s
+[00:51:43] [INFO] Loaded script server_scripts:tags/enchantment.js in 0.0 s
+[00:51:43] [INFO] Loaded script server_scripts:tags/energy.js in 0.012 s
+[00:51:43] [INFO] Loaded script server_scripts:tags/hide.js in 0.044 s
+[00:51:43] [INFO] Loaded 54/54 KubeJS server scripts in 0.747 s with 0 errors and 0 warnings

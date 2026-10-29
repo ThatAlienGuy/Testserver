@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "productivebees:flowers/gilded"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "productivebees:flowers/gilded"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attributes": {
+    "endurance": "endurance.weak"
+  },
+  "flowerTag": "productivebees:flowers/gilded",
+  "particleColor": "#fffd6e",
+  "primaryColor": "#fcd979",
+  "secondaryColor": "#804f40",
+  "useGlowLayer": true
+}

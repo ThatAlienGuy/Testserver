@@ -1,0 +1,23 @@
+[display]
+	#Defines how water is displayed in the Fish Tank UI.
+	#PERCENT: shows as a percentage (0-100%)
+	#BUCKETS: shows as whole buckets (B)
+	#MILLIBUCKETS: shows as millibuckets (mB)
+	#Allowed Values: PERCENT, BUCKETS, MILLIBUCKETS
+	waterDisplayUnit = "PERCENT"
+	#Which water texture the OUTER glass faces of a tank use.
+	#FLOWING: vanilla's falling-water texture — the animated streaks. The default,
+	#         because it is what every earlier version did.
+	#STILL:   the same texture the water surface uses. Calm, no streaks.
+	#OVERLAY: the texture vanilla itself uses for water seen through glass. A tank's
+	#         INNER faces already use this one.
+	#STILL and OVERLAY are drawn at one texture pixel per block pixel. Vanilla draws
+	#both at half that on a fluid's side, which is why water behind glass looks
+	#coarse in an unmodded game; a tank is close enough to look through that it
+	#shows, so this corrects it.
+	#Purely visual, purely yours — nothing is synced and no other player sees it.
+	#⚠ With Sodium or Embeddium installed this is followed by Sodium 0.6 and newer
+	#(Minecraft 1.21.1 and up) and ignored by anything older, which keeps the
+	#default appearance rather than misdrawing.
+	#Allowed Values: FLOWING, STILL, OVERLAY
+	tankSideTexture = "FLOWING"

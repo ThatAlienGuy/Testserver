@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "witchery"
+    }
+  ],
+  "type": "agritechevolved:crop",
+  "seed": "witchery:garlic",
+  "soils": [
+    "#agritechevolved:farmland_soils"
+  ],
+  "drops": [
+    {
+      "item": "witchery:garlic",
+      "min": 2,
+      "max": 4,
+      "chance": 1.0
+    }
+  ]
+}

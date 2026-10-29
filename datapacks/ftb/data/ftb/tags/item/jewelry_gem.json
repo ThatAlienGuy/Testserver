@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "#c:gems/amethyst",
+    "justdirethings:celestigem",
+    "minecraft:clay_ball",
+    "evilcraft:dark_gem",
+    "#c:gems/diamond",
+    "ftbmaterials:dimensional_shard_gem",
+    "#c:gems/emerald",
+    "nautec:flawless_prismarine_crystal",
+    "ae2:fluix_crystal",
+    "oritech:fluxite",
+    "#c:gems/garnet",
+    "mysticalagradditions:insanium_gemstone",
+    "#c:gems/lapis",
+    "#c:gems/moonstone",
+    "powah:crystal_nitro",
+    "#c:gems/onyx",
+    "#c:gems/peridot",
+    "#c:dusts/prismarine",
+    "enderio:pulsating_crystal",
+    "#c:gems/ruby",
+    "#c:gems/sapphire",
+    "neovitae:raw_crystal_shard",
+    "neovitae:spiritus_invictus_shard",
+    "neovitae:spiritus_nihilum_shard",
+    "neovitae:spiritus_ruina_shard",
+    "neovitae:spiritus_vindicta_shard",
+    "justdirethings:time_crystal",
+    "#c:gems/topaz"
+  ]
+}

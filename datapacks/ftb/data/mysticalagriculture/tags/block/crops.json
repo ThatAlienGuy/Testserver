@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mysticalagriculture:dark_gem_crop",
+    "mysticalagriculture:fluxite_crop",
+    "mysticalagriculture:iesnium_crop",
+    "mysticalagriculture:chromium_crop",
+    "mysticalagriculture:niobium_crop",
+    "mysticalagriculture:cinnabar_crop",
+    "mysticalagriculture:redstone_crystal_crop",
+    "mysticalagriculture:xychorium_crop",
+    "mysticalagriculture:oil_crop",
+    "mysticalagriculture:vitae_crop",
+    "mysticalagriculture:salt_crop",
+    "mysticalagriculture:moonstone_crop",
+    "mysticalagriculture:kivi_crop",
+    "mysticalagriculture:entro_crop",
+    "mysticalagriculture:sculk_crop",
+    "mysticalagriculture:desh_crop"
+  ]
+}

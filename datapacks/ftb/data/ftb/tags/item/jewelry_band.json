@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "ftbarmory:adamantite_ingot",
+    "ftbarmory:aeternium_ingot",
+    "nautec:aquarine_steel_ingot",
+    "nautec:atlantic_gold_ingot",
+    "ftbarmory:aurichalcum_ingot",
+    "justdirethings:blazegold_ingot",
+    "#c:ingots/brass",
+    "#c:ingots/bronze",
+    "nautec:cast_iron_ingot",
+    "#c:ingots/copper",
+    "enderio:dark_steel_ingot",
+    "oritech:duratium_ingot",
+    "justdirethings:eclipsealloy_ingot",
+    "iceandfire:dragonsteel_fire_ingot",
+    "#c:ingots/gold",
+    "#c:ingots/hellforged",
+    "iceandfire:dragonsteel_ice_ingot",
+    "#c:ingots/iron",
+    "#c:ingots/lead",
+    "iceandfire:dragonsteel_lightning_ingot",
+    "#c:ingots/netherite",
+    "#c:ingots/platinum",
+    "oritech:prometheum_ingot",
+    "#c:ingots/silver",
+    "ftbmaterials:steel_ingot"
+  ]
+}

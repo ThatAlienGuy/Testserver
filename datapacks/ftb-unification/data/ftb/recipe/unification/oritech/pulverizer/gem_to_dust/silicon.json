@@ -1,0 +1,13 @@
+{
+  "type": "oritech:pulverizer",
+  "itemInputs": [
+    "ftbmaterials:silicon_gem"
+  ],
+  "itemResults": [
+    {
+      "count": 1,
+      "id": "ftbmaterials:silicon_dust"
+    }
+  ],
+  "time": 100
+}

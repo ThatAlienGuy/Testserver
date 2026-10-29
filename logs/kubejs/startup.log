@@ -1,0 +1,54 @@
+[00:50:45] [INIT] KubeJS 26.1.2-8.0.7; MC 2601 NeoForge
+[00:50:45] [INIT] Loaded plugins:
+[00:50:45] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[00:50:45] [INIT] - com.breakinblocks.neovitae.compat.kubejs.NVKubeJSPlugin
+[00:50:45] [INIT] - com.buuz135.replication.integration.kubejs.ReplicationKubeJSPlugin
+[00:50:45] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[00:50:45] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[00:50:45] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[00:50:45] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[00:50:45] [INIT] - com.breakinblocks.directorscamera.kubejs.DirectorsCameraKubeJSPlugin
+[00:50:45] [INIT] - dev.ftb.packcompanion.features.kube.KubeAddons
+[00:50:45] [INIT] - net.yxiao233.meinfinitycell.common.compact.kubejs.ModKubeJSPlugin
+[00:50:45] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[00:50:46] [INFO] startup_scripts:block.js#1: Loaded Java class 'damien.nodeworks.block.StabilizerBlock'
+[00:50:46] [INFO] startup_scripts:block.js#2: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour$Properties'
+[00:50:46] [INFO] startup_scripts:block.js#3: Loaded Java class 'net.minecraft.world.item.BlockItem'
+[00:50:46] [INFO] startup_scripts:block.js#4: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[00:50:46] [INFO] startup_scripts:block.js#5: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[00:50:46] [INFO] startup_scripts:block.js#6: Loaded Java class 'net.minecraft.core.registries.Registries'
+[00:50:46] [INFO] startup_scripts:block.js#7: Loaded Java class 'net.minecraft.core.registries.BuiltInRegistries'
+[00:50:46] [INFO] startup_scripts:block.js#8: Loaded Java class 'net.minecraft.resources.Identifier'
+[00:50:46] [INFO] startup_scripts:block.js#9: Loaded Java class 'net.neoforged.neoforge.event.BlockEntityTypeAddBlocksEvent'
+[00:50:46] [INFO] Loaded script startup_scripts:block.js in 0.293 s
+[00:50:46] [INFO] startup_scripts:capacitors.js#1: Loaded Java class 'com.enderio.enderio.api.capacitor.CapacitorData'
+[00:50:46] [INFO] startup_scripts:capacitors.js#2: Loaded Java class 'com.enderio.enderio.init.EIODataComponents'
+[00:50:46] [INFO] Loaded script startup_scripts:capacitors.js in 0.002 s
+[00:50:46] [INFO] startup_scripts:coffee.js#1: Loaded Java class 'net.minecraft.core.component.DataComponents'
+[00:50:46] [INFO] startup_scripts:coffee.js#2: Loaded Java class 'net.minecraft.world.food.FoodProperties'
+[00:50:46] [INFO] startup_scripts:coffee.js#3: Loaded Java class 'net.minecraft.world.item.component.Consumables'
+[00:50:46] [INFO] startup_scripts:coffee.js#4: Loaded Java class 'net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect'
+[00:50:46] [INFO] startup_scripts:coffee.js#5: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[00:50:46] [INFO] startup_scripts:coffee.js#6: Loaded Java class 'net.minecraft.world.effect.MobEffects'
+[00:50:46] [INFO] startup_scripts:coffee.js#7: Loaded Java class 'net.minecraft.world.item.component.UseRemainder'
+[00:50:46] [INFO] startup_scripts:coffee.js#8: Loaded Java class 'net.minecraft.world.item.ItemStackTemplate'
+[00:50:46] [INFO] startup_scripts:coffee.js#9: Loaded Java class 'net.minecraft.world.item.Items'
+[00:50:46] [INFO] startup_scripts:coffee.js#10: Loaded Java class 'java.util.ArrayList'
+[00:50:46] [INFO] Loaded script startup_scripts:coffee.js in 0.034 s
+[00:50:46] [INFO] Loaded script startup_scripts:dragonsteel_armor.js in 0.001 s
+[00:50:46] [INFO] Loaded script startup_scripts:fluids.js in 0.002 s
+[00:50:46] [INFO] Loaded script startup_scripts:food.js in 0.001 s
+[00:50:46] [INFO] Loaded script startup_scripts:infinity_cells.js in 0.001 s
+[00:50:46] [INFO] startup_scripts:items.js#2: Loaded Java class 'net.minecraft.world.food.Foods'
+[00:50:46] [INFO] Loaded script startup_scripts:items.js in 0.003 s
+[00:50:46] [INFO] startup_scripts:lex_vitae.js#1: Loaded Java class 'net.minecraft.world.item.component.Tool'
+[00:50:46] [INFO] startup_scripts:lex_vitae.js#2: Loaded Java class 'net.minecraft.world.item.component.Tool$Rule'
+[00:50:46] [INFO] Loaded script startup_scripts:lex_vitae.js in 0.013 s
+[00:50:46] [INFO] Loaded script startup_scripts:main.js in 0.002 s
+[00:50:46] [INFO] Loaded script startup_scripts:music.js in 0.0 s
+[00:50:46] [INFO] Loaded script startup_scripts:ore_processing.js in 0.001 s
+[00:50:46] [INFO] Loaded script startup_scripts:renaming.js in 0.006 s
+[00:50:46] [INFO] Loaded script startup_scripts:titanium_tools.js in 0.009 s
+[00:50:46] [INFO] Loaded script startup_scripts:weapon_damage.js in 0.014 s
+[00:50:46] [INFO] Loaded 15/15 KubeJS startup scripts in 1.251 s with 0 errors and 0 warnings
+[00:50:46] [INFO] Validated 0 files in kubejs/data/ in 2ms

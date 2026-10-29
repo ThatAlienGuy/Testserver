@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:storage_blocks/netherite"
+          }
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "registry": "minecraft:block",
+            "tag": "c:storage_blocks/netherite"
+          }
+        }
+      ]
+    }
+  ],
+  "attack": 1.0,
+  "attackResponse": "fire",
+  "attributes": {
+    "endurance": "endurance.medium"
+  },
+  "fireproof": true,
+  "flowerTag": "c:storage_blocks/netherite",
+  "particleColor": "#4d494d",
+  "primaryColor": "#4d494d",
+  "secondaryColor": "#804f40",
+  "size": 0.7,
+  "useGlowLayer": true,
+  "withered": true
+}

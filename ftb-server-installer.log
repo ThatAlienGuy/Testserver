@@ -1,0 +1,29 @@
+                                                     ███████ ████████ ██████  
+                                                     ██         ██    ██   ██ 
+                                                     █████      ██    ██████  
+                                                     ██         ██    ██   ██ 
+                                                     ██         ██    ██████  
+                                                     
+                                                     
+                                             Server installer version: v1.0.53(b9c23e)
+                                                   Thu, 29 Oct 2026 00:44:52 UTC
+
+                                                      Installer Issue tracker
+                                       https://github.com/FTBTeam/FTB-Server-Installer/issues
+                                                                  
+ WARNING  Install directory is not empty, installing the modpack may cause issues
+Would you like to continue? [y/N]: Yes
+  INFO    Fetched modpack:
+          Name: FTB Evolution 2 (135)
+          Version: 1.6.1 (100580)
+          ModLoader: neoforge (26.1.2.121)
+          Is Update: false
+          Install Path: /workspaces/Testserver
+Do you want to continue? [Y/n]: Yes
+Do you want to download java? [Y/n]: Yes
+  INFO    Starting mod pack download...
+ SUCCESS  Modpack files downloaded
+Would you like to run the neoforge installer? [Y/n]: Yes
+  INFO    Running NeoForge installer
+ SUCCESS  NeoForge installed successfully
+ SUCCESS  Modpack installed successfully

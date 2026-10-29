@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "ftbarmory:aeternium_plate",
+  "result": {
+    "count": 1,
+    "id": "ftbarmory:aeternium_wire"
+  }
+}

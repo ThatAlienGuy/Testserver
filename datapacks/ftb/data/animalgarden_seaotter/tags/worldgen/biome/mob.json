@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nautec:abyssal_trench",
+      "required": false
+    },
+    {
+      "id": "nautec:bioluminescent_grove",
+      "required": false
+    }
+  ]
+}

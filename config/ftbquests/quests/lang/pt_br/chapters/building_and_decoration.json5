@@ -1,0 +1,171 @@
+{
+  "quest.607211F8C680B88A.title": "&aPortas",
+  "quest.45979A90BFA03AA6.title": "&aLuzes e lâmpadas",
+  "task.19CEA73CCF4221E2.title": "Qualquer rede",
+  "quest.672FEF37D5F5783C.title": "&3Varinha Crystalix",
+  "quest.6AECB7C2DF87D34F.quest_desc": [
+    "&eGlassential&r adiciona vidros com propriedades incomuns. O &aVidro Etéreo&r é sólido para tudo, exceto jogadores. Assim, você pode atravessar suas próprias paredes, mas as criaturas não.",
+    "",
+    "O &aVidro Etéreo Reverso&r funciona ao contrário e só bloqueia jogadores. Glassential também faz o vidro vanilla se conectar entre blocos neste modpack.",
+  ],
+  "quest.1914278B9065D883.title": "&aTelhados",
+  "quest.2030D1D78E2AA7DE.quest_desc": [
+    "Este bloco faz o trabalho de cinzelar por você. Forneça ao &aCinzel Automático&r um cinzel, um bloco modelo que mostre a variante desejada e um suprimento de blocos de entrada. Ele os converte um após o outro.",
+    "",
+    "Ele funciona sem energia, então um Funil abastecendo-o é suficiente para produzir os blocos de uma parede inteira.",
+  ],
+  "quest.45979A90BFA03AA6.quest_desc": [
+    "Clique com o botão direito em uma lâmpada para ligá-la ou desligá-la e use qualquer corante nela para mudar sua cor. Tochas tiki podem ser construídas mais altas.",
+  ],
+  "quest.12A77A3CB31A42F4.quest_desc": [
+    "Pontes de madeira são feitas na Bancada de Trabalho, e pontes de pedra, no Cortador de Pedras. Clique com o botão direito em uma ponte com dois ou mais blocos de largura usando o &aAlicate&r para abrir uma entrada nela.",
+  ],
+  "task.575442B006482AD9.title": "Qualquer Cinzel",
+  "quest.377E6E387004CA7E.quest_desc": [
+    "A maioria dos mods de construção deste modpack usa o &aCortador de Pedras&r para produzir seus catálogos. &eBetterBlockZ&r, &eDecorative Wooden Lattices&r e vários mods de &eMacaw's&r produzem suas variantes nele.",
+    "",
+    "Cada sequência de quests nesta página aborda um aspecto diferente da construção. Nenhuma delas é pré-requisito para qualquer outra coisa no modpack. Então, comece pelo que combina com a base em que está trabalhando.",
+    "",
+    "Procure qualquer bloco em &eJEI&r para ver todas as variantes que podem ser cortadas a partir dele.",
+  ],
+  "quest.4307A169AF52A267.title": "&aVidro Luminoso e Vidro de Redstone",
+  "quest.7F55F51B79B150FB.quest_desc": [
+    "&eDecorZ&r produz luminárias a partir dos blocos de &aLuz Cibernética&r de BetterBlockZ. Transforme-os em painéis e, depois, processe um painel no Cortador de Pedras para obter coberturas, lâmpadas, lanternas, placas e faixas.",
+  ],
+  "quest.6AECB7C2DF87D34F.title": "&eGlassential",
+  "quest.1F9D424E8172A112.title": "&aAquário",
+  "quest.6D8E5365B422735D.quest_desc": [
+    "Os blocos de &eBetterBlockZ&r são organizados em famílias, e o Cortador de Pedras transforma o bloco base de cada família em até quinze variantes. Toda família precisa primeiro de um &aNúcleo BlockZ Base&r.",
+    "",
+    "Você também pode alternar entre as variantes de um bloco na mão sem usar o Cortador de Pedras. Isso exige duas teclas que o modpack deixa sem atribuição: &bTela de seleção de variantes&r e &bModificador de rolagem do mouse&r, ambas em Z-Core, nos Controles.",
+  ],
+  "quest.23BAF609BE4D464F.quest_desc": [
+    "O vidro vanilla já se conecta neste modpack, então &eConnected Glass&r está aqui por seus outros estilos. O &aVidro Conectado&r não tem bordas, e continuar a fabricá-lo resulta em &2Vidro Límpido&r e, depois, Vidro Arranhado.",
+  ],
+  "quest.23B44ACF78688229.quest_desc": [
+    "Os seis mods de &eMacaw's&r abrangem, cada um, uma parte da construção. Juntos, oferecem telhados, janelas, pontes, portas, caminhos e luzes.",
+    "",
+    "A maioria dos blocos deles é feita na Bancada de Trabalho ou no Cortador de Pedras, e cada mod tem uma ferramenta ou um truque que vale a pena conhecer. As quests ao redor desta abordam esses recursos.",
+  ],
+  "quest.3F05300BC56B409C.quest_desc": [
+    "Pavimentos são feitos no Cortador de Pedras. Clique com o botão direito em um pavimento colocado usando uma picareta para entalhá-lo ou uma pá para alisá-lo.",
+  ],
+  "quest.672FEF37D5F5783C.quest_desc": [
+    "Use a &3Varinha Crystalix&r no Vidro Crystalix para aplicar suas configurações. Agache ao usá-la para alterar todos os blocos conectados de uma só vez.",
+    "",
+    "As configurações da varinha são abertas com a tecla &bAbrir editor da varinha&r, que começa sem atribuição neste modpack. Atribua-a em Crystalix, nos Controles.",
+  ],
+  "quest.29FE9DA4102EBB42.quest_desc": [
+    "As formas de &eFramedBlocks&r assumem a aparência de qualquer bloco. Clique com o botão direito em um bloco emoldurado usando um item de bloco para aplicá-lo como camuflagem.",
+    "",
+    "Aplicar uma camuflagem consome esse bloco, e você o recupera ao remover a camuflagem com o &aMartelo Emoldurado&r. A &aChave Inglesa Emoldurada&r gira um bloco emoldurado no lugar.",
+  ],
+  "quest.1749497FC966AEFB.quest_desc": [
+    "Clique com o botão direito em um peixe usando a &aBolsa de Peixe&r para capturá-lo vivo. Cada bolsa comporta um peixe.",
+  ],
+  "quest.22BB5B95E316458D.quest_desc": [
+    "A &aVarinha de Redstone do Arquiteto&r coloca formas inteiras de uma só vez. Ela faz caixas, círculos e triângulos, cada um preenchido, oco ou apenas com paredes.",
+    "",
+    "Suas teclas começam sem atribuição neste modpack. Atribua &bModelos da varinha&r e as outras ações da varinha em Architectural Building Wand, nos Controles, antes de usá-la.",
+  ],
+  "quest.3C3703F7BC1BE459.quest_desc": [
+    "&ePlonk&r permite colocar qualquer item em uma superfície como decoração. Olhe para um bloco com o item na mão principal e pressione a tecla &bColocar item&r.",
+    "",
+    "Essa tecla começa sem atribuição neste modpack, então atribua-a primeiro em Plonk, nos Controles. Agache e pressione-a com a mão vazia para girar o que colocou.",
+  ],
+  "quest.5A1DA2B60986EAF9.quest_desc": [
+    "O &aVidro Crystalix&r pode ser alterado depois de colocado. Cor, textura, luz, emissão de redstone, invisibilidade e quais criaturas podem atravessá-lo são configurações do bloco.",
+  ],
+  "quest.4676483E1F4B7CA5.quest_desc": [
+    "As janelas de Macaw's começam com uma &aBase de Janela&r. O &aMartelo de Janela&r altera a forma de uma janela colocada, e a &2Chave de Janela&r a tranca.",
+  ],
+  "quest.1CBCDBA892A21481.quest_desc": [
+    "Um &aCinzel&r transforma um bloco em suas variantes decorativas. Clique com o botão direito para abri-lo, coloque um bloco no espaço e troque-o por qualquer variante, na proporção de um para um.",
+    "",
+    "Deixe um bloco no espaço e você poderá clicar com o botão esquerdo em blocos já colocados no mundo para convertê-los nessa variante.",
+  ],
+  "quest.493D3F41AFD2AF3F.title": "&aVidro Unidirecional",
+  "quest.7ED0B679AA8D8F35.title": "&aRedes",
+  "quest.22BB5B95E316458D.title": "&aVarinha do Arquiteto",
+  "quest.3774C5D696778FF4.title": "&aTreliças de madeira",
+  "quest.4307A169AF52A267.quest_desc": [
+    "O &aVidro Luminoso&r emite luz, e o &2Vidro de Redstone&r emite um sinal de redstone. Assim, uma janela também pode servir como lâmpada ou fonte de energia.",
+    "",
+    "O &aVidro Fantasmagórico&r permite a passagem de qualquer criatura, incluindo jogadores.",
+  ],
+  "quest.1F9D424E8172A112.quest_desc": [
+    "Encha o &aAquário&r com um Balde de Água. Depois, agache + clique com o botão direito nele usando uma Bolsa de Peixe cheia para soltar o peixe dentro.",
+    "",
+    "&eBetter Fishtanks&r desativa o aquário de Starcatcher, então este é o aquário que você deve construir.",
+  ],
+  "quest.5D61821B89B22271.quest_desc": [
+    "Os peixes em um aquário precisam de comida neste modpack, e você recebe um aviso quando eles começam a passar fome. A comida é feita na &aMesa do Aquarista&r, e JEI lista tudo que ela produz.",
+    "",
+    "Coloque a comida no espaço &bComida de Peixe&r do aquário.",
+  ],
+  "quest.6D8E5365B422735D.title": "&eBetterBlockZ",
+  "quest.7F55F51B79B150FB.title": "&aPainéis de Luz Cibernética",
+  "quest.3C9556B5DA05C0CE.quest_desc": [
+    "&aPlacas de vidro&r são placas transparentes. Clique com o botão direito em qualquer placa colocada usando uma &aMembrana de Espectro&r e sua base desaparecerá, deixando o texto flutuando no ar. A membrana é consumida.",
+    "",
+    "&cA base não pode ser restaurada depois disso.",
+  ],
+  "quest.12A77A3CB31A42F4.title": "&aPontes",
+  "quest.1749497FC966AEFB.title": "&aBolsa de Peixe",
+  "quest.4676483E1F4B7CA5.title": "&aJanelas",
+  "task.6700672FB0E2B3E3.title": "Qualquer Saco de Dormir",
+  "quest.2030D1D78E2AA7DE.title": "&aCinzel Automático",
+  "quest.34EE10F62A7C95EA.quest_desc": [
+    "O &aPincel Glassential&r configura o &2Vidro Colorível&r. Clique com o botão direito usando o pincel para escolher uma cor e ativar ou desativar luz, redstone, passagem de jogadores e passagem de entidades. Depois, use-o no vidro.",
+  ],
+  "quest.34EE10F62A7C95EA.title": "&aVidro Colorível",
+  "quest.3F05300BC56B409C.title": "&aCaminhos e pavimentos",
+  "quest.29FE9DA4102EBB42.title": "&eFramedBlocks",
+  "quest.493D3F41AFD2AF3F.quest_desc": [
+    "Vidro através do qual você só consegue enxergar de um lado. Clique com o botão direito em uma face do &aVidro Unidirecional&r usando qualquer bloco para disfarçar esse lado. Por fora, ele parece uma parede comum.",
+  ],
+  "quest.23BAF609BE4D464F.title": "&eConnected Glass",
+  "quest.3C9556B5DA05C0CE.title": "&aPlacas holográficas",
+  "quest.5A1DA2B60986EAF9.title": "&eVidro Crystalix",
+  "quest.66FD982E02F0014A.quest_desc": [
+    "Um &aSaco de Dormir&r permite dormir durante a noite longe de casa. Agache + clique com o botão direito para colocá-lo, e você se deitará nele imediatamente.",
+    "",
+    "&cSacos de Dormir não definem seu ponto de renascimento.",
+  ],
+  "quest.5D61821B89B22271.title": "&aAlimentando seus peixes",
+  "quest.1914278B9065D883.quest_desc": [
+    "Clique com o botão direito no topo de um telhado usando o &aMartelo de Telhado&r para alternar sua forma. Telhados de pedra e concreto são feitos no Cortador de Pedras.",
+  ],
+  "quest.6E0B8B406E7D94CA.title": "&aInterruptores sem fio",
+  "quest.3774C5D696778FF4.quest_desc": [
+    "&eDecorative Wooden Lattices&r tem 90 modelos de treliça para cada tipo de madeira, todos cortados a partir de tábuas ou troncos descascados no Cortador de Pedras. Eles servem bem como divisórias, grades de proteção e grades de janela.",
+  ],
+  "quest.607211F8C680B88A.quest_desc": [
+    "Cada estilo de porta é feito a partir de seu &aMolde de Porta&r, e o molde é consumido quando você fabrica uma porta com ele.",
+    "",
+    "&cPortas de metal só abrem com energia de redstone.",
+  ],
+  "quest.1EEA91FF83950090.title": "&aSerra Emoldurada",
+  "quest.3C3703F7BC1BE459.title": "&aPlonk",
+  "quest.1EF4458125E12666.title": "&eMalisis Doors",
+  "quest.1EEA91FF83950090.quest_desc": [
+    "Todas as outras formas emolduradas são feitas na &aSerra Emoldurada&r. Ela corta &aCubos Emoldurados&r em rampas, escadas, painéis, pilares e outras formas, e JEI lista todas elas na categoria da serra.",
+  ],
+  "quest.7ED0B679AA8D8F35.quest_desc": [
+    "Uma rede fica suspensa entre dois blocos de &aCorda e Prego&r colocados de frente um para o outro, e serve para dormir durante o dia em vez da noite.",
+    "",
+    "Assim como os Sacos de Dormir, as redes não definem seu ponto de renascimento.",
+  ],
+  "quest.377E6E387004CA7E.title": "&6O Cortador de Pedras",
+  "quest.66FD982E02F0014A.title": "&eComforts",
+  "quest.1EF4458125E12666.quest_desc": [
+    "A &aFábrica de Portas&r produz portas personalizadas. Você escolhe os materiais, um de 15 estilos de movimento, o som, a temporização e recursos extras, como fechamento automático, abertura por proximidade, controle por redstone ou um código digital.",
+    "",
+    "&cAs portas de câmara de ar, de prisão, de garagem e as portas deslizantes de ferro só funcionam com redstone.",
+  ],
+  "quest.1CBCDBA892A21481.title": "&eChisel",
+  "quest.6E0B8B406E7D94CA.quest_desc": [
+    "&eMalisis Switches&r funciona como redstone sem fio. Use o &aVinculador de Energia&r em um interruptor para selecioná-lo e, depois, no bloco que ele deve controlar para conectar os dois. Role a roda do mouse com o vinculador na mão para mudar seu modo.",
+  ],
+  "quest.23B44ACF78688229.title": "Mods de &eMacaw's&r",
+}
